@@ -1,0 +1,647 @@
+
+======================================================================
+; Address: 0x1789ea0
+; Function: FUN_01789c00 (start: 0x1789c00, size: 2581)
+----------------------------------------------------------------------
+  0x01789ea0: MOV EDX dword ptr [ESP + 0x24]
+  0x01789ea4: SUB ESP 0x4
+  0x01789ea7: MOV EDX dword ptr [EDX]
+  0x01789ea9: MOV ECX dword ptr [EDX]
+  0x01789eab: PUSH 0x0
+  0x01789ead: PUSH EAX
+  0x01789eae: PUSH EDX
+  0x01789eaf: CALL dword ptr [ECX + 0x10]
+  0x01789eb2: MOV dword ptr [EDI] 0x0
+  0x01789eb8: ADD ESP 0x10
+  0x01789ebb: MOV dword ptr [EDI + 0x4] 0x0
+  0x01789ec2: MOV ECX dword ptr [EDI + 0x28]
+  0x01789ec5: TEST ECX ECX
+  0x01789ec7: JS 0x01789ee5
+  0x01789ec9: MOV EAX dword ptr [EDI + 0x20]
+  0x01789ecc: TEST EAX EAX
+  0x01789ece: JZ 0x01789ee5
+  0x01789ed0: MOV EDX dword ptr [ESP + 0x20]
+  0x01789ed4: SUB ESP 0x4
+  0x01789ed7: MOV EDX dword ptr [EDX]
+  0x01789ed9: MOV ECX dword ptr [EDX]
+  0x01789edb: PUSH 0x0
+  0x01789edd: PUSH EAX
+  0x01789ede: PUSH EDX
+  0x01789edf: CALL dword ptr [ECX + 0x10]
+  0x01789ee2: ADD ESP 0x10
+  0x01789ee5: SUB ESP 0xc
+  0x01789ee8: PUSH dword ptr [ESP + 0x14]
+  0x01789eec: CALL 0x025772c0
+  0x01789ef1: MOV EDX dword ptr [EDI + 0x8]
+  0x01789ef4: ADD ESP 0x10
+  0x01789ef7: MOV dword ptr [EDI + 0xc] 0x0
+  0x01789efe: TEST EDX EDX
+  0x01789f00: JS 0x01789f1d
+  0x01789f02: MOV EAX dword ptr [EDI]
+  0x01789f04: TEST EAX EAX
+  0x01789f06: JZ 0x01789f1d
+  0x01789f08: MOV EDX dword ptr [ESP + 0xc]
+  0x01789f0c: SUB ESP 0x4
+  0x01789f0f: MOV EDX dword ptr [EDX]
+  0x01789f11: MOV ECX dword ptr [EDX]
+  0x01789f13: PUSH 0x0
+  0x01789f15: PUSH EAX
+  0x01789f16: PUSH EDX
+  0x01789f17: CALL dword ptr [ECX + 0x10]
+  0x01789f1a: ADD ESP 0x10
+  0x01789f1d: SUB ESP 0x8
+  0x01789f20: PUSH 0x48
+  0x01789f22: PUSH EDI
+  0x01789f23: CALL 0x02e21100
+  0x01789f28: MOV EAX dword ptr [EBP + 0x388]
+  0x01789f2e: ADD ESP 0x10
+  0x01789f31: LEA ESI [ESI]
+  0x01789f38: ADD ESI 0x1
+  0x01789f3b: CMP ESI EAX
+  0x01789f3d: JL 0x01789e30
+  0x01789f43: MOVDQA XMM2 xmmword ptr [ESP + 0x10]
+  0x01789f49: LEA EAX [EBP + 0x364]
+  0x01789f4f: SUB ESP 0x8
+  0x01789f52: MOV dword ptr [EBP + 0x390] 0x0
+
+; Xrefs TO this function:
+;   <- 0x009fe040 (INDIRECTION)
+;   <- 0x0035dad8 (DATA)
+;   <- 0x00afa8f4 (DATA)
+;   <- 0x00afa8fa (DATA)
+;   <- 0x00afa900 (DATA)
+;   <- 0x00afa906 (DATA)
+;   <- 0x0179cc9c (UNCONDITIONAL_CALL)
+;   <- 0x017a11be (UNCONDITIONAL_CALL)
+; Xrefs FROM this function:
+
+======================================================================
+; Address: 0x178a140
+; Function: FUN_01789c00 (start: 0x1789c00, size: 2581)
+----------------------------------------------------------------------
+  0x0178a141: MOV ECX dword ptr [EDX]
+  0x0178a143: PUSH 0x0
+  0x0178a145: PUSH EAX
+  0x0178a146: PUSH EDX
+  0x0178a147: CALL dword ptr [ECX + 0x10]
+  0x0178a14a: MOV dword ptr [EDI] 0x0
+  0x0178a150: ADD ESP 0x10
+  0x0178a153: MOV dword ptr [EDI + 0x4] 0x0
+  0x0178a15a: MOV EAX dword ptr [EDI + 0x28]
+  0x0178a15d: TEST EAX EAX
+  0x0178a15f: JS 0x0178a17d
+  0x0178a161: MOV EAX dword ptr [EDI + 0x20]
+  0x0178a164: TEST EAX EAX
+  0x0178a166: JZ 0x0178a17d
+  0x0178a168: MOV EDX dword ptr [ESP + 0x24]
+  0x0178a16c: SUB ESP 0x4
+  0x0178a16f: MOV EDX dword ptr [EDX]
+  0x0178a171: MOV ECX dword ptr [EDX]
+  0x0178a173: PUSH 0x0
+  0x0178a175: PUSH EAX
+  0x0178a176: PUSH EDX
+  0x0178a177: CALL dword ptr [ECX + 0x10]
+  0x0178a17a: ADD ESP 0x10
+  0x0178a17d: SUB ESP 0xc
+  0x0178a180: PUSH dword ptr [ESP + 0x14]
+  0x0178a184: CALL 0x025772c0
+  0x0178a189: MOV EAX dword ptr [EDI + 0x8]
+  0x0178a18c: ADD ESP 0x10
+  0x0178a18f: MOV dword ptr [EDI + 0xc] 0x0
+  0x0178a196: TEST EAX EAX
+  0x0178a198: JS 0x0178a1b5
+  0x0178a19a: MOV EAX dword ptr [EDI]
+  0x0178a19c: TEST EAX EAX
+  0x0178a19e: JZ 0x0178a1b5
+  0x0178a1a0: MOV EDX dword ptr [ESP + 0x20]
+  0x0178a1a4: SUB ESP 0x4
+  0x0178a1a7: MOV EDX dword ptr [EDX]
+  0x0178a1a9: MOV ECX dword ptr [EDX]
+  0x0178a1ab: PUSH 0x0
+  0x0178a1ad: PUSH EAX
+  0x0178a1ae: PUSH EDX
+  0x0178a1af: CALL dword ptr [ECX + 0x10]
+  0x0178a1b2: ADD ESP 0x10
+  0x0178a1b5: SUB ESP 0x8
+  0x0178a1b8: PUSH 0x48
+  0x0178a1ba: PUSH EDI
+  0x0178a1bb: CALL 0x02e21100
+  0x0178a1c0: MOV EAX dword ptr [EBP + 0x388]
+  0x0178a1c6: ADD ESP 0x10
+  0x0178a1c9: LEA ESI [ESI]
+  0x0178a1d0: ADD ESI 0x1
+  0x0178a1d3: CMP ESI EAX
+  0x0178a1d5: JL 0x0178a0c8
+  0x0178a1db: MOVDQA XMM5 xmmword ptr [ESP + 0x10]
+  0x0178a1e1: LEA EAX [EBP + 0x364]
+  0x0178a1e7: SUB ESP 0x8
+  0x0178a1ea: MOV dword ptr [EBP + 0x390] 0x0
+  0x0178a1f4: MOV dword ptr [EBP + 0x394] 0x1
+  0x0178a1fe: MOVUPS xmmword ptr [EBP + 0x380] XMM5
+  0x0178a205: PUSH 0x0
+
+; Xrefs TO this function:
+;   <- 0x009fe040 (INDIRECTION)
+;   <- 0x0035dad8 (DATA)
+;   <- 0x00afa8f4 (DATA)
+;   <- 0x00afa8fa (DATA)
+;   <- 0x00afa900 (DATA)
+;   <- 0x00afa906 (DATA)
+;   <- 0x0179cc9c (UNCONDITIONAL_CALL)
+;   <- 0x017a11be (UNCONDITIONAL_CALL)
+; Xrefs FROM this function:
+
+======================================================================
+; Address: 0x123e5da
+; Function: FUN_0123e1e0 (start: 0x123e1e0, size: 1471)
+----------------------------------------------------------------------
+  0x0123e5df: MOV ECX dword ptr [EBP + -0x1c]
+  0x0123e5e2: ADD EDI 0x1
+  0x0123e5e5: MOV EAX dword ptr [EBP + -0x20]
+  0x0123e5e8: ADD dword ptr [EBP + -0x1c] 0x10
+  0x0123e5ec: ADD EAX EDX
+  0x0123e5ee: MOV dword ptr [ECX + 0x4] EDX
+  0x0123e5f1: ADD EDX 0x800
+  0x0123e5f7: MOV dword ptr [ECX + 0x8] EAX
+  0x0123e5fa: MOV dword ptr [ECX + 0xc] EDX
+  0x0123e5fd: CMP EDI 0x10
+  0x0123e600: JNZ 0x0123e550
+  0x0123e606: MOV EAX dword ptr [ESI + 0x304]
+  0x0123e60c: CMP EAX 0xf
+  0x0123e60f: MOV EBX EAX
+  0x0123e611: JG 0x0123e724
+  0x0123e617: MOV EAX dword ptr [ESI + 0x2fc]
+  0x0123e61d: CMP EAX 0xf
+  0x0123e620: JLE 0x0123e78d
+  0x0123e626: MOV dword ptr [ESI + 0x304] 0x10
+  0x0123e630: MOV EDX dword ptr [ESI + 0x2f8]
+  0x0123e636: LEA EAX [EBX + EBX*0x2]
+  0x0123e639: MOV ECX EBX
+  0x0123e63b: LEA EAX [EDX + EAX*0x8]
+  0x0123e63e: JMP 0x0123e64c
+  0x0123e640: MOV EDX dword ptr [ESI + 0x2f8]
+  0x0123e646: LEA EAX [ECX + ECX*0x2]
+  0x0123e649: LEA EAX [EDX + EAX*0x8]
+  0x0123e64c: MOV dword ptr [EAX] 0x0
+  0x0123e652: MOV dword ptr [EAX + 0x4] 0xffffffff
+  0x0123e659: MOV dword ptr [EAX + 0x8] 0x0
+  0x0123e660: MOV dword ptr [EAX + 0xc] 0x0
+  0x0123e667: MOV dword ptr [EAX + 0x10] 0x0
+  0x0123e66e: MOV dword ptr [EAX + 0x14] 0x0
+  0x0123e675: MOV EAX ECX
+  0x0123e677: ADD EAX 0x1
+  0x0123e67a: CMP dword ptr [ESI + 0x304] EAX
+  0x0123e680: MOV ECX EAX
+  0x0123e682: JG 0x0123e640
+  0x0123e684: LEA ESP [EBP + -0xc]
+  0x0123e687: POP EBX
+  0x0123e688: POP ESI
+  0x0123e689: POP EDI
+  0x0123e68a: POP EBP
+  0x0123e68b: RET 
+  0x0123e68c: MOV dword ptr [ESI + 0x70] 0xffffffff
+  0x0123e693: MOV dword ptr [ESI + 0x6c] 0xffffffff
+  0x0123e69a: MOV EBX dword ptr [EBP + -0x24]
+  0x0123e69d: SUB ESP 0x4
+  0x0123e6a0: LEA EAX [EBX + 0xfdc9bac4]
+  0x0123e6a6: PUSH EAX
+  0x0123e6a7: LEA EAX [EBX + 0xfdc9baec]
+  0x0123e6ad: PUSH 0x8000001d
+  0x0123e6b2: PUSH EAX
+  0x0123e6b3: LEA EAX [ESI + 0x324]
+  0x0123e6b9: MOV dword ptr [EBP + -0x30] EAX
+  0x0123e6bc: CALL 0x00e8a700
+  0x0123e6c1: ADD ESP 0x10
+  0x0123e6c4: TEST AL AL
+  0x0123e6c6: JNZ 0x0123e52a
+  0x0123e6cc: MOV EBX dword ptr [EBP + -0x24]
+
+; Xrefs TO this function:
+;   <- 0x009dd460 (INDIRECTION)
+;   <- 0x0027a0c4 (DATA)
+;   <- 0x011d9536 (UNCONDITIONAL_CALL)
+; Xrefs FROM this function:
+;   call -> 0x00e8f0e5
+
+======================================================================
+; Address: 0x123e5fb
+; Function: FUN_0123e1e0 (start: 0x123e1e0, size: 1471)
+----------------------------------------------------------------------
+  0x0123e5fd: CMP EDI 0x10
+  0x0123e600: JNZ 0x0123e550
+  0x0123e606: MOV EAX dword ptr [ESI + 0x304]
+  0x0123e60c: CMP EAX 0xf
+  0x0123e60f: MOV EBX EAX
+  0x0123e611: JG 0x0123e724
+  0x0123e617: MOV EAX dword ptr [ESI + 0x2fc]
+  0x0123e61d: CMP EAX 0xf
+  0x0123e620: JLE 0x0123e78d
+  0x0123e626: MOV dword ptr [ESI + 0x304] 0x10
+  0x0123e630: MOV EDX dword ptr [ESI + 0x2f8]
+  0x0123e636: LEA EAX [EBX + EBX*0x2]
+  0x0123e639: MOV ECX EBX
+  0x0123e63b: LEA EAX [EDX + EAX*0x8]
+  0x0123e63e: JMP 0x0123e64c
+  0x0123e640: MOV EDX dword ptr [ESI + 0x2f8]
+  0x0123e646: LEA EAX [ECX + ECX*0x2]
+  0x0123e649: LEA EAX [EDX + EAX*0x8]
+  0x0123e64c: MOV dword ptr [EAX] 0x0
+  0x0123e652: MOV dword ptr [EAX + 0x4] 0xffffffff
+  0x0123e659: MOV dword ptr [EAX + 0x8] 0x0
+  0x0123e660: MOV dword ptr [EAX + 0xc] 0x0
+  0x0123e667: MOV dword ptr [EAX + 0x10] 0x0
+  0x0123e66e: MOV dword ptr [EAX + 0x14] 0x0
+  0x0123e675: MOV EAX ECX
+  0x0123e677: ADD EAX 0x1
+  0x0123e67a: CMP dword ptr [ESI + 0x304] EAX
+  0x0123e680: MOV ECX EAX
+  0x0123e682: JG 0x0123e640
+  0x0123e684: LEA ESP [EBP + -0xc]
+  0x0123e687: POP EBX
+  0x0123e688: POP ESI
+  0x0123e689: POP EDI
+  0x0123e68a: POP EBP
+  0x0123e68b: RET 
+  0x0123e68c: MOV dword ptr [ESI + 0x70] 0xffffffff
+  0x0123e693: MOV dword ptr [ESI + 0x6c] 0xffffffff
+  0x0123e69a: MOV EBX dword ptr [EBP + -0x24]
+  0x0123e69d: SUB ESP 0x4
+  0x0123e6a0: LEA EAX [EBX + 0xfdc9bac4]
+  0x0123e6a6: PUSH EAX
+  0x0123e6a7: LEA EAX [EBX + 0xfdc9baec]
+  0x0123e6ad: PUSH 0x8000001d
+  0x0123e6b2: PUSH EAX
+  0x0123e6b3: LEA EAX [ESI + 0x324]
+  0x0123e6b9: MOV dword ptr [EBP + -0x30] EAX
+  0x0123e6bc: CALL 0x00e8a700
+  0x0123e6c1: ADD ESP 0x10
+  0x0123e6c4: TEST AL AL
+  0x0123e6c6: JNZ 0x0123e52a
+  0x0123e6cc: MOV EBX dword ptr [EBP + -0x24]
+  0x0123e6cf: LEA EAX [ESI + 0x324]
+  0x0123e6d5: MOV dword ptr [EBP + -0x30] EAX
+  0x0123e6d8: CALL 0x00e8a340
+  0x0123e6dd: TEST AL AL
+  0x0123e6df: JZ 0x0123e52a
+  0x0123e6e5: INT3 
+  0x0123e6f0: SUB ESP 0x4
+  0x0123e6f3: MOV dword ptr [EBP + -0x2c] ECX
+  0x0123e6f6: PUSH EAX
+
+; Xrefs TO this function:
+;   <- 0x009dd460 (INDIRECTION)
+;   <- 0x0027a0c4 (DATA)
+;   <- 0x011d9536 (UNCONDITIONAL_CALL)
+; Xrefs FROM this function:
+;   call -> 0x00e8f0e5
+
+======================================================================
+; Address: 0xec1330
+; Function: FUN_00ec12e0 (start: 0xec12e0, size: 179)
+----------------------------------------------------------------------
+  0x00ec1332: POP EBX
+  0x00ec1333: POP ESI
+  0x00ec1334: RET 
+  0x00ec1338: MOV ECX dword ptr [EDX + 0x18]
+  0x00ec133b: OR ECX 0x1
+  0x00ec133e: BSR ECX ECX
+  0x00ec1341: LEA ECX [ECX + ECX*0x8 + 0x49]
+  0x00ec1345: SHR ECX 0x6
+  0x00ec1348: LEA EAX [EAX + ECX*0x1 + 0x1]
+  0x00ec134c: LEA ECX [EDX + 0xc]
+  0x00ec134f: TEST byte ptr [EDX + 0x4] 0x1
+  0x00ec1353: JZ 0x00ec132c
+  0x00ec1355: SUB ESP 0x4
+  0x00ec1358: ADD EDX 0x4
+  0x00ec135b: PUSH ECX
+  0x00ec135c: MOV EBX ESI
+  0x00ec135e: PUSH EAX
+  0x00ec135f: PUSH EDX
+  0x00ec1360: CALL 0x0265d292
+  0x00ec1365: ADD ESP 0x10
+  0x00ec1368: ADD ESP 0x4
+  0x00ec136b: POP EBX
+  0x00ec136c: POP ESI
+  0x00ec136d: RET 
+  0x00ec1370: MOV EAX dword ptr [EDX + 0x10]
+  0x00ec1373: AND EAX 0xfffffffe
+  0x00ec1376: MOV EAX dword ptr [EAX]
+  0x00ec1378: MOV EBX dword ptr [EAX + -0xc]
+  0x00ec137b: MOV EAX EBX
+  0x00ec137d: OR EAX 0x1
+  0x00ec1380: BSR EAX EAX
+  0x00ec1383: LEA EAX [EAX + EAX*0x8 + 0x49]
+  0x00ec1387: SHR EAX 0x6
+  0x00ec138a: LEA EAX [EBX + EAX*0x1 + 0x1]
+  0x00ec138e: TEST CL 0x2
+  0x00ec1391: JZ 0x00ec131e
+  0x00ec1393: JMP 0x00ec130a
+  0x00ec13a0: PUSH EDI
+  0x00ec13a1: PUSH ESI
+  0x00ec13a2: PUSH EBX
+  0x00ec13a3: MOV ESI dword ptr [ESP + 0x10]
+  0x00ec13a7: CALL 0x00e8f0e9
+  0x00ec13ac: ADD EBX 0x2056244
+  0x00ec13b2: SUB ESP 0xc
+  0x00ec13b5: LEA EAX [ESI + 0x10]
+  0x00ec13b8: PUSH EAX
+  0x00ec13b9: CALL 0x025ed156
+  0x00ec13be: MOV EDX dword ptr [ESI + 0x8]
+  0x00ec13c1: ADD ESP 0x10
+  0x00ec13c4: ADD EAX dword ptr [ESI + 0x10]
+  0x00ec13c7: TEST DL 0x3f
+  0x00ec13ca: JZ 0x00ec143e
+  0x00ec13cc: TEST DL 0x1
+  0x00ec13cf: JNZ 0x00ec1488
+  0x00ec13d5: TEST DL 0x2
+  0x00ec13d8: JNZ 0x00ec14b1
+  0x00ec13de: TEST DL 0x4
+  0x00ec13e1: JNZ 0x00ec1458
+  0x00ec13e3: TEST DL 0x8
+  0x00ec13e6: JZ 0x00ec1404
+
+; Xrefs TO this function:
+;   <- 0x009bfeb8 (INDIRECTION)
+;   <- 0x0017e6d4 (DATA)
+; Xrefs FROM this function:
+
+======================================================================
+; Address: 0xeed350
+; Function: FUN_00eed320 (start: 0xeed320, size: 93)
+----------------------------------------------------------------------
+  0x00eed350: MOV EAX dword ptr [ESI + 0x10]
+  0x00eed353: SUB ESP 0xc
+  0x00eed356: AND EAX 0xfffffffe
+  0x00eed359: PUSH EAX
+  0x00eed35a: CALL 0x02e46eb0
+  0x00eed35f: ADD ESP 0x10
+  0x00eed362: MOV dword ptr [ESI + 0x8] 0x0
+  0x00eed369: TEST byte ptr [ESI + 0x4] 0x1
+  0x00eed36d: JZ 0x00eed347
+  0x00eed36f: ADD ESI 0x4
+  0x00eed372: MOV dword ptr [ESP + 0x10] ESI
+  0x00eed376: ADD ESP 0x4
+  0x00eed379: POP EBX
+  0x00eed37a: POP ESI
+  0x00eed37b: JMP 0x00e93310
+  0x00eed380: PUSH ESI
+  0x00eed381: PUSH EBX
+  0x00eed382: CALL 0x00e8f0e9
+  0x00eed387: ADD EBX 0x202a269
+  0x00eed38d: SUB ESP 0x4
+  0x00eed390: MOV ESI dword ptr [ESP + 0x10]
+  0x00eed394: TEST byte ptr [ESI + 0x8] 0x1
+  0x00eed398: JNZ 0x00eed3b0
+  0x00eed39a: MOV dword ptr [ESI + 0x8] 0x0
+  0x00eed3a1: TEST byte ptr [ESI + 0x4] 0x1
+  0x00eed3a5: JNZ 0x00eed3cf
+  0x00eed3a7: ADD ESP 0x4
+  0x00eed3aa: POP EBX
+  0x00eed3ab: POP ESI
+  0x00eed3ac: RET 
+  0x00eed3b0: MOV EAX dword ptr [ESI + 0x10]
+  0x00eed3b3: SUB ESP 0xc
+  0x00eed3b6: AND EAX 0xfffffffe
+  0x00eed3b9: PUSH EAX
+  0x00eed3ba: CALL 0x02e46eb0
+  0x00eed3bf: ADD ESP 0x10
+  0x00eed3c2: MOV dword ptr [ESI + 0x8] 0x0
+  0x00eed3c9: TEST byte ptr [ESI + 0x4] 0x1
+  0x00eed3cd: JZ 0x00eed3a7
+  0x00eed3cf: ADD ESI 0x4
+  0x00eed3d2: MOV dword ptr [ESP + 0x10] ESI
+  0x00eed3d6: ADD ESP 0x4
+  0x00eed3d9: POP EBX
+  0x00eed3da: POP ESI
+  0x00eed3db: JMP 0x00e93310
+  0x00eed3e0: PUSH EDI
+  0x00eed3e1: PUSH ESI
+  0x00eed3e2: PUSH EBX
+  0x00eed3e3: MOV ESI dword ptr [ESP + 0x10]
+  0x00eed3e7: CALL 0x00e8f0e9
+  0x00eed3ec: ADD EBX 0x202a204
+  0x00eed3f2: MOV EDI dword ptr [ESI + 0x8]
+  0x00eed3f5: TEST EDI 0x3
+  0x00eed3fb: JZ 0x00eed40d
+  0x00eed3fd: TEST EDI 0x1
+  0x00eed403: JNZ 0x00eed478
+  0x00eed405: TEST EDI 0x2
+  0x00eed40b: JNZ 0x00eed460
+  0x00eed40d: AND EDI 0xc
+  0x00eed410: JNZ 0x00eed440
+
+; Xrefs TO this function:
+;   <- 0x009c20b8 (INDIRECTION)
+;   <- 0x00192960 (DATA)
+; Xrefs FROM this function:
+
+======================================================================
+; Address: 0x28939f4
+; Function: FUN_0289318e (start: 0x289318e, size: 2674)
+----------------------------------------------------------------------
+  0x028939f7: MOV EDX 0x1
+  0x028939fc: TEST EAX EAX
+  0x028939fe: JZ 0x028934c7
+  0x02893a04: MOV EDI dword ptr [ESP + 0x50]
+  0x02893a08: CMP dword ptr [EDI + 0x24] 0x0
+  0x02893a0c: JNZ 0x02893a1d
+  0x02893a0e: MOV dword ptr [EDI + 0x24] EAX
+  0x02893a11: MOV EAX dword ptr [EDI + 0x28]
+  0x02893a14: ADD EAX 0x1
+  0x02893a17: AND EAX 0x7
+  0x02893a1a: MOV dword ptr [EDI + 0x28] EAX
+  0x02893a1d: MOV EAX dword ptr [ESP + 0x50]
+  0x02893a21: SUB dword ptr [EAX + 0x24] 0x1
+  0x02893a25: MOV EDX 0x1
+  0x02893a2a: JMP 0x028934c7
+  0x02893a2f: MOV EDI dword ptr [ESI + 0x28]
+  0x02893a32: MOV dword ptr [ESP + 0x48] EDI
+  0x02893a36: MOV EAX EDX
+  0x02893a38: ADD EAX 0x7
+  0x02893a3b: CMP EAX 0x7
+  0x02893a3e: JLE 0x02893b58
+  0x02893a44: MOV ECX 0x18
+  0x02893a49: SUB ECX EAX
+  0x02893a4b: MOV ESI 0x7f
+  0x02893a50: SHL ESI CL
+  0x02893a52: OR ESI dword ptr [ESP + 0x40]
+  0x02893a56: SUB EDX 0x1
+  0x02893a59: MOV dword ptr [ESP + 0x44] EDX
+  0x02893a5d: MOV ECX dword ptr [ESP + 0x3c]
+  0x02893a61: MOV EAX EBP
+  0x02893a63: MOV EBP ESI
+  0x02893a65: MOV EDI dword ptr [ESP + 0xb0]
+  0x02893a6c: JMP 0x02893a8c
+  0x02893a6e: ADD EAX 0x1
+  0x02893a71: CMP EDX 0xff
+  0x02893a77: JZ 0x02893ace
+  0x02893a79: CMP dword ptr [ESP + 0x44] 0x7
+  0x02893a7e: JLE 0x02893b52
+  0x02893a84: SHL EBP 0x8
+  0x02893a87: SUB dword ptr [ESP + 0x44] 0x8
+  0x02893a8c: MOV EDX EBP
+  0x02893a8e: SAR EDX 0x10
+  0x02893a91: AND EDX 0xff
+  0x02893a97: MOV byte ptr [EAX] DL
+  0x02893a99: SUB ECX 0x1
+  0x02893a9c: JNZ 0x02893a6e
+  0x02893a9e: MOV ESI dword ptr [EDI + 0x18]
+  0x02893aa1: MOV dword ptr [ESP] EDI
+  0x02893aa4: MOV dword ptr [ESP + 0x38] EDX
+  0x02893aa8: CALL dword ptr [ESI + 0xc]
+  0x02893aab: TEST EAX EAX
+  0x02893aad: MOV EDX dword ptr [ESP + 0x38]
+  0x02893ab1: JZ 0x028934c5
+  0x02893ab7: MOV EAX dword ptr [ESI]
+  0x02893ab9: MOV ECX dword ptr [ESI + 0x4]
+  0x02893abc: JMP 0x02893a71
+  0x02893abe: MOV byte ptr [EAX] 0x0
+  0x02893ac1: SUB EBP 0x1
+  0x02893ac4: JZ 0x02893adb
+  0x02893ac6: ADD EAX 0x1
+
+; Xrefs TO this function:
+;   <- 0x028909b0 (DATA)
+;   <- 0x028909ba (DATA)
+; Xrefs FROM this function:
+
+======================================================================
+; Address: 0xfcff81
+; Function: FUN_00fcfe40 (start: 0xfcfe40, size: 317)
+----------------------------------------------------------------------
+  0x00fcff81: CALL 0x02e5ec60
+  0x00fcff90: PUSH EBP
+  0x00fcff91: MOV EBP ESP
+  0x00fcff93: PUSH EDI
+  0x00fcff94: PUSH ESI
+  0x00fcff95: CALL 0x00e936e7
+  0x00fcff9a: ADD ESI 0x1f47656
+  0x00fcffa0: PUSH EBX
+  0x00fcffa1: SUB ESP 0x1c
+  0x00fcffa4: MOV EAX dword ptr [ESI + 0x8bc]
+  0x00fcffaa: MOV EAX dword ptr [EAX]
+  0x00fcffac: TEST EAX EAX
+  0x00fcffae: JNZ 0x00fd0088
+  0x00fcffb4: MOV dword ptr [EBP + -0x1c] 0x0
+  0x00fcffbb: SUB ESP 0x8
+  0x00fcffbe: MOV EBX ESI
+  0x00fcffc0: PUSH 0x1
+  0x00fcffc2: PUSH dword ptr [EBP + 0xc]
+  0x00fcffc5: CALL 0x02b45210
+  0x00fcffca: MOV EDI EAX
+  0x00fcffcc: ADD ESP 0x10
+  0x00fcffcf: TEST EAX EAX
+  0x00fcffd1: JZ 0x00fd00b0
+  0x00fcffd7: CALL 0x00fca020
+  0x00fcffdc: SUB ESP 0x8
+  0x00fcffdf: PUSH EDI
+  0x00fcffe0: PUSH EAX
+  0x00fcffe1: CALL 0x00fcae10
+  0x00fcffe6: MOV EAX dword ptr [EDI + 0x4]
+  0x00fcffe9: ADD ESP 0x10
+  0x00fcffec: SUB EAX 0x1
+  0x00fcffef: CMP EAX 0xfffffe
+  0x00fcfff4: JA 0x00fd0038
+  0x00fcfff6: LEA EAX [EDI + 0x4]
+  0x00fcfff9: SUB ESP 0xc
+  0x00fcfffc: MOV EBX ESI
+  0x00fcfffe: PUSH EAX
+  0x00fcffff: CALL 0x00e8ab00
+  0x00fd0004: ADD ESP 0x10
+  0x00fd0007: TEST EAX EAX
+  0x00fd0009: JNZ 0x00fd0064
+  0x00fd000b: MOV EAX dword ptr [EDI]
+  0x00fd000d: LEA ECX [ESI + 0xfe0b9af0]
+  0x00fd0013: MOV EDX dword ptr [EAX + 0x8]
+  0x00fd0016: CMP EDX ECX
+  0x00fd0018: JZ 0x00fd0029
+  0x00fd001a: SUB ESP 0xc
+  0x00fd001d: PUSH EDI
+  0x00fd001e: CALL EDX
+  0x00fd0020: ADD ESP 0x10
+  0x00fd0023: TEST AL AL
+  0x00fd0025: JZ 0x00fd0064
+  0x00fd0027: MOV EAX dword ptr [EDI]
+  0x00fd0029: SUB ESP 0xc
+  0x00fd002c: PUSH EDI
+  0x00fd002d: CALL dword ptr [EAX + 0x4]
+  0x00fd0030: ADD ESP 0x10
+  0x00fd0033: JMP 0x00fd0064
+  0x00fd0038: LEA EAX [ESI + 0xfdc49f8c]
+  0x00fd003e: SUB ESP 0x4
+
+; Xrefs TO this function:
+;   <- 0x009cf240 (INDIRECTION)
+;   <- 0x001fa384 (DATA)
+;   <- 0x02e6be0c (DATA)
+; Xrefs FROM this function:
+
+======================================================================
+; Address: 0xfd2864
+; Function: FUN_00fd2840 (start: 0xfd2840, size: 92)
+----------------------------------------------------------------------
+  0x00fd2866: PUSH EAX
+  0x00fd2867: CALL 0x025a67d0
+  0x00fd286c: MOV dword ptr [ESI + 0x38] 0x0
+  0x00fd2873: ADD ESP 0x10
+  0x00fd2876: MOV EAX dword ptr [EBX + 0x8cc]
+  0x00fd287c: SUB ESP 0x4
+  0x00fd287f: MOV EAX dword ptr [EAX]
+  0x00fd2881: MOV EDX dword ptr [EAX]
+  0x00fd2883: PUSH 0x0
+  0x00fd2885: PUSH dword ptr [ESI + 0x48]
+  0x00fd2888: PUSH EAX
+  0x00fd2889: CALL dword ptr [EDX + 0x10]
+  0x00fd288c: POP EAX
+  0x00fd288d: POP EDX
+  0x00fd288e: PUSH 0x50
+  0x00fd2890: PUSH ESI
+  0x00fd2891: CALL 0x02e21100
+  0x00fd2896: ADD ESP 0x14
+  0x00fd2899: POP EBX
+  0x00fd289a: POP ESI
+  0x00fd289b: RET 
+  0x00fd28a0: PUSH ESI
+  0x00fd28a1: PUSH EBX
+  0x00fd28a2: CALL 0x00e8f0e9
+  0x00fd28a7: ADD EBX 0x1f44d49
+  0x00fd28ad: SUB ESP 0x4
+  0x00fd28b0: MOV EAX dword ptr [ESP + 0x14]
+  0x00fd28b4: CMP EAX 0x14
+  0x00fd28b7: JA 0x00fd28d8
+  0x00fd28b9: MOV EDX dword ptr [EBX + EAX*0x4 + 0xfdc4b158]
+  0x00fd28c0: ADD EDX EBX
+  0x00fd28c2: JMP EDX
+  0x00fd28c8: MOV EAX dword ptr [ESP + 0x1c]
+  0x00fd28cc: ADD ESP 0x4
+  0x00fd28cf: POP EBX
+  0x00fd28d0: POP ESI
+  0x00fd28d1: RET 
+  0x00fd28d8: MOV ECX dword ptr [ESP + 0x10]
+  0x00fd28dc: SUB ESP 0xc
+  0x00fd28df: MOV ESI dword ptr [ECX + 0x38]
+  0x00fd28e2: PUSH EAX
+  0x00fd28e3: CALL 0x02a613d0
+  0x00fd28e8: ADD ESP 0x10
+  0x00fd28eb: PUSH 0x0
+  0x00fd28ed: PUSH 0x0
+  0x00fd28ef: PUSH EAX
+  0x00fd28f0: PUSH ESI
+  0x00fd28f1: CALL 0x025aaf60
+  0x00fd28f6: ADD ESP 0x10
+  0x00fd28f9: LEA ESI [ESI]
+  0x00fd2900: TEST EAX EAX
+  0x00fd2902: JZ 0x00fd28c8
+  0x00fd2904: SUB ESP 0x8
+  0x00fd2907: PUSH dword ptr [ESP + 0x20]
+  0x00fd290b: PUSH EAX
+  0x00fd290c: CALL 0x025ab320
+  0x00fd2911: POP EDX
+  0x00fd2912: POP ECX
+  0x00fd2913: PUSH dword ptr [ESP + 0x24]
+  0x00fd2917: PUSH EAX
+
+; Xrefs TO this function:
+;   <- 0x009cf478 (INDIRECTION)
+;   <- 0x001fb5f0 (DATA)
+; Xrefs FROM this function:

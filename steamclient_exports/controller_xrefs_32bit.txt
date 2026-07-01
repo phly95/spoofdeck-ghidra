@@ -1,0 +1,77 @@
+
+============================================================
+String: CSteamController::CHIDIO Thread (0xba8168)
+============================================================
+  0x11b3a60  FUN_011b3a60  (from 0x11b3d14, DATA)
+  0x11b3a60  FUN_011b3a60  (from 0x11b3d22, DATA)
+
+============================================================
+String: Read failure (0xba91b0)
+============================================================
+  0x1218840  FUN_01218840  (from 0x12188c3, DATA)
+  0x1218840  FUN_01218840  (from 0x12188d4, DATA)
+  0x1218840  FUN_01218840  (from 0x12189dc, DATA)
+  0x1218840  FUN_01218840  (from 0x12189fc, DATA)
+
+============================================================
+String: EYldWaitForControllerDetails (0xba979f)
+============================================================
+  0x11cee30  FUN_011cee30  (from 0x11ceeb5, DATA)
+  0x11cee30  FUN_011cee30  (from 0x11ceec9, DATA)
+
+============================================================
+String: Zombie Controller (0xbab370)
+============================================================
+  0x11f7630  FUN_011f7630  (from 0x11f770f, DATA)
+  0x11f7630  FUN_011f7630  (from 0x11f7728, DATA)
+  0x11f7630  FUN_011f7630  (from 0x11f7c3e, DATA)
+
+============================================================
+String: couldn't get controller identity (0xbab720)
+============================================================
+  0x1219bf0  FUN_01219bf0  (from 0x121a108, DATA)
+  0x1219bf0  FUN_01219bf0  (from 0x121a038, DATA)
+
+============================================================
+String: AccountHardware.RegisterSteamController#1 (0xbaba50)
+============================================================
+  0x121a690  FUN_0121a690  (from 0x121ac5c, DATA)
+  0x121a690  FUN_0121a690  (from 0x121acb4, DATA)
+
+============================================================
+String: CSteamController::CHIDIOThread::CWorkItemThread (0xba9938)
+============================================================
+  0x11d5850  FUN_011d5850  (from 0x11d58f1, DATA)
+  0x11d5850  FUN_011d5850  (from 0x11d58f7, DATA)
+  0x11d5850  FUN_011d5850  (from 0x11d59c7, DATA)
+
+============================================================
+String: haptic_intensity (0xba6dc7)
+============================================================
+  (no function xrefs found)
+
+============================================================
+String: rumble (0xbabd0a)
+============================================================
+  0x1202e70  FUN_01202e70  (from 0x12032d0, DATA)
+  0x1202e70  FUN_01202e70  (from 0x12032d9, DATA)
+  0x12042d0  FUN_012042d0  (from 0x120462a, DATA)
+  0x12042d0  FUN_012042d0  (from 0x1204630, DATA)
+
+============================================================
+String: BigPicture/LoggedOutHapticsEnabled (0xba963c)
+============================================================
+  0x11cbae0  FUN_011cbae0  (from 0x11cc19f, DATA)
+  0x11cbae0  FUN_011cbae0  (from 0x11cc1a5, DATA)
+
+============================================================
+String: SDL_JOYSTICK_HIDAPI_STEAM (0xbaa3dd)
+============================================================
+  0x11e45d0  FUN_011e45d0  (from 0x11e461b, DATA)
+  0x11e45d0  FUN_011e45d0  (from 0x11e4621, DATA)
+
+============================================================
+String: AccountHardware.QueryAccountsRegisteredToController (0xba8b7c)
+============================================================
+  0x11beca0  FUN_011beca0  (from 0x11bf140, DATA)
+  0x11beca0  FUN_011beca0  (from 0x11bf168, DATA)
