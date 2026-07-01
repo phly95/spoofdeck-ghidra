@@ -1,0 +1,2117 @@
+[
+  {
+    "address": "00022e10", 
+    "length": 20, 
+    "value": "0123456789abcdef"
+  }, 
+  {
+    "address": "00022e24", 
+    "length": 20, 
+    "value": "0123456789ABCDEF"
+  }, 
+  {
+    "address": "00022e44", 
+    "length": 44, 
+    "value": "0000000000000000                Infinity"
+  }, 
+  {
+    "address": "00022e74", 
+    "length": 20, 
+    "value": "Balloc succeeded"
+  }, 
+  {
+    "address": "00022e88", 
+    "length": 88, 
+    "value": "/__w/_temp/workspace/build/.build/arm-zephyr-eabi/src/newlib/newlib/libc/stdlib/dtoa.c"
+  }, 
+  {
+    "address": "00022ee0", 
+    "length": 88, 
+    "value": "/__w/_temp/workspace/build/.build/arm-zephyr-eabi/src/newlib/newlib/libc/stdlib/mprec.c"
+  }, 
+  {
+    "address": "00022f44", 
+    "length": 16, 
+    "value": ", function: "
+  }, 
+  {
+    "address": "00022f54", 
+    "length": 48, 
+    "value": "assertion \\\"%s\\\" failed: file \\\"%s\\\", line %d%s%s\\n"
+  }, 
+  {
+    "address": "00022f88", 
+    "length": 8, 
+    "value": "POSIX"
+  }, 
+  {
+    "address": "00022f94", 
+    "length": 77, 
+    "value": "0000000000000000                Starting Proteus BUILD_TIME_%08x GIT_SHA_%s\\n"
+  }, 
+  {
+    "address": "00022fe1", 
+    "length": 21, 
+    "value": "Starting controllers"
+  }, 
+  {
+    "address": "00022ffb", 
+    "length": 24, 
+    "value": "Failed to configure USB"
+  }, 
+  {
+    "address": "00023013", 
+    "length": 35, 
+    "value": "Failed to enable device support %d"
+  }, 
+  {
+    "address": "00023036", 
+    "length": 16, 
+    "value": "%02u : %u / %u\\n"
+  }, 
+  {
+    "address": "00023046", 
+    "length": 11, 
+    "value": "Best : %u\\n"
+  }, 
+  {
+    "address": "00023059", 
+    "length": 21, 
+    "value": "background_rssi_show"
+  }, 
+  {
+    "address": "0002306e", 
+    "length": 17, 
+    "value": "Show bg rssi map"
+  }, 
+  {
+    "address": "0002307f", 
+    "length": 40, 
+    "value": "Updating cost function scaling factors\\n"
+  }, 
+  {
+    "address": "000230a7", 
+    "length": 47, 
+    "value": "Listing current cost function scaling factors\\n"
+  }, 
+  {
+    "address": "000230d6", 
+    "length": 79, 
+    "value": "Cost function scaling factors {distance:%d PER:%d RSSI_IIR:%d RSSI_PEAK: %d} \\n"
+  }, 
+  {
+    "address": "0002312b", 
+    "length": 8, 
+    "value": "Ch : %s"
+  }, 
+  {
+    "address": "00023133", 
+    "length": 8, 
+    "value": "PER: %s"
+  }, 
+  {
+    "address": "00023141", 
+    "length": 8, 
+    "value": "RSI: %s"
+  }, 
+  {
+    "address": "00023149", 
+    "length": 17, 
+    "value": "esb-controller@0"
+  }, 
+  {
+    "address": "0002315a", 
+    "length": 17, 
+    "value": "esb-controller@1"
+  }, 
+  {
+    "address": "0002316b", 
+    "length": 17, 
+    "value": "esb-controller@2"
+  }, 
+  {
+    "address": "0002317c", 
+    "length": 17, 
+    "value": "esb-controller@3"
+  }, 
+  {
+    "address": "0002318d", 
+    "length": 18, 
+    "value": "channel_cost_show"
+  }, 
+  {
+    "address": "0002319f", 
+    "length": 11, 
+    "value": "Show costs"
+  }, 
+  {
+    "address": "000231aa", 
+    "length": 13, 
+    "value": "channel_cost"
+  }, 
+  {
+    "address": "000231b7", 
+    "length": 39, 
+    "value": "Configure cost funtion scaling factors"
+  }, 
+  {
+    "address": "000231de", 
+    "length": 25, 
+    "value": "esb_set_rf_channel %d %u"
+  }, 
+  {
+    "address": "000231f7", 
+    "length": 77, 
+    "value": "No event from ESB. Manually disabling radio so we get RADIO_IRQ for RX stage"
+  }, 
+  {
+    "address": "00023244", 
+    "length": 41, 
+    "value": "Unable to recover - best to reset system"
+  }, 
+  {
+    "address": "0002326d", 
+    "length": 45, 
+    "value": "Usage: radio_send_ch <timout_s> [<channels]\\n"
+  }, 
+  {
+    "address": "000232a1", 
+    "length": 20, 
+    "value": "radio_send_channels"
+  }, 
+  {
+    "address": "000232b5", 
+    "length": 43, 
+    "value": "radio_send_channels <timeout_s> [channels]"
+  }, 
+  {
+    "address": "000232e0", 
+    "length": 11, 
+    "value": "radio_send"
+  }, 
+  {
+    "address": "000232eb", 
+    "length": 49, 
+    "value": "radio_send <ch> <pktlen> <numpkts> <interval_ms>"
+  }, 
+  {
+    "address": "0002331c", 
+    "length": 30, 
+    "value": "Slot %u : FR timer expired %u"
+  }, 
+  {
+    "address": "0002333a", 
+    "length": 23, 
+    "value": "Slot %u : Bond deleted"
+  }, 
+  {
+    "address": "00023351", 
+    "length": 25, 
+    "value": "Slot %u : New bond saved"
+  }, 
+  {
+    "address": "0002336a", 
+    "length": 59, 
+    "value": "Slot %u : QOS %u {%03u %03u %03u %02u %03d} {%02u %02u %u}"
+  }, 
+  {
+    "address": "000233a5", 
+    "length": 28, 
+    "value": "Slot %u: Pairing successful"
+  }, 
+  {
+    "address": "000233c1", 
+    "length": 24, 
+    "value": "Slot %u: Pairing failed"
+  }, 
+  {
+    "address": "000233d9", 
+    "length": 19, 
+    "value": "Invalid SET_FR_RSP"
+  }, 
+  {
+    "address": "000233ec", 
+    "length": 37, 
+    "value": "Slot %u : Set FR - controller ret %d"
+  }, 
+  {
+    "address": "00023411", 
+    "length": 19, 
+    "value": "Invalid GET_FR_RSP"
+  }, 
+  {
+    "address": "00023424", 
+    "length": 54, 
+    "value": "Slot %u : Get FR (0x%02X) - response wrong state (%u)"
+  }, 
+  {
+    "address": "0002345a", 
+    "length": 27, 
+    "value": "Discarding keyboard report"
+  }, 
+  {
+    "address": "00023475", 
+    "length": 25, 
+    "value": "Unknown app_data type %u"
+  }, 
+  {
+    "address": "0002348e", 
+    "length": 19, 
+    "value": "Ibex disconnecting"
+  }, 
+  {
+    "address": "000234a1", 
+    "length": 38, 
+    "value": "Slot %u : Protocol version updated %u"
+  }, 
+  {
+    "address": "000234c7", 
+    "length": 42, 
+    "value": "Slot %u: Unrecognized protocol version %u"
+  }, 
+  {
+    "address": "000234f1", 
+    "length": 42, 
+    "value": "Slot %u : Sending protocol version: %u %u"
+  }, 
+  {
+    "address": "0002351b", 
+    "length": 29, 
+    "value": "Slot %u : Connection timeout"
+  }, 
+  {
+    "address": "00023538", 
+    "length": 29, 
+    "value": "Slot %u : Disconnect message"
+  }, 
+  {
+    "address": "00023555", 
+    "length": 15, 
+    "value": "Slot %u : Idle"
+  }, 
+  {
+    "address": "00023564", 
+    "length": 29, 
+    "value": "Slot %u : Connecting Ibex %s"
+  }, 
+  {
+    "address": "00023581", 
+    "length": 36, 
+    "value": "Slot %u : Connected Ibex %s (Ch %u)"
+  }, 
+  {
+    "address": "000235a5", 
+    "length": 46, 
+    "value": "Slot %u : Host suspended - waiting for wakeup"
+  }, 
+  {
+    "address": "000235d3", 
+    "length": 45, 
+    "value": "Slot %u : Host did not wakeup within timeout"
+  }, 
+  {
+    "address": "00023600", 
+    "length": 21, 
+    "value": "Slot %u : Host awake"
+  }, 
+  {
+    "address": "00023615", 
+    "length": 46, 
+    "value": "Slot %u : Host suspended, turn off controller"
+  }, 
+  {
+    "address": "00023643", 
+    "length": 102, 
+    "value": "Ibex took too long to shutdown - disconnect and prevent it from waking the host next time it connects"
+  }, 
+  {
+    "address": "000236a9", 
+    "length": 18, 
+    "value": "Slot %u : Pairing"
+  }, 
+  {
+    "address": "000236bb", 
+    "length": 36, 
+    "value": "Slot %u : Get FR (----) - no SET %u"
+  }, 
+  {
+    "address": "000236df", 
+    "length": 48, 
+    "value": "Slot %u : Get FR (0x%02X)  - timer expired (%u)"
+  }, 
+  {
+    "address": "0002370f", 
+    "length": 50, 
+    "value": "Slot %u : Get FR (0x%02X) - mismatched rsp 0x%02X"
+  }, 
+  {
+    "address": "00023741", 
+    "length": 33, 
+    "value": "Slot %u : Get FR - unexpected %u"
+  }, 
+  {
+    "address": "00023762", 
+    "length": 45, 
+    "value": "Slot %u : Set FR (0x%02X) - GET pending (%u)"
+  }, 
+  {
+    "address": "0002378f", 
+    "length": 31, 
+    "value": "Slot %u : OR - invalid size %d"
+  }, 
+  {
+    "address": "000237ae", 
+    "length": 19, 
+    "value": "Initializing radio"
+  }, 
+  {
+    "address": "000237c1", 
+    "length": 25, 
+    "value": "Initializing channel map"
+  }, 
+  {
+    "address": "00023816", 
+    "length": 16, 
+    "value": "roybex_combiner"
+  }, 
+  {
+    "address": "00023852", 
+    "length": 11, 
+    "value": "dongle_esb"
+  }, 
+  {
+    "address": "0002385d", 
+    "length": 30, 
+    "value": "ibex%d_proteus_uuid : 0x%08X\\n"
+  }, 
+  {
+    "address": "0002387b", 
+    "length": 27, 
+    "value": "ibex%d_ibex_uuid : 0x%08X\\n"
+  }, 
+  {
+    "address": "00023896", 
+    "length": 21, 
+    "value": "ibex%d_peer_sn : %s\\n"
+  }, 
+  {
+    "address": "000238ab", 
+    "length": 62, 
+    "value": "QOS reporting back to nominal every %u ms, debug prints OFF \\n"
+  }, 
+  {
+    "address": "000238f0", 
+    "length": 15, 
+    "value": "%s_state : %s\\n"
+  }, 
+  {
+    "address": "000238ff", 
+    "length": 30, 
+    "value": "  %s_connection_uptime_s: %u\\n"
+  }, 
+  {
+    "address": "0002391d", 
+    "length": 23, 
+    "value": "  %s_channel[%u] : %u\\n"
+  }, 
+  {
+    "address": "0002393b", 
+    "length": 56, 
+    "value": "QOS reporting updated to every %u ms, debug prints %s \\n"
+  }, 
+  {
+    "address": "00023985", 
+    "length": 34, 
+    "value": "%02u: %s/%s  %s/%s  %s/%s  %s/%s\\n"
+  }, 
+  {
+    "address": "000239a7", 
+    "length": 18, 
+    "value": "packet_error_rate"
+  }, 
+  {
+    "address": "000239b9", 
+    "length": 20, 
+    "value": "Dump controller PER"
+  }, 
+  {
+    "address": "000239cd", 
+    "length": 20, 
+    "value": "connection_qos_stop"
+  }, 
+  {
+    "address": "000239e1", 
+    "length": 33, 
+    "value": "Return QOS reporting to defaults"
+  }, 
+  {
+    "address": "00023a02", 
+    "length": 15, 
+    "value": "connection_qos"
+  }, 
+  {
+    "address": "00023a11", 
+    "length": 57, 
+    "value": "Adjust or print QOS data reports [interval_ms] [--print]"
+  }, 
+  {
+    "address": "00023a4a", 
+    "length": 11, 
+    "value": "connection"
+  }, 
+  {
+    "address": "00023a55", 
+    "length": 22, 
+    "value": "Show connection stats"
+  }, 
+  {
+    "address": "00023a6b", 
+    "length": 6, 
+    "value": "bonds"
+  }, 
+  {
+    "address": "00023a71", 
+    "length": 22, 
+    "value": "Show bond information"
+  }, 
+  {
+    "address": "00023a8c", 
+    "length": 8, 
+    "value": "PAIRING"
+  }, 
+  {
+    "address": "00023a94", 
+    "length": 11, 
+    "value": "CONNECTING"
+  }, 
+  {
+    "address": "00023a9f", 
+    "length": 10, 
+    "value": "CONNECTED"
+  }, 
+  {
+    "address": "00023aa9", 
+    "length": 24, 
+    "value": "Unsupported report type"
+  }, 
+  {
+    "address": "00023ac1", 
+    "length": 52, 
+    "value": "Discarding feature report with unexpected length %d"
+  }, 
+  {
+    "address": "00023af5", 
+    "length": 17, 
+    "value": "Discarded report"
+  }, 
+  {
+    "address": "00023b06", 
+    "length": 11, 
+    "value": "hid_client"
+  }, 
+  {
+    "address": "00023b11", 
+    "length": 33, 
+    "value": "Failed to submit input report %d"
+  }, 
+  {
+    "address": "00023b32", 
+    "length": 27, 
+    "value": "dongle recv report err: %d"
+  }, 
+  {
+    "address": "00023b4d", 
+    "length": 12, 
+    "value": "HID_PROXY_3"
+  }, 
+  {
+    "address": "00023b59", 
+    "length": 12, 
+    "value": "HID_PROXY_2"
+  }, 
+  {
+    "address": "00023b65", 
+    "length": 12, 
+    "value": "HID_PROXY_1"
+  }, 
+  {
+    "address": "00023b71", 
+    "length": 12, 
+    "value": "HID_PROXY_0"
+  }, 
+  {
+    "address": "00023b7d", 
+    "length": 10, 
+    "value": "hid_proxy"
+  }, 
+  {
+    "address": "00023fb6", 
+    "length": 39, 
+    "value": "No GC Done marker found: restarting gc"
+  }, 
+  {
+    "address": "00023fdd", 
+    "length": 23, 
+    "value": "%d Sectors of %d bytes"
+  }, 
+  {
+    "address": "00023ff4", 
+    "length": 18, 
+    "value": "alloc wra: %d, %x"
+  }, 
+  {
+    "address": "00024006", 
+    "length": 17, 
+    "value": "data wra: %d, %x"
+  }, 
+  {
+    "address": "0002401e", 
+    "length": 8, 
+    "value": "logging"
+  }, 
+  {
+    "address": "0002402f", 
+    "length": 63, 
+    "value": "Message (\\\"%s\\\") dropped because it exceeds size limitation (%u)"
+  }, 
+  {
+    "address": "0002406e", 
+    "length": 56, 
+    "value": "Message dropped because it exceeds size limitation (%u)"
+  }, 
+  {
+    "address": "0002413a", 
+    "length": 16, 
+    "value": "log_backend_rtt"
+  }, 
+  {
+    "address": "0002414a", 
+    "length": 37, 
+    "value": "set-value failure. key: %s error(%d)"
+  }, 
+  {
+    "address": "0002416f", 
+    "length": 21, 
+    "value": "RX ring buffer full."
+  }, 
+  {
+    "address": "00024184", 
+    "length": 17, 
+    "value": "shell.shell_uart"
+  }, 
+  {
+    "address": "00024195", 
+    "length": 19, 
+    "value": "shell_uart_backend"
+  }, 
+  {
+    "address": "000241b2", 
+    "length": 68, 
+    "value": "WARNING: A print request was detected on not active shell backend.\\n"
+  }, 
+  {
+    "address": "000241f6", 
+    "length": 20, 
+    "value": "not terminated: %c\\n"
+  }, 
+  {
+    "address": "00024210", 
+    "length": 20, 
+    "value": ": command not found"
+  }, 
+  {
+    "address": "00024224", 
+    "length": 36, 
+    "value": "Too many arguments in the command.\\n"
+  }, 
+  {
+    "address": "00024248", 
+    "length": 30, 
+    "value": "Please specify a subcommand.\\n"
+  }, 
+  {
+    "address": "00024266", 
+    "length": 27, 
+    "value": "%s: wrong parameter count\\n"
+  }, 
+  {
+    "address": "00024287", 
+    "length": 23, 
+    "value": "Shell thread error: %d"
+  }, 
+  {
+    "address": "0002429e", 
+    "length": 62, 
+    "value": "Please press the <Tab> button to see all available commands.\\n"
+  }, 
+  {
+    "address": "000242dc", 
+    "length": 95, 
+    "value": "You can also use the <Tab> button to prompt or auto-complete all commands or its subcommands.\\n"
+  }, 
+  {
+    "address": "0002433b", 
+    "length": 22, 
+    "value": "\\nAvailable commands:\\n"
+  }, 
+  {
+    "address": "0002435c", 
+    "length": 25, 
+    "value": "Prints the help message."
+  }, 
+  {
+    "address": "0002437c", 
+    "length": 6, 
+    "value": "flash"
+  }, 
+  {
+    "address": "00024382", 
+    "length": 61, 
+    "value": "*** Booting My Application v0.0.0-none - unknown commit ***\\n"
+  }, 
+  {
+    "address": "000243bf", 
+    "length": 51, 
+    "value": "*** Using nRF Connect SDK v2.9.0-d93dcad627bd ***\\n"
+  }, 
+  {
+    "address": "000243f2", 
+    "length": 46, 
+    "value": "*** Using Zephyr OS v3.7.99-af30fca7cecd ***\\n"
+  }, 
+  {
+    "address": "00024420", 
+    "length": 10, 
+    "value": "ppi_trace"
+  }, 
+  {
+    "address": "0002442a", 
+    "length": 47, 
+    "value": "r0/a1:  0x%08x  r1/a2:  0x%08x  r2/a3:  0x%08x"
+  }, 
+  {
+    "address": "00024459", 
+    "length": 47, 
+    "value": "r3/a4:  0x%08x r12/ip:  0x%08x r14/lr:  0x%08x"
+  }, 
+  {
+    "address": "00024488", 
+    "length": 15, 
+    "value": " xpsr:  0x%08x"
+  }, 
+  {
+    "address": "00024497", 
+    "length": 46, 
+    "value": "Faulting instruction address (r15/pc): 0x%08x"
+  }, 
+  {
+    "address": "000244c5", 
+    "length": 19, 
+    "value": "Unhandled IRQn: %d"
+  }, 
+  {
+    "address": "000244d8", 
+    "length": 22, 
+    "value": "***** BUS FAULT *****"
+  }, 
+  {
+    "address": "000244ee", 
+    "length": 17, 
+    "value": "  Stacking error"
+  }, 
+  {
+    "address": "000244ff", 
+    "length": 19, 
+    "value": "  Unstacking error"
+  }, 
+  {
+    "address": "00024512", 
+    "length": 25, 
+    "value": "  Precise data bus error"
+  }, 
+  {
+    "address": "0002452b", 
+    "length": 21, 
+    "value": "  BFAR Address: 0x%x"
+  }, 
+  {
+    "address": "00024540", 
+    "length": 27, 
+    "value": "  Imprecise data bus error"
+  }, 
+  {
+    "address": "0002455b", 
+    "length": 24, 
+    "value": "  Instruction bus error"
+  }, 
+  {
+    "address": "00024573", 
+    "length": 47, 
+    "value": "  Floating-point lazy state preservation error"
+  }, 
+  {
+    "address": "000245a2", 
+    "length": 24, 
+    "value": "***** USAGE FAULT *****"
+  }, 
+  {
+    "address": "000245ba", 
+    "length": 19, 
+    "value": "  Division by zero"
+  }, 
+  {
+    "address": "000245cd", 
+    "length": 26, 
+    "value": "  Unaligned memory access"
+  }, 
+  {
+    "address": "000245e7", 
+    "length": 30, 
+    "value": "  No coprocessor instructions"
+  }, 
+  {
+    "address": "00024605", 
+    "length": 37, 
+    "value": "  Illegal load of EXC_RETURN into PC"
+  }, 
+  {
+    "address": "0002462a", 
+    "length": 26, 
+    "value": "  Illegal use of the EPSR"
+  }, 
+  {
+    "address": "00024644", 
+    "length": 43, 
+    "value": "  Attempt to execute undefined instruction"
+  }, 
+  {
+    "address": "0002466f", 
+    "length": 22, 
+    "value": "***** MPU FAULT *****"
+  }, 
+  {
+    "address": "00024685", 
+    "length": 51, 
+    "value": "  Stacking error (context area might be not valid)"
+  }, 
+  {
+    "address": "000246b8", 
+    "length": 24, 
+    "value": "  Data Access Violation"
+  }, 
+  {
+    "address": "000246d0", 
+    "length": 22, 
+    "value": "  MMFAR Address: 0x%x"
+  }, 
+  {
+    "address": "000246e6", 
+    "length": 31, 
+    "value": "  Instruction Access Violation"
+  }, 
+  {
+    "address": "00024705", 
+    "length": 21, 
+    "value": "Reserved Exception ("
+  }, 
+  {
+    "address": "0002471a", 
+    "length": 25, 
+    "value": "Spurious interrupt (IRQ "
+  }, 
+  {
+    "address": "00024733", 
+    "length": 43, 
+    "value": "SPSEL in thread mode does not indicate PSP"
+  }, 
+  {
+    "address": "0002475e", 
+    "length": 23, 
+    "value": "***** HARD FAULT *****"
+  }, 
+  {
+    "address": "00024775", 
+    "length": 33, 
+    "value": "  Bus fault on vector table read"
+  }, 
+  {
+    "address": "00024796", 
+    "length": 14, 
+    "value": "  Debug event"
+  }, 
+  {
+    "address": "000247a4", 
+    "length": 31, 
+    "value": "  Fault escalation (see below)"
+  }, 
+  {
+    "address": "000247c3", 
+    "length": 28, 
+    "value": "ARCH_EXCEPT with reason %x\\n"
+  }, 
+  {
+    "address": "000247df", 
+    "length": 36, 
+    "value": "***** Debug monitor exception *****"
+  }, 
+  {
+    "address": "00024803", 
+    "length": 19, 
+    "value": "***** %s %d) *****"
+  }, 
+  {
+    "address": "0002481a", 
+    "length": 38, 
+    "value": "Failed to allocate new MPU region %u\\n"
+  }, 
+  {
+    "address": "00024840", 
+    "length": 35, 
+    "value": "Partition %u: sanity check failed."
+  }, 
+  {
+    "address": "00024863", 
+    "length": 8, 
+    "value": "FLASH_0"
+  }, 
+  {
+    "address": "0002487b", 
+    "length": 8, 
+    "value": "net_buf"
+  }, 
+  {
+    "address": "00024883", 
+    "length": 15, 
+    "value": "net_buf_simple"
+  }, 
+  {
+    "address": "00024892", 
+    "length": 25, 
+    "value": "new_state cannot be NULL"
+  }, 
+  {
+    "address": "000248ab", 
+    "length": 28, 
+    "value": "Calling %s from exit action"
+  }, 
+  {
+    "address": "000248c7", 
+    "length": 14, 
+    "value": "smf_set_state"
+  }, 
+  {
+    "address": "000248dd", 
+    "length": 6, 
+    "value": "board"
+  }, 
+  {
+    "address": "000248e3", 
+    "length": 33, 
+    "value": "Failed to initialize HID I2C bus"
+  }, 
+  {
+    "address": "00024904", 
+    "length": 36, 
+    "value": "Failed to initialize HID I2C target"
+  }, 
+  {
+    "address": "00024928", 
+    "length": 37, 
+    "value": "Failed to initialize EC input device"
+  }, 
+  {
+    "address": "0002494d", 
+    "length": 19, 
+    "value": "board_hid_over_i2c"
+  }, 
+  {
+    "address": "00024960", 
+    "length": 29, 
+    "value": "Failed to set Nereid USB PID"
+  }, 
+  {
+    "address": "0002497d", 
+    "length": 36, 
+    "value": "Failed to enable puck UART node(%d)"
+  }, 
+  {
+    "address": "000249a1", 
+    "length": 42, 
+    "value": "Failed to enable puck interface node (%d)"
+  }, 
+  {
+    "address": "000249cb", 
+    "length": 36, 
+    "value": "Remote wakeup feature not supported"
+  }, 
+  {
+    "address": "000249ef", 
+    "length": 51, 
+    "value": "Remote wakeup feature not enabled or not suspended"
+  }, 
+  {
+    "address": "00024a22", 
+    "length": 42, 
+    "value": "USB device support is already initialized"
+  }, 
+  {
+    "address": "00024a4c", 
+    "length": 35, 
+    "value": "USB device controller is not ready"
+  }, 
+  {
+    "address": "00024a6f", 
+    "length": 38, 
+    "value": "USB device support is not initialized"
+  }, 
+  {
+    "address": "00024a95", 
+    "length": 38, 
+    "value": "USB device support is already enabled"
+  }, 
+  {
+    "address": "00024abb", 
+    "length": 28, 
+    "value": "Failed to enable controller"
+  }, 
+  {
+    "address": "00024ae0", 
+    "length": 10, 
+    "value": "usbd_desc"
+  }, 
+  {
+    "address": "00024aea", 
+    "length": 38, 
+    "value": "Configuration descriptor %u not found"
+  }, 
+  {
+    "address": "00024b10", 
+    "length": 33, 
+    "value": "Can only handle control requests"
+  }, 
+  {
+    "address": "00024b31", 
+    "length": 47, 
+    "value": "Control transfer for 0x%02x has error %d, halt"
+  }, 
+  {
+    "address": "00024b60", 
+    "length": 34, 
+    "value": "Buffer for data|status is missing"
+  }, 
+  {
+    "address": "00024b82", 
+    "length": 15, 
+    "value": "%p is not data"
+  }, 
+  {
+    "address": "00024b91", 
+    "length": 17, 
+    "value": "%p is not status"
+  }, 
+  {
+    "address": "00024ba2", 
+    "length": 33, 
+    "value": "device-to-host with wLength zero"
+  }, 
+  {
+    "address": "00024bc3", 
+    "length": 23, 
+    "value": "Malformed setup packet"
+  }, 
+  {
+    "address": "00024bda", 
+    "length": 34, 
+    "value": "Failed to set device address 0x%x"
+  }, 
+  {
+    "address": "00024bfc", 
+    "length": 35, 
+    "value": "Failed to set configuration %u, %d"
+  }, 
+  {
+    "address": "00024c1f", 
+    "length": 34, 
+    "value": "HWINFO not implemented or enabled"
+  }, 
+  {
+    "address": "00024c41", 
+    "length": 29, 
+    "value": "Buffer for status is missing"
+  }, 
+  {
+    "address": "00024c5e", 
+    "length": 33, 
+    "value": "Awaited s-in-status not finished"
+  }, 
+  {
+    "address": "00024c7f", 
+    "length": 30, 
+    "value": "Failed to enable TEST_MODE %u"
+  }, 
+  {
+    "address": "00024c9d", 
+    "length": 36, 
+    "value": "Awaited s-(out)-status not finished"
+  }, 
+  {
+    "address": "00024cc1", 
+    "length": 17, 
+    "value": "0123456789ABCDEF"
+  }, 
+  {
+    "address": "00024cdb", 
+    "length": 47, 
+    "value": "Failed to get cfg_nd, despite configured state"
+  }, 
+  {
+    "address": "00024d0a", 
+    "length": 46, 
+    "value": "Failed to set default address after bus reset"
+  }, 
+  {
+    "address": "00024d38", 
+    "length": 44, 
+    "value": "Failed to set default state after bus reset"
+  }, 
+  {
+    "address": "00024d64", 
+    "length": 29, 
+    "value": "Failed to dequeue control IN"
+  }, 
+  {
+    "address": "00024d81", 
+    "length": 23, 
+    "value": "Actual device speed %u"
+  }, 
+  {
+    "address": "00024d98", 
+    "length": 42, 
+    "value": "unrecoverable error %d, ep 0x%02x, buf %p"
+  }, 
+  {
+    "address": "00024dc2", 
+    "length": 16, 
+    "value": "UDC error event"
+  }, 
+  {
+    "address": "00024dd2", 
+    "length": 29, 
+    "value": "Failed to init device driver"
+  }, 
+  {
+    "address": "00024def", 
+    "length": 10, 
+    "value": "usbd_core"
+  }, 
+  {
+    "address": "00024df9", 
+    "length": 29, 
+    "value": "Endpoing 0x%02x not assigned"
+  }, 
+  {
+    "address": "00024e16", 
+    "length": 36, 
+    "value": "Failed to assign endpoint addresses"
+  }, 
+  {
+    "address": "00024e3a", 
+    "length": 36, 
+    "value": "Failed to initialize class instance"
+  }, 
+  {
+    "address": "00024e5e", 
+    "length": 35, 
+    "value": "Failed to init HS configuration %u"
+  }, 
+  {
+    "address": "00024e81", 
+    "length": 35, 
+    "value": "Failed to init FS configuration %u"
+  }, 
+  {
+    "address": "00024ea4", 
+    "length": 10, 
+    "value": "usbd_init"
+  }, 
+  {
+    "address": "00024eae", 
+    "length": 38, 
+    "value": "No configuration set (Address state?)"
+  }, 
+  {
+    "address": "00024ed4", 
+    "length": 30, 
+    "value": "Failed to reset configuration"
+  }, 
+  {
+    "address": "00024ef2", 
+    "length": 36, 
+    "value": "Feature not supported by controller"
+  }, 
+  {
+    "address": "00024f16", 
+    "length": 27, 
+    "value": "Configuration %u not found"
+  }, 
+  {
+    "address": "00024f31", 
+    "length": 34, 
+    "value": "USB device support is initialized"
+  }, 
+  {
+    "address": "00024f53", 
+    "length": 30, 
+    "value": "Controller doesn't support HS"
+  }, 
+  {
+    "address": "00024f71", 
+    "length": 29, 
+    "value": "HS config already on FS list"
+  }, 
+  {
+    "address": "00024f8e", 
+    "length": 29, 
+    "value": "FS config already on HS list"
+  }, 
+  {
+    "address": "00024fab", 
+    "length": 32, 
+    "value": "Unsupported configuration speed"
+  }, 
+  {
+    "address": "00024fcb", 
+    "length": 29, 
+    "value": "Configuration %u re-inserted"
+  }, 
+  {
+    "address": "00024fe8", 
+    "length": 46, 
+    "value": "Failed to add configuration string descriptor"
+  }, 
+  {
+    "address": "0002501f", 
+    "length": 30, 
+    "value": "USB device class %s not found"
+  }, 
+  {
+    "address": "0002503d", 
+    "length": 37, 
+    "value": "No configuration set (Address state)"
+  }, 
+  {
+    "address": "00025062", 
+    "length": 34, 
+    "value": "Class instance already registered"
+  }, 
+  {
+    "address": "00025084", 
+    "length": 53, 
+    "value": "Class registered to other context at different speed"
+  }, 
+  {
+    "address": "000250b9", 
+    "length": 45, 
+    "value": "Failed to register %s to HS configuration %u"
+  }, 
+  {
+    "address": "000250e6", 
+    "length": 45, 
+    "value": "Failed to register %s to FS configuration %u"
+  }, 
+  {
+    "address": "00025113", 
+    "length": 11, 
+    "value": "usbd_class"
+  }, 
+  {
+    "address": "0002511e", 
+    "length": 49, 
+    "value": "Failed to handle op %d, ep 0x%02x, bm 0x%08x, %d"
+  }, 
+  {
+    "address": "0002514f", 
+    "length": 11, 
+    "value": "usbd_iface"
+  }, 
+  {
+    "address": "0002515a", 
+    "length": 20, 
+    "value": "device is suspended"
+  }, 
+  {
+    "address": "0002516e", 
+    "length": 23, 
+    "value": "Set halt 0x%02x failed"
+  }, 
+  {
+    "address": "00025185", 
+    "length": 25, 
+    "value": "Clear halt 0x%02x failed"
+  }, 
+  {
+    "address": "000251af", 
+    "length": 15, 
+    "value": "cdc_acm_work_q"
+  }, 
+  {
+    "address": "000251be", 
+    "length": 14, 
+    "value": "cdc_acm_uart0"
+  }, 
+  {
+    "address": "000251d6", 
+    "length": 31, 
+    "value": "get_report callback is missing"
+  }, 
+  {
+    "address": "000251f5", 
+    "length": 31, 
+    "value": "set_report callback is missing"
+  }, 
+  {
+    "address": "00025214", 
+    "length": 33, 
+    "value": "set_protocol callback is missing"
+  }, 
+  {
+    "address": "00025235", 
+    "length": 26, 
+    "value": "Failed to allocate buffer"
+  }, 
+  {
+    "address": "0002524f", 
+    "length": 25, 
+    "value": "Failed to enqueue buffer"
+  }, 
+  {
+    "address": "00025268", 
+    "length": 9, 
+    "value": "hid-puck"
+  }, 
+  {
+    "address": "000252b8", 
+    "length": 30, 
+    "value": "Spurious suspend/resume event"
+  }, 
+  {
+    "address": "000252d6", 
+    "length": 26, 
+    "value": "ep 0x%02x already enabled"
+  }, 
+  {
+    "address": "000252f0", 
+    "length": 34, 
+    "value": "Endpoint 0x%02x validation failed"
+  }, 
+  {
+    "address": "00025312", 
+    "length": 27, 
+    "value": "ep 0x%02x already disabled"
+  }, 
+  {
+    "address": "0002532d", 
+    "length": 31, 
+    "value": "Failed to allocate net_buf %zd"
+  }, 
+  {
+    "address": "0002534c", 
+    "length": 13, 
+    "value": "ZLP expected"
+  }, 
+  {
+    "address": "00025359", 
+    "length": 32, 
+    "value": "Cannot determine the next stage"
+  }, 
+  {
+    "address": "00025379", 
+    "length": 19, 
+    "value": "State not changed!"
+  }, 
+  {
+    "address": "00025390", 
+    "length": 9, 
+    "value": "shutdown"
+  }, 
+  {
+    "address": "00025399", 
+    "length": 12, 
+    "value": "Initialized"
+  }, 
+  {
+    "address": "000253a5", 
+    "length": 23, 
+    "value": "UDC_SUBMIT_EP_EVENT %d"
+  }, 
+  {
+    "address": "000253bc", 
+    "length": 23, 
+    "value": "Unknown power event %d"
+  }, 
+  {
+    "address": "000253d3", 
+    "length": 35, 
+    "value": "Failed to disable control endpoint"
+  }, 
+  {
+    "address": "000253f6", 
+    "length": 23, 
+    "value": "Failed to stop HFXO %d"
+  }, 
+  {
+    "address": "0002540d", 
+    "length": 38, 
+    "value": "nRF USBD driver initialization failed"
+  }, 
+  {
+    "address": "00025433", 
+    "length": 34, 
+    "value": "Failed to enable control endpoint"
+  }, 
+  {
+    "address": "00025455", 
+    "length": 24, 
+    "value": "Failed to start HFXO %d"
+  }, 
+  {
+    "address": "0002546d", 
+    "length": 8, 
+    "value": "Preinit"
+  }, 
+  {
+    "address": "0002547e", 
+    "length": 28, 
+    "value": "Failed to register endpoint"
+  }, 
+  {
+    "address": "0002549a", 
+    "length": 6, 
+    "value": "Reset"
+  }, 
+  {
+    "address": "000254a0", 
+    "length": 23, 
+    "value": "SUSPEND state detected"
+  }, 
+  {
+    "address": "000254b7", 
+    "length": 22, 
+    "value": "RESUMING from suspend"
+  }, 
+  {
+    "address": "000254cd", 
+    "length": 24, 
+    "value": "Remote wakeup initiated"
+  }, 
+  {
+    "address": "000254e5", 
+    "length": 25, 
+    "value": "ep 0x%02x queue is empty"
+  }, 
+  {
+    "address": "000254fe", 
+    "length": 21, 
+    "value": "aborted IN ep 0x%02x"
+  }, 
+  {
+    "address": "00025513", 
+    "length": 44, 
+    "value": "Unexpected event (nrfx_usbd): %d, ep 0x%02x"
+  }, 
+  {
+    "address": "0002553f", 
+    "length": 23, 
+    "value": "OUT transfer failed %d"
+  }, 
+  {
+    "address": "00025556", 
+    "length": 29, 
+    "value": "ep 0x%02x ok, queue is empty"
+  }, 
+  {
+    "address": "00025573", 
+    "length": 29, 
+    "value": "Failed to allocate for setup"
+  }, 
+  {
+    "address": "00025590", 
+    "length": 25, 
+    "value": "ep 0x%02x nrfx error: %x"
+  }, 
+  {
+    "address": "000255bf", 
+    "length": 16, 
+    "value": "nrf_usbd_common"
+  }, 
+  {
+    "address": "000255f7", 
+    "length": 31, 
+    "value": "Selected ADC gain is not valid"
+  }, 
+  {
+    "address": "00025616", 
+    "length": 36, 
+    "value": "Selected ADC reference is not valid"
+  }, 
+  {
+    "address": "0002563a", 
+    "length": 43, 
+    "value": "Selected ADC acquisition time is not valid"
+  }, 
+  {
+    "address": "00025665", 
+    "length": 30, 
+    "value": "Invalid selection of channels"
+  }, 
+  {
+    "address": "00025683", 
+    "length": 26, 
+    "value": "Channel %u not configured"
+  }, 
+  {
+    "address": "0002569d", 
+    "length": 37, 
+    "value": "ADC resolution value %d is not valid"
+  }, 
+  {
+    "address": "000256c2", 
+    "length": 50, 
+    "value": "Oversampling is supported for single channel only"
+  }, 
+  {
+    "address": "000256f4", 
+    "length": 35, 
+    "value": "Oversampling value %d is not valid"
+  }, 
+  {
+    "address": "00025717", 
+    "length": 37, 
+    "value": "Provided buffer is too small (%u/%u)"
+  }, 
+  {
+    "address": "00025758", 
+    "length": 15, 
+    "value": "clock@40000000"
+  }, 
+  {
+    "address": "00025773", 
+    "length": 14, 
+    "value": "clock_control"
+  }, 
+  {
+    "address": "00025781", 
+    "length": 16, 
+    "value": "random@4000d000"
+  }, 
+  {
+    "address": "00025791", 
+    "length": 29, 
+    "value": "invalid address: 0x%08lx:%zu"
+  }, 
+  {
+    "address": "000257ae", 
+    "length": 31, 
+    "value": "unaligned address: 0x%08lx:%zu"
+  }, 
+  {
+    "address": "000257cd", 
+    "length": 30, 
+    "value": "not word-aligned: 0x%08lx:%zu"
+  }, 
+  {
+    "address": "000257eb", 
+    "length": 26, 
+    "value": "flash-controller@4001e000"
+  }, 
+  {
+    "address": "00025805", 
+    "length": 10, 
+    "value": "flash_nrf"
+  }, 
+  {
+    "address": "0002581d", 
+    "length": 14, 
+    "value": "gpio@50000000"
+  }, 
+  {
+    "address": "0002582b", 
+    "length": 31, 
+    "value": "Failed to configure pinctrl %d"
+  }, 
+  {
+    "address": "0002599a", 
+    "length": 43, 
+    "value": "Short write, at least 2 bytes are expected"
+  }, 
+  {
+    "address": "000259c5", 
+    "length": 34, 
+    "value": "Invalid command payload, dropping"
+  }, 
+  {
+    "address": "000259e7", 
+    "length": 29, 
+    "value": "Opcode %x is not implemented"
+  }, 
+  {
+    "address": "00025a04", 
+    "length": 41, 
+    "value": "FIXME: Unimplemented callbacks requested"
+  }, 
+  {
+    "address": "00025a2d", 
+    "length": 66, 
+    "value": "HID over I2C doesn't have a concept of SoF. Ignoring the callback"
+  }, 
+  {
+    "address": "00025a6f", 
+    "length": 27, 
+    "value": "Failed to register target\\n"
+  }, 
+  {
+    "address": "00025a8a", 
+    "length": 23, 
+    "value": "ec-button-interface@50"
+  }, 
+  {
+    "address": "00025ac9", 
+    "length": 31, 
+    "value": "Failed to allocate PPI Channel"
+  }, 
+  {
+    "address": "00025ae8", 
+    "length": 14, 
+    "value": "uart@40002000"
+  }, 
+  {
+    "address": "00025af6", 
+    "length": 16, 
+    "value": "uart_nrfx_uarte"
+  }, 
+  {
+    "address": "00025b06", 
+    "length": 18, 
+    "value": "watchdog@40010000"
+  }, 
+  {
+    "address": "00025b21", 
+    "length": 41, 
+    "value": "Failed to initialize nrfx timer (err %d)"
+  }, 
+  {
+    "address": "00025b4a", 
+    "length": 38, 
+    "value": "Failed to initialize ESB system timer"
+  }, 
+  {
+    "address": "00025b70", 
+    "length": 25, 
+    "value": "Failed to initialize PPI"
+  }, 
+  {
+    "address": "00025b89", 
+    "length": 34, 
+    "value": "gppi_group_alloc failed with: %d\\n"
+  }, 
+  {
+    "address": "00025bab", 
+    "length": 37, 
+    "value": "gppi_channel_alloc failed with: %d\\n"
+  }, 
+  {
+    "address": "00025bd0", 
+    "length": 16, 
+    "value": " **************"
+  }, 
+  {
+    "address": "00025be1", 
+    "length": 11, 
+    "value": "Terminal"
+  }, 
+  {
+    "address": "00025bf0", 
+    "length": 11, 
+    "value": "TTR REGGES"
+  }, 
+  {
+    "address": "00025bfb", 
+    "length": 9, 
+    "value": "Starting"
+  }, 
+  {
+    "address": "00025c04", 
+    "length": 9, 
+    "value": "Ignoring"
+  }, 
+  {
+    "address": "00025c12", 
+    "length": 31, 
+    "value": "Failed to delete user settings"
+  }, 
+  {
+    "address": "00025c31", 
+    "length": 30, 
+    "value": "Failed to delete esb settings"
+  }, 
+  {
+    "address": "00025c53", 
+    "length": 30, 
+    "value": "Failed to delete mte settings"
+  }, 
+  {
+    "address": "00025c71", 
+    "length": 6, 
+    "value": "debug"
+  }, 
+  {
+    "address": "00025c77", 
+    "length": 32, 
+    "value": "Failed to delete debug settings"
+  }, 
+  {
+    "address": "00025c9a", 
+    "length": 29, 
+    "value": "Failed to delete bt settings"
+  }, 
+  {
+    "address": "00025cbc", 
+    "length": 16, 
+    "value": "factory_restore"
+  }, 
+  {
+    "address": "00025ccc", 
+    "length": 25, 
+    "value": "Factory restore --really"
+  }, 
+  {
+    "address": "00025ce5", 
+    "length": 6, 
+    "value": "frest"
+  }, 
+  {
+    "address": "00025ceb", 
+    "length": 18, 
+    "value": "debug/resetreason"
+  }, 
+  {
+    "address": "00025cfd", 
+    "length": 35, 
+    "value": "Log Entry: %u %08x %s %u %08x %08x"
+  }, 
+  {
+    "address": "00025d20", 
+    "length": 22, 
+    "value": "New resetreason found"
+  }, 
+  {
+    "address": "00025d36", 
+    "length": 22, 
+    "value": "Resetreason RAM empty"
+  }, 
+  {
+    "address": "00025d4c", 
+    "length": 21, 
+    "value": "Nothing in reset log"
+  }, 
+  {
+    "address": "00025d61", 
+    "length": 14, 
+    "value": "NVM reset log"
+  }, 
+  {
+    "address": "00025d6f", 
+    "length": 18, 
+    "value": "resetreason_clear"
+  }, 
+  {
+    "address": "00025d81", 
+    "length": 19, 
+    "value": "Clear reset reason"
+  }, 
+  {
+    "address": "00025d94", 
+    "length": 18, 
+    "value": "resetreason_print"
+  }, 
+  {
+    "address": "00025da6", 
+    "length": 19, 
+    "value": "Print reset reason"
+  }, 
+  {
+    "address": "00025db9", 
+    "length": 23, 
+    "value": "generate_exception_wdt"
+  }, 
+  {
+    "address": "00025dd0", 
+    "length": 13, 
+    "value": "Generate wdt"
+  }, 
+  {
+    "address": "00025ddd", 
+    "length": 26, 
+    "value": "generate_exception_assert"
+  }, 
+  {
+    "address": "00025df7", 
+    "length": 27, 
+    "value": "Generate assertion failure"
+  }, 
+  {
+    "address": "00025e12", 
+    "length": 24, 
+    "value": "generate_exception_div0"
+  }, 
+  {
+    "address": "00025e2a", 
+    "length": 14, 
+    "value": "Generate div0"
+  }, 
+  {
+    "address": "00025e40", 
+    "length": 25, 
+    "value": "Watchdog about to expire"
+  }, 
+  {
+    "address": "00025e59", 
+    "length": 20, 
+    "value": "Device is not ready"
+  }, 
+  {
+    "address": "00025e6d", 
+    "length": 25, 
+    "value": "Error installing timeout"
+  }, 
+  {
+    "address": "00025e86", 
+    "length": 17, 
+    "value": "Error setting up"
+  }, 
+  {
+    "address": "00025e97", 
+    "length": 38, 
+    "value": "Failed to submit watchdog feeder work"
+  }, 
+  {
+    "address": "00025ebd", 
+    "length": 9, 
+    "value": "watchdog"
+  }, 
+  {
+    "address": "00025eca", 
+    "length": 15, 
+    "value": "ibexesb_common"
+  }, 
+  {
+    "address": "00025edf", 
+    "length": 61, 
+    "value": "Potential corrupt settings partition. All pages are occupied"
+  }, 
+  {
+    "address": "00025f1c", 
+    "length": 44, 
+    "value": "Erasing the whole settings block to recover"
+  }, 
+  {
+    "address": "00025f48", 
+    "length": 54, 
+    "value": "Recovery faild. Device functionality will be degraded"
+  }, 
+  {
+    "address": "00025f7e", 
+    "length": 20, 
+    "value": "Recovery succeeded!"
+  }, 
+  {
+    "address": "00025f92", 
+    "length": 40, 
+    "value": "Failed to initialize settings subsystem"
+  }, 
+  {
+    "address": "00025fba", 
+    "length": 41, 
+    "value": "Failed to initialize settings subtree %s"
+  }, 
+  {
+    "address": "00025fe7", 
+    "length": 46, 
+    "value": "Failed to initialize language descriptor (%d)"
+  }, 
+  {
+    "address": "00026015", 
+    "length": 50, 
+    "value": "Failed to initialize manufacturer descriptor (%d)"
+  }, 
+  {
+    "address": "00026047", 
+    "length": 45, 
+    "value": "Failed to initialize product descriptor (%d)"
+  }, 
+  {
+    "address": "00026074", 
+    "length": 40, 
+    "value": "Failed to initialize SN descriptor (%d)"
+  }, 
+  {
+    "address": "0002609c", 
+    "length": 39, 
+    "value": "Failed to add Full-Speed configuration"
+  }, 
+  {
+    "address": "000260c3", 
+    "length": 31, 
+    "value": "Failed to add register classes"
+  }, 
+  {
+    "address": "000260e2", 
+    "length": 36, 
+    "value": "Failed to register message callback"
+  }, 
+  {
+    "address": "00026106", 
+    "length": 43, 
+    "value": "Failed to add USB 2.0 Extension Descriptor"
+  }, 
+  {
+    "address": "00026131", 
+    "length": 36, 
+    "value": "Failed to initialize device support"
+  }, 
+  {
+    "address": "00026155", 
+    "length": 44, 
+    "value": "Remote wakeup code (maybe not suspended) %d"
+  }, 
+  {
+    "address": "00026181", 
+    "length": 21, 
+    "value": "Remote wakeup issued"
+  }, 
+  {
+    "address": "0002619d", 
+    "length": 13, 
+    "value": "neptune_usbd"
+  }, 
+  {
+    "address": "000261aa", 
+    "length": 12, 
+    "value": "neptune_usb"
+  }, 
+  {
+    "address": "000261b6", 
+    "length": 11, 
+    "value": "hid_custom"
+  }, 
+  {
+    "address": "000261c1", 
+    "length": 34, 
+    "value": "%s: GET: ID_GET_ATTRIBUTES_VALUES"
+  }, 
+  {
+    "address": "000261e3", 
+    "length": 29, 
+    "value": "get_id_get_attributes_values"
+  }, 
+  {
+    "address": "00026203", 
+    "length": 42, 
+    "value": "%s: GET: ID_GET_STRING_ATTRIBUTE, TAG: %u"
+  }, 
+  {
+    "address": "0002622d", 
+    "length": 28, 
+    "value": "get_id_get_string_attribute"
+  }, 
+  {
+    "address": "00026249", 
+    "length": 14, 
+    "value": "XXXXXXXXXXXXX"
+  }, 
+  {
+    "address": "00026257", 
+    "length": 16, 
+    "value": "puck-pilot-gpio"
+  }, 
+  {
+    "address": "00026267", 
+    "length": 10, 
+    "value": "gpio_puck"
+  }, 
+  {
+    "address": "00026271", 
+    "length": 37, 
+    "value": "failed to process state machine (%d)"
+  }, 
+  {
+    "address": "00026296", 
+    "length": 25, 
+    "value": "Controller '%s' detached"
+  }, 
+  {
+    "address": "000262af", 
+    "length": 25, 
+    "value": "Controller '%s' attached"
+  }, 
+  {
+    "address": "000262c8", 
+    "length": 26, 
+    "value": "Message size invalid (%d)"
+  }, 
+  {
+    "address": "000262e2", 
+    "length": 26, 
+    "value": "Unexpected CRC16 value %x"
+  }, 
+  {
+    "address": "000262fc", 
+    "length": 55, 
+    "value": "UART port is not initalized. Puck interface is a no-op"
+  }, 
+  {
+    "address": "00026333", 
+    "length": 36, 
+    "value": "Failed to configure VPOGO_EN output"
+  }, 
+  {
+    "address": "00026357", 
+    "length": 20, 
+    "value": "Failed to init ADCs"
+  }, 
+  {
+    "address": "0002636b", 
+    "length": 32, 
+    "value": "Failed to init async rx, err %d"
+  }, 
+  {
+    "address": "0002638b", 
+    "length": 36, 
+    "value": "Failed to set uart callback, err %d"
+  }, 
+  {
+    "address": "000263af", 
+    "length": 30, 
+    "value": "not accepting new rx buf (%d)"
+  }, 
+  {
+    "address": "000263f9", 
+    "length": 8, 
+    "value": "f range"
+  }, 
+  {
+    "address": "00026401", 
+    "length": 20, 
+    "value": "VPILOT out of range"
+  }, 
+  {
+    "address": "00026415", 
+    "length": 50, 
+    "value": "Pilot signal is valid but controller unresponsive"
+  }, 
+  {
+    "address": "00026447", 
+    "length": 37, 
+    "value": "Failed to execute SET_FEATURE_REPORT"
+  }, 
+  {
+    "address": "0002646c", 
+    "length": 37, 
+    "value": "Failed to execute GET_FEATURE_REPORT"
+  }, 
+  {
+    "address": "00026491", 
+    "length": 35, 
+    "value": "Failed to execute GET_INPUT_REPORT"
+  }, 
+  {
+    "address": "000264b4", 
+    "length": 9, 
+    "value": "%s %u %d"
+  }, 
+  {
+    "address": "000264bd", 
+    "length": 18, 
+    "value": "In pilot envelope"
+  }, 
+  {
+    "address": "000264cf", 
+    "length": 15, 
+    "value": "puck_adcs_read"
+  }, 
+  {
+    "address": "000264de", 
+    "length": 15, 
+    "value": "puck-interface"
+  }, 
+  {
+    "address": "00026523", 
+    "length": 14, 
+    "value": "Unknown error"
+  }, 
+  {
+    "address": "00026531", 
+    "length": 8, 
+    "value": "unknown"
+  }, 
+  {
+    "address": "00026539", 
+    "length": 40, 
+    "value": ">>> ZEPHYR FATAL ERROR %d: %s on CPU %d"
+  }, 
+  {
+    "address": "00026561", 
+    "length": 33, 
+    "value": "Fault during interrupt handling\\n"
+  }, 
+  {
+    "address": "00026582", 
+    "length": 24, 
+    "value": "Current thread: %p (%s)"
+  }, 
+  {
+    "address": "0002659a", 
+    "length": 14, 
+    "value": "CPU exception"
+  }, 
+  {
+    "address": "000265a8", 
+    "length": 20, 
+    "value": "Unhandled interrupt"
+  }, 
+  {
+    "address": "000265bc", 
+    "length": 15, 
+    "value": "Stack overflow"
+  }, 
+  {
+    "address": "000265cb", 
+    "length": 12, 
+    "value": "Kernel oops"
+  }, 
+  {
+    "address": "000265d7", 
+    "length": 13, 
+    "value": "Kernel panic"
+  }, 
+  {
+    "address": "000265e4", 
+    "length": 28, 
+    "value": "%s is disabled, skipping it"
+  }, 
+  {
+    "address": "0002fb82", 
+    "length": 14, 
+    "value": "XXXXXXXXXXXXX"
+  }, 
+  {
+    "address": "0002fba5", 
+    "length": 23, 
+    "value": "Steam Controller Puck"
+  }, 
+  {
+    "address": "0002fbcf", 
+    "length": 17, 
+    "value": "Valve Software"
+  }
+]

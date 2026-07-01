@@ -1,0 +1,354 @@
+[
+  {
+    "string_value": "Failed to set haptics master gain", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "00048645", 
+    "ref_addr": "00046f98", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "ST_USB_WAIT_FOR_WAKEUP_entry", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "00048b75", 
+    "ref_addr": "00044afc", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "ST_USB_WAIT_FOR_WAKEUP_entry", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "00048b75", 
+    "ref_addr": "00044b34", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "esb/bond", 
+    "function_addr": "0002cce4", 
+    "containing_function": "FUN_0002cce4", 
+    "string_addr": "00049177", 
+    "ref_addr": "0002cd98", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "Steam Controller", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "00049311", 
+    "ref_addr": "00047620", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "t/dis/fw", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "00049367", 
+    "ref_addr": "00047610", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "config", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "0004ca2c", 
+    "ref_addr": "00047f30", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "config", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "0004ca2c", 
+    "ref_addr": "00047f34", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "00027108", 
+    "containing_function": "FUN_00027108", 
+    "string_addr": "0004d344", 
+    "ref_addr": "00027120", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "0002717c", 
+    "containing_function": "FUN_0002717c", 
+    "string_addr": "0004d344", 
+    "ref_addr": "0002719e", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "00027334", 
+    "containing_function": "FUN_00027334", 
+    "string_addr": "0004d344", 
+    "ref_addr": "0002738e", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "00027334", 
+    "containing_function": "FUN_00027334", 
+    "string_addr": "0004d344", 
+    "ref_addr": "000273ba", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "00027cb8", 
+    "containing_function": "FUN_00027cb8", 
+    "string_addr": "0004d344", 
+    "ref_addr": "00027cce", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "00027de4", 
+    "containing_function": "FUN_00027de4", 
+    "string_addr": "0004d344", 
+    "ref_addr": "00027e16", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "0003ff02", 
+    "containing_function": "FUN_0003ff02", 
+    "string_addr": "0004d344", 
+    "ref_addr": "000270e0", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "00027e88", 
+    "containing_function": "FUN_00027e88", 
+    "string_addr": "0004d344", 
+    "ref_addr": "00027e96", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "00027e88", 
+    "containing_function": "FUN_00027e88", 
+    "string_addr": "0004d344", 
+    "ref_addr": "00027ec6", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "00027e88", 
+    "containing_function": "FUN_00027e88", 
+    "string_addr": "0004d344", 
+    "ref_addr": "00027ee6", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "00027e88", 
+    "containing_function": "FUN_00027e88", 
+    "string_addr": "0004d344", 
+    "ref_addr": "00027f02", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "00027e88", 
+    "containing_function": "FUN_00027e88", 
+    "string_addr": "0004d344", 
+    "ref_addr": "00027f2c", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "000271b8", 
+    "containing_function": "FUN_000271b8", 
+    "string_addr": "0004d344", 
+    "ref_addr": "00027312", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "000271b8", 
+    "containing_function": "FUN_000271b8", 
+    "string_addr": "0004d344", 
+    "ref_addr": "00027256", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "0002848c", 
+    "containing_function": "FUN_0002848c", 
+    "string_addr": "0004d344", 
+    "ref_addr": "000284a6", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "0002834c", 
+    "containing_function": "FUN_0002834c", 
+    "string_addr": "0004d344", 
+    "ref_addr": "000283a4", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Invalid identity %s", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "0004d344", 
+    "ref_addr": "00028180", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "not attached, EP 0x%02x event dropped", 
+    "function_addr": "0002ce00", 
+    "containing_function": "FUN_0002ce00", 
+    "string_addr": "0004d57c", 
+    "ref_addr": "0002ce5c", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "not attached, EP 0x%02x event dropped", 
+    "function_addr": "0002ce00", 
+    "containing_function": "FUN_0002ce00", 
+    "string_addr": "0004d57c", 
+    "ref_addr": "0002ce76", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Oversampling value %d is not valid", 
+    "function_addr": "00020ec0", 
+    "containing_function": "FUN_00020ec0", 
+    "string_addr": "0004d88c", 
+    "ref_addr": "00020ece", 
+    "ref_type": "READ"
+  }, 
+  {
+    "string_value": "adc@40007000", 
+    "function_addr": "00001f6c", 
+    "containing_function": "FUN_00001f6c", 
+    "string_addr": "0004d8d4", 
+    "ref_addr": "00001f7e", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "io@50000300", 
+    "function_addr": "000078f4", 
+    "containing_function": "FUN_000078f4", 
+    "string_addr": "0004da04", 
+    "ref_addr": "00007904", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "io@50000300", 
+    "function_addr": "00007928", 
+    "containing_function": "FUN_00007928", 
+    "string_addr": "0004da04", 
+    "ref_addr": "0000793a", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "gpio@50000000", 
+    "function_addr": "00007960", 
+    "containing_function": "FUN_00007960", 
+    "string_addr": "0004da10", 
+    "ref_addr": "000079ae", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "Need to use the internal driver buffer but its size is insufficient (%u + %u > %u). Adjust the zephyr,concat-buf-size or zephyr,flash-buf-max-size property (the one with greater value) in the \\\"%s\\\" node.", 
+    "function_addr": "00007b78", 
+    "containing_function": "FUN_00007b78", 
+    "string_addr": "0004da22", 
+    "ref_addr": "00007bba", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "attr_set() not supported on this channel.", 
+    "function_addr": "00049c4a", 
+    "containing_function": "FUN_00049c4a", 
+    "string_addr": "0004e152", 
+    "ref_addr": "0004a068", 
+    "ref_type": "WRITE"
+  }, 
+  {
+    "string_value": "Dpad up", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "00050dce", 
+    "ref_addr": "00016f36", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Dpad up", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "00050dce", 
+    "ref_addr": "00017224", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "3wwww", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "00051311", 
+    "ref_addr": "00018160", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "3wwww", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "00051311", 
+    "ref_addr": "000180f6", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "igure IRQ", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "000515f6", 
+    "ref_addr": "0001876c", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "Exec format error", 
+    "function_addr": "00010d90", 
+    "containing_function": "FUN_00010d90", 
+    "string_addr": "00051b9a", 
+    "ref_addr": "00010dde", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Exec format error", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "00051b9a", 
+    "ref_addr": "0001135a", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Mathematics argument out of domain of function", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "00051e23", 
+    "ref_addr": "00019254", 
+    "ref_type": "DATA"
+  }, 
+  {
+    "string_value": "Protocol not available", 
+    "function_addr": "00019994", 
+    "containing_function": "FUN_00019994", 
+    "string_addr": "00052189", 
+    "ref_addr": "00019aa2", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "Connection refused", 
+    "function_addr": "00011498", 
+    "containing_function": "FUN_00011498", 
+    "string_addr": "000521c1", 
+    "ref_addr": "000114d6", 
+    "ref_type": "PARAM"
+  }
+]

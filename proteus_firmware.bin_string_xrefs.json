@@ -1,0 +1,26 @@
+[
+  {
+    "string_value": "radio_send <ch> <pktlen> <numpkts> <interval_ms>", 
+    "function_addr": "000048b0", 
+    "containing_function": "FUN_000048b0", 
+    "string_addr": "000232eb", 
+    "ref_addr": "00004906", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "usbd_iface", 
+    "function_addr": "000092d0", 
+    "containing_function": "FUN_000092d0", 
+    "string_addr": "0002514f", 
+    "ref_addr": "000092de", 
+    "ref_type": "PARAM"
+  }, 
+  {
+    "string_value": "f range", 
+    "function_addr": "NONE", 
+    "containing_function": "NONE", 
+    "string_addr": "000263f9", 
+    "ref_addr": "0002f5a8", 
+    "ref_type": "DATA"
+  }
+]

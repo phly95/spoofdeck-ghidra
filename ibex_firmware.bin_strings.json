@@ -1,0 +1,4462 @@
+[
+  {
+    "address": "0004860a", 
+    "length": 20, 
+    "value": "Unsupported HWID %u"
+  }, 
+  {
+    "address": "0004861e", 
+    "length": 39, 
+    "value": "settings/haptics/haptic_master_gain_db"
+  }, 
+  {
+    "address": "00048645", 
+    "length": 34, 
+    "value": "Failed to set haptics master gain"
+  }, 
+  {
+    "address": "00048667", 
+    "length": 25, 
+    "value": "settings/haptics/enabled"
+  }, 
+  {
+    "address": "00048680", 
+    "length": 25, 
+    "value": "Failed to enable haptics"
+  }, 
+  {
+    "address": "00048699", 
+    "length": 32, 
+    "value": "settings/haptics/amplifier_mode"
+  }, 
+  {
+    "address": "000486b9", 
+    "length": 37, 
+    "value": "Failed to set haptics amplifier mode"
+  }, 
+  {
+    "address": "000486de", 
+    "length": 44, 
+    "value": "Starting Triton BUILD_TIME_%08x GIT_SHA_%s\\n"
+  }, 
+  {
+    "address": "0004870f", 
+    "length": 59, 
+    "value": "Fuel gauge device is not ready. Not polling battery status"
+  }, 
+  {
+    "address": "0004874a", 
+    "length": 37, 
+    "value": "Error initializing stats system [%d]"
+  }, 
+  {
+    "address": "0004876f", 
+    "length": 26, 
+    "value": "Failed to allocate report"
+  }, 
+  {
+    "address": "00048789", 
+    "length": 11, 
+    "value": "keyboard"
+  }, 
+  {
+    "address": "000487b8", 
+    "length": 8, 
+    "value": "lizard"
+  }, 
+  {
+    "address": "000487c4", 
+    "length": 40, 
+    "value": "SettingsChanged: Exceeded CB array (%d)"
+  }, 
+  {
+    "address": "000487ec", 
+    "length": 36, 
+    "value": "SettingsSet: Exceeded CB array (%d)"
+  }, 
+  {
+    "address": "00048810", 
+    "length": 20, 
+    "value": "controller_settings"
+  }, 
+  {
+    "address": "00048824", 
+    "length": 34, 
+    "value": "Failed to send full HID report %d"
+  }, 
+  {
+    "address": "00048846", 
+    "length": 11, 
+    "value": "ibex_input"
+  }, 
+  {
+    "address": "00048851", 
+    "length": 19, 
+    "value": "rgbled_test_thread"
+  }, 
+  {
+    "address": "00048890", 
+    "length": 7, 
+    "value": "rgbled"
+  }, 
+  {
+    "address": "000488b0", 
+    "length": 10, 
+    "value": "%s (%04X)"
+  }, 
+  {
+    "address": "000488ba", 
+    "length": 27, 
+    "value": "Configuring for %d seconds"
+  }, 
+  {
+    "address": "000488d5", 
+    "length": 27, 
+    "value": "Disabling activity monitor"
+  }, 
+  {
+    "address": "000488f0", 
+    "length": 14, 
+    "value": "inact_monitor"
+  }, 
+  {
+    "address": "000488fe", 
+    "length": 8, 
+    "value": "tp_pres"
+  }, 
+  {
+    "address": "00048906", 
+    "length": 22, 
+    "value": "Init device not ready"
+  }, 
+  {
+    "address": "0004891c", 
+    "length": 46, 
+    "value": "Init device(s) not ready: left(%d), right(%d)"
+  }, 
+  {
+    "address": "0004894a", 
+    "length": 45, 
+    "value": "grip touch threshold failed to retrieve (%d)"
+  }, 
+  {
+    "address": "00048977", 
+    "length": 48, 
+    "value": "grip de-touch threshold failed to retrieve (%d)"
+  }, 
+  {
+    "address": "000489a7", 
+    "length": 12, 
+    "value": "cal/touch_r"
+  }, 
+  {
+    "address": "000489b3", 
+    "length": 12, 
+    "value": "cal/touch_l"
+  }, 
+  {
+    "address": "000489bf", 
+    "length": 10, 
+    "value": "cal/prs_r"
+  }, 
+  {
+    "address": "000489c9", 
+    "length": 10, 
+    "value": "cal/prs_l"
+  }, 
+  {
+    "address": "000489fe", 
+    "length": 31, 
+    "value": "Wireless operation (continued)"
+  }, 
+  {
+    "address": "00048a1d", 
+    "length": 24, 
+    "value": "USB connected operation"
+  }, 
+  {
+    "address": "00048a35", 
+    "length": 26, 
+    "value": "Charging dongle operation"
+  }, 
+  {
+    "address": "00048a4f", 
+    "length": 47, 
+    "value": "Failed to set BC1.2 result callback for MP2733"
+  }, 
+  {
+    "address": "00048a7e", 
+    "length": 18, 
+    "value": "Stopping wireless"
+  }, 
+  {
+    "address": "00048a90", 
+    "length": 16, 
+    "value": "Missed event %u"
+  }, 
+  {
+    "address": "00048aa0", 
+    "length": 24, 
+    "value": "user/wireless_transport"
+  }, 
+  {
+    "address": "00048ab8", 
+    "length": 21, 
+    "value": "Failed to enable USB"
+  }, 
+  {
+    "address": "00048acd", 
+    "length": 27, 
+    "value": "Battery wireless operation"
+  }, 
+  {
+    "address": "00048ae8", 
+    "length": 23, 
+    "value": "Shutdown - low battery"
+  }, 
+  {
+    "address": "00048aff", 
+    "length": 26, 
+    "value": "Shutdown - keylock active"
+  }, 
+  {
+    "address": "00048b19", 
+    "length": 17, 
+    "value": "ST_INITIAL_entry"
+  }, 
+  {
+    "address": "00048b2a", 
+    "length": 34, 
+    "value": "ST_USB_WAIT_FOR_ENUMERATION_entry"
+  }, 
+  {
+    "address": "00048b4c", 
+    "length": 18, 
+    "value": "ST_USB_DATA_entry"
+  }, 
+  {
+    "address": "00048b5e", 
+    "length": 23, 
+    "value": "ST_USB_SUSPENDED_entry"
+  }, 
+  {
+    "address": "00048b75", 
+    "length": 29, 
+    "value": "ST_USB_WAIT_FOR_WAKEUP_entry"
+  }, 
+  {
+    "address": "00048b92", 
+    "length": 25, 
+    "value": "ST_USB_WIRELESS_ON_entry"
+  }, 
+  {
+    "address": "00048bab", 
+    "length": 26, 
+    "value": "ST_USB_WIRELESS_OFF_entry"
+  }, 
+  {
+    "address": "00048bc5", 
+    "length": 18, 
+    "value": "ST_PUCK_OFF_entry"
+  }, 
+  {
+    "address": "00048bd7", 
+    "length": 38, 
+    "value": "ST_PUCK_OFF_DEBOUNCE_DETACHMENT_entry"
+  }, 
+  {
+    "address": "00048bfd", 
+    "length": 31, 
+    "value": "ST_PUCK_KEYCHORD_CURRENT_entry"
+  }, 
+  {
+    "address": "00048c1c", 
+    "length": 26, 
+    "value": "ST_PUCK_KEYCHORD_BT_entry"
+  }, 
+  {
+    "address": "00048c36", 
+    "length": 27, 
+    "value": "ST_PUCK_KEYCHORD_ESB_entry"
+  }, 
+  {
+    "address": "00048c51", 
+    "length": 31, 
+    "value": "ST_PUCK_KEYCHORD_ESB_ALT_entry"
+  }, 
+  {
+    "address": "00048c70", 
+    "length": 17, 
+    "value": "ST_PUCK_ON_entry"
+  }, 
+  {
+    "address": "00048c81", 
+    "length": 34, 
+    "value": "ST_BATTERY_KEYCHORD_CURRENT_entry"
+  }, 
+  {
+    "address": "00048ca3", 
+    "length": 29, 
+    "value": "ST_BATTERY_KEYCHORD_BT_entry"
+  }, 
+  {
+    "address": "00048cc0", 
+    "length": 30, 
+    "value": "ST_BATTERY_KEYCHORD_ESB_entry"
+  }, 
+  {
+    "address": "00048cde", 
+    "length": 34, 
+    "value": "ST_BATTERY_KEYCHORD_ESB_ALT_entry"
+  }, 
+  {
+    "address": "00048d00", 
+    "length": 17, 
+    "value": "ST_BATTERY_entry"
+  }, 
+  {
+    "address": "00048d11", 
+    "length": 18, 
+    "value": "ST_SHUTDOWN_entry"
+  }, 
+  {
+    "address": "00048d23", 
+    "length": 25, 
+    "value": "ST_SHUTDOWN_SILENT_entry"
+  }, 
+  {
+    "address": "00048d3c", 
+    "length": 27, 
+    "value": "ST_SHUTDOWN_LOW_BATT_entry"
+  }, 
+  {
+    "address": "00048d57", 
+    "length": 33, 
+    "value": "ST_SHUTDOWN_KEYLOCK_ACTIVE_entry"
+  }, 
+  {
+    "address": "00048d78", 
+    "length": 16, 
+    "value": "ST_REBOOT_entry"
+  }, 
+  {
+    "address": "00048d88", 
+    "length": 23, 
+    "value": "ST_REBOOT_SILENT_entry"
+  }, 
+  {
+    "address": "00048d9f", 
+    "length": 32, 
+    "value": "controller_state_machine_thread"
+  }, 
+  {
+    "address": "00048dc4", 
+    "length": 10, 
+    "value": "ibex_loop"
+  }, 
+  {
+    "address": "00048e20", 
+    "length": 24, 
+    "value": "get_id_get_battery_data"
+  }, 
+  {
+    "address": "00048e38", 
+    "length": 8, 
+    "value": "Bad key"
+  }, 
+  {
+    "address": "00048e40", 
+    "length": 28, 
+    "value": "Failed to erase calibration"
+  }, 
+  {
+    "address": "00048e5c", 
+    "length": 27, 
+    "value": "Erasing calibration blocks"
+  }, 
+  {
+    "address": "00048e7b", 
+    "length": 26, 
+    "value": "Erased calibration blocks"
+  }, 
+  {
+    "address": "00048e95", 
+    "length": 26, 
+    "value": "%s: GET: ID_GET_LED_COLOR"
+  }, 
+  {
+    "address": "00048eaf", 
+    "length": 26, 
+    "value": "%s: SET: ID_SET_LED_COLOR"
+  }, 
+  {
+    "address": "00048ec9", 
+    "length": 21, 
+    "value": "get_id_set_led_color"
+  }, 
+  {
+    "address": "00048ede", 
+    "length": 21, 
+    "value": "get_id_get_led_color"
+  }, 
+  {
+    "address": "00048ef3", 
+    "length": 20, 
+    "value": "%s:Invalid side %u\\n"
+  }, 
+  {
+    "address": "00048f07", 
+    "length": 15, 
+    "value": "set_id_persist"
+  }, 
+  {
+    "address": "00048f16", 
+    "length": 21, 
+    "value": "%s: SET: ID_TURN_OFF"
+  }, 
+  {
+    "address": "00048f2b", 
+    "length": 28, 
+    "value": "%s: SET: ID_REBOOT_INTO_ISP"
+  }, 
+  {
+    "address": "00048f47", 
+    "length": 35, 
+    "value": "%s: SET: ID_FIRMWARE_UPDATE_REBOOT"
+  }, 
+  {
+    "address": "00048f6a", 
+    "length": 16, 
+    "value": "set_ID_TURN_OFF"
+  }, 
+  {
+    "address": "00048f7a", 
+    "length": 30, 
+    "value": "set_ID_FIRMWARE_UPDATE_REBOOT"
+  }, 
+  {
+    "address": "00048f98", 
+    "length": 23, 
+    "value": "set_ID_REBOOT_INTO_ISP"
+  }, 
+  {
+    "address": "00048faf", 
+    "length": 27, 
+    "value": "%s: SET: ID_SET_USER_STORE"
+  }, 
+  {
+    "address": "00048fca", 
+    "length": 23, 
+    "value": "user/haptic_boot_level"
+  }, 
+  {
+    "address": "00048fe1", 
+    "length": 27, 
+    "value": "%s: GET: ID_GET_USER_STORE"
+  }, 
+  {
+    "address": "00048ffc", 
+    "length": 22, 
+    "value": "get_id_set_user_store"
+  }, 
+  {
+    "address": "00049012", 
+    "length": 22, 
+    "value": "get_id_get_user_store"
+  }, 
+  {
+    "address": "00049028", 
+    "length": 23, 
+    "value": "CLEAR DIGITAL MAPPINGS"
+  }, 
+  {
+    "address": "0004903f", 
+    "length": 41, 
+    "value": "%s: GET: ID_LOAD_DEFAULT_SETTINGS_VALUES"
+  }, 
+  {
+    "address": "00049068", 
+    "length": 32, 
+    "value": "%s: GET: ID_GET_SETTINGS_VALUES"
+  }, 
+  {
+    "address": "00049088", 
+    "length": 57, 
+    "value": "%s: SET: ID_SET_SETTINGS_VALUES (%d of %d): SET %u to %d"
+  }, 
+  {
+    "address": "000490c1", 
+    "length": 26, 
+    "value": "settings/sensors/imu/mode"
+  }, 
+  {
+    "address": "000490db", 
+    "length": 30, 
+    "value": "settings/sensors/imu/use_bias"
+  }, 
+  {
+    "address": "000490f9", 
+    "length": 36, 
+    "value": "settings/sensors/imu/gyro_threshold"
+  }, 
+  {
+    "address": "0004911d", 
+    "length": 36, 
+    "value": "get_id_load_default_settings_values"
+  }, 
+  {
+    "address": "00049141", 
+    "length": 27, 
+    "value": "get_id_set_settings_values"
+  }, 
+  {
+    "address": "0004915c", 
+    "length": 27, 
+    "value": "get_id_get_settings_values"
+  }, 
+  {
+    "address": "00049177", 
+    "length": 9, 
+    "value": "esb/bond"
+  }, 
+  {
+    "address": "00049180", 
+    "length": 11, 
+    "value": "Wrong size"
+  }, 
+  {
+    "address": "0004918b", 
+    "length": 21, 
+    "value": "stream op unknown %u"
+  }, 
+  {
+    "address": "000491a0", 
+    "length": 11, 
+    "value": "hid_stream"
+  }, 
+  {
+    "address": "000491ab", 
+    "length": 26, 
+    "value": "Unrecognized command type"
+  }, 
+  {
+    "address": "000491cb", 
+    "length": 32, 
+    "value": "BLE connection parameter update"
+  }, 
+  {
+    "address": "000491eb", 
+    "length": 25, 
+    "value": "\\tconnection interval: %u"
+  }, 
+  {
+    "address": "00049204", 
+    "length": 24, 
+    "value": "\\tconnection latency: %u"
+  }, 
+  {
+    "address": "0004921c", 
+    "length": 24, 
+    "value": "\\tconnection timeout: %u"
+  }, 
+  {
+    "address": "00049234", 
+    "length": 31, 
+    "value": "Suboptimal connection interval"
+  }, 
+  {
+    "address": "00049253", 
+    "length": 40, 
+    "value": "BLE connection parameter update request"
+  }, 
+  {
+    "address": "0004927b", 
+    "length": 25, 
+    "value": "\\tconnection latency: %u\\n"
+  }, 
+  {
+    "address": "00049294", 
+    "length": 25, 
+    "value": "\\tconnection timeout: %u\\n"
+  }, 
+  {
+    "address": "000492ad", 
+    "length": 41, 
+    "value": "Suboptimal connection interval requested"
+  }, 
+  {
+    "address": "000492d6", 
+    "length": 19, 
+    "value": "Steam Ctrl (BT) %s"
+  }, 
+  {
+    "address": "000492e9", 
+    "length": 40, 
+    "value": "Failed to set Bluetooth device name: %s"
+  }, 
+  {
+    "address": "00049311", 
+    "length": 17, 
+    "value": "Steam Controller"
+  }, 
+  {
+    "address": "00049322", 
+    "length": 13, 
+    "value": "bt/dis/model"
+  }, 
+  {
+    "address": "0004932f", 
+    "length": 18, 
+    "value": "Valve Corporation"
+  }, 
+  {
+    "address": "00049341", 
+    "length": 13, 
+    "value": "bt/dis/manuf"
+  }, 
+  {
+    "address": "0004934e", 
+    "length": 14, 
+    "value": "bt/dis/serial"
+  }, 
+  {
+    "address": "00049367", 
+    "length": 9, 
+    "value": "t/dis/fw"
+  }, 
+  {
+    "address": "00049370", 
+    "length": 32, 
+    "value": "HID report descriptor size: %zu"
+  }, 
+  {
+    "address": "00049390", 
+    "length": 36, 
+    "value": "HIDS initialization failed (err %d)"
+  }, 
+  {
+    "address": "000493bb", 
+    "length": 16, 
+    "value": "BLE remote info"
+  }, 
+  {
+    "address": "000493cb", 
+    "length": 14, 
+    "value": "\\ttype: 0x%02x"
+  }, 
+  {
+    "address": "000493d9", 
+    "length": 17, 
+    "value": "\\tversion: 0x%02x"
+  }, 
+  {
+    "address": "000493ea", 
+    "length": 22, 
+    "value": "\\tmanufacturer: 0x%04x"
+  }, 
+  {
+    "address": "00049400", 
+    "length": 20, 
+    "value": "\\tsubversion: 0x%04x"
+  }, 
+  {
+    "address": "00049414", 
+    "length": 51, 
+    "value": "\\tfeatures: %02x %02x %02x %02x %02x %02x %02x %02x"
+  }, 
+  {
+    "address": "00049447", 
+    "length": 21, 
+    "value": "\\t 2M PHY support: %s"
+  }, 
+  {
+    "address": "0004945c", 
+    "length": 18, 
+    "value": "\\t DLE support: %s"
+  }, 
+  {
+    "address": "0004946e", 
+    "length": 49, 
+    "value": "Bond info for id %d was deleted. Resetting id %d"
+  }, 
+  {
+    "address": "0004949f", 
+    "length": 34, 
+    "value": "general, single peer allow-listed"
+  }, 
+  {
+    "address": "000494c1", 
+    "length": 8, 
+    "value": "general"
+  }, 
+  {
+    "address": "000494c9", 
+    "length": 9, 
+    "value": "directed"
+  }, 
+  {
+    "address": "000494d2", 
+    "length": 41, 
+    "value": "Cannot get advertising response data: %s"
+  }, 
+  {
+    "address": "000494fb", 
+    "length": 34, 
+    "value": "Cannot get scan response data: %s"
+  }, 
+  {
+    "address": "0004951d", 
+    "length": 24, 
+    "value": "Advertising (%s): id %d"
+  }, 
+  {
+    "address": "00049535", 
+    "length": 16, 
+    "value": "Advertising: %d"
+  }, 
+  {
+    "address": "00049545", 
+    "length": 7, 
+    "value": "public"
+  }, 
+  {
+    "address": "0004954c", 
+    "length": 7, 
+    "value": "random"
+  }, 
+  {
+    "address": "00049553", 
+    "length": 10, 
+    "value": "public-id"
+  }, 
+  {
+    "address": "0004955d", 
+    "length": 10, 
+    "value": "random-id"
+  }, 
+  {
+    "address": "00049567", 
+    "length": 35, 
+    "value": "%02X:%02X:%02X:%02X:%02X:%02X (%s)"
+  }, 
+  {
+    "address": "0004958a", 
+    "length": 22, 
+    "value": "\\tID %d : bonded to %s"
+  }, 
+  {
+    "address": "000495a3", 
+    "length": 26, 
+    "value": "Booted with %d identities"
+  }, 
+  {
+    "address": "000495bd", 
+    "length": 24, 
+    "value": "Created new identity %d"
+  }, 
+  {
+    "address": "000495d5", 
+    "length": 24, 
+    "value": "List of existing bonds:"
+  }, 
+  {
+    "address": "000495ed", 
+    "length": 9, 
+    "value": "End list"
+  }, 
+  {
+    "address": "000495f6", 
+    "length": 18, 
+    "value": "Enabled (code %d)"
+  }, 
+  {
+    "address": "00049608", 
+    "length": 16, 
+    "value": "  Disconnect %d"
+  }, 
+  {
+    "address": "00049618", 
+    "length": 23, 
+    "value": "  Already disconnected"
+  }, 
+  {
+    "address": "0004962f", 
+    "length": 33, 
+    "value": "Disconnected from %s (reason %u)"
+  }, 
+  {
+    "address": "00049650", 
+    "length": 45, 
+    "value": "Failed to notify HIDS about disconnection %d"
+  }, 
+  {
+    "address": "0004967d", 
+    "length": 32, 
+    "value": "Connection event trigger failed"
+  }, 
+  {
+    "address": "0004969d", 
+    "length": 8, 
+    "value": "Unknown"
+  }, 
+  {
+    "address": "000496a5", 
+    "length": 15, 
+    "value": "BLE PHY update"
+  }, 
+  {
+    "address": "000496b4", 
+    "length": 12, 
+    "value": "\\tTx PHY: %s"
+  }, 
+  {
+    "address": "000496c0", 
+    "length": 12, 
+    "value": "\\tRx PHY: %s"
+  }, 
+  {
+    "address": "000496cc", 
+    "length": 29, 
+    "value": "Failed to connect to %s (%u)"
+  }, 
+  {
+    "address": "000496e9", 
+    "length": 33, 
+    "value": "Failed to get connection info %d"
+  }, 
+  {
+    "address": "0004970a", 
+    "length": 13, 
+    "value": "Connected %s"
+  }, 
+  {
+    "address": "00049717", 
+    "length": 42, 
+    "value": "Failed to notify HIDS about connection %d"
+  }, 
+  {
+    "address": "00049741", 
+    "length": 30, 
+    "value": "Unable to send hid report, %u"
+  }, 
+  {
+    "address": "0004975f", 
+    "length": 11, 
+    "value": "No packets"
+  }, 
+  {
+    "address": "00049776", 
+    "length": 9, 
+    "value": "LE Coded"
+  }, 
+  {
+    "address": "0004977f", 
+    "length": 14, 
+    "value": "bt_rpt_thread"
+  }, 
+  {
+    "address": "0004978d", 
+    "length": 10, 
+    "value": "bluetooth"
+  }, 
+  {
+    "address": "00049c1d", 
+    "length": 20, 
+    "value": "Unknown messsage %u"
+  }, 
+  {
+    "address": "00049c31", 
+    "length": 16, 
+    "value": "Lost connection"
+  }, 
+  {
+    "address": "0004a44b", 
+    "length": 21, 
+    "value": "GC Done marker found"
+  }, 
+  {
+    "address": "0004a467", 
+    "length": 8, 
+    "value": "logging"
+  }, 
+  {
+    "address": "0004a478", 
+    "length": 63, 
+    "value": "Message (\\\"%s\\\") dropped because it exceeds size limitation (%u)"
+  }, 
+  {
+    "address": "0004a4b7", 
+    "length": 56, 
+    "value": "Message dropped because it exceeds size limitation (%u)"
+  }, 
+  {
+    "address": "0004a586", 
+    "length": 16, 
+    "value": "log_backend_rtt"
+  }, 
+  {
+    "address": "0004a596", 
+    "length": 10, 
+    "value": "pm_device"
+  }, 
+  {
+    "address": "0004a5a8", 
+    "length": 27, 
+    "value": "Endpoint 0x%02x is invalid"
+  }, 
+  {
+    "address": "0004a5c3", 
+    "length": 33, 
+    "value": "Endpoint 0x%02x already disabled"
+  }, 
+  {
+    "address": "0004a5e4", 
+    "length": 34, 
+    "value": "Failed to disable endpoint 0x%02x"
+  }, 
+  {
+    "address": "0004a606", 
+    "length": 19, 
+    "value": "Set halt ep 0x%02x"
+  }, 
+  {
+    "address": "0004a619", 
+    "length": 21, 
+    "value": "Clear halt ep 0x%02x"
+  }, 
+  {
+    "address": "0004a62e", 
+    "length": 35, 
+    "value": "Endpoint 0x%02x already configured"
+  }, 
+  {
+    "address": "0004a651", 
+    "length": 36, 
+    "value": "Failed to configure endpoint 0x%02x"
+  }, 
+  {
+    "address": "0004a675", 
+    "length": 32, 
+    "value": "Endpoint 0x%02x already enabled"
+  }, 
+  {
+    "address": "0004a695", 
+    "length": 33, 
+    "value": "Failed to enable endpoint 0x%02x"
+  }, 
+  {
+    "address": "0004a6b6", 
+    "length": 39, 
+    "value": "Failed to write endpoint buffer 0x%02x"
+  }, 
+  {
+    "address": "0004a6dd", 
+    "length": 25, 
+    "value": "Request buffer too small"
+  }, 
+  {
+    "address": "0004a6f6", 
+    "length": 35, 
+    "value": "USB device support already enabled"
+  }, 
+  {
+    "address": "0004a719", 
+    "length": 37, 
+    "value": "Failed to configure USB device stack"
+  }, 
+  {
+    "address": "0004a73e", 
+    "length": 47, 
+    "value": "Erroneous device descriptor or bMaxPacketSize0"
+  }, 
+  {
+    "address": "0004a841", 
+    "length": 29, 
+    "value": "Incomplete device descriptor"
+  }, 
+  {
+    "address": "0004a85e", 
+    "length": 31, 
+    "value": "Failed to fixup USB descriptor"
+  }, 
+  {
+    "address": "0004a87d", 
+    "length": 15, 
+    "value": "usb_descriptor"
+  }, 
+  {
+    "address": "0004a88c", 
+    "length": 29, 
+    "value": "Transfer error %d, ep 0x%02x"
+  }, 
+  {
+    "address": "0004a8a9", 
+    "length": 13, 
+    "value": "usb_transfer"
+  }, 
+  {
+    "address": "0004a8bf", 
+    "length": 51, 
+    "value": "Failed to read manufacturer from storage (err %zd)"
+  }, 
+  {
+    "address": "0004a8f2", 
+    "length": 44, 
+    "value": "Failed to read model from storage (err %zd)"
+  }, 
+  {
+    "address": "0004a91e", 
+    "length": 52, 
+    "value": "Failed to read serial number from storage (err %zd)"
+  }, 
+  {
+    "address": "0004a952", 
+    "length": 56, 
+    "value": "Failed to read firmware revision from storage (err %zd)"
+  }, 
+  {
+    "address": "0004a98a", 
+    "length": 56, 
+    "value": "Failed to read software revision from storage (err %zd)"
+  }, 
+  {
+    "address": "0004a9c9", 
+    "length": 7, 
+    "value": "bt_dis"
+  }, 
+  {
+    "address": "0004a9d0", 
+    "length": 21, 
+    "value": "BAS Notifications %s"
+  }, 
+  {
+    "address": "0004a9e9", 
+    "length": 37, 
+    "value": "set-value failure. key: %s error(%d)"
+  }, 
+  {
+    "address": "0004aa0e", 
+    "length": 61, 
+    "value": "*** Booting My Application v0.0.0-none - unknown commit ***\\n"
+  }, 
+  {
+    "address": "0004aa4b", 
+    "length": 51, 
+    "value": "*** Using nRF Connect SDK v2.9.0-d93dcad627bd ***\\n"
+  }, 
+  {
+    "address": "0004aa7e", 
+    "length": 46, 
+    "value": "*** Using Zephyr OS v3.7.99-af30fca7cecd ***\\n"
+  }, 
+  {
+    "address": "0004aaac", 
+    "length": 29, 
+    "value": "No more UUID16s in the pool!"
+  }, 
+  {
+    "address": "0004aac9", 
+    "length": 29, 
+    "value": "No more UUID32s in the pool!"
+  }, 
+  {
+    "address": "0004aae6", 
+    "length": 30, 
+    "value": "No more UUID128s in the pool!"
+  }, 
+  {
+    "address": "0004ab04", 
+    "length": 18, 
+    "value": "Unknown UUID type"
+  }, 
+  {
+    "address": "0004ab16", 
+    "length": 18, 
+    "value": "Invalid attribute"
+  }, 
+  {
+    "address": "0004ab28", 
+    "length": 27, 
+    "value": "No space left on given svc"
+  }, 
+  {
+    "address": "0004ab43", 
+    "length": 38, 
+    "value": "No more chrc descriptors in the pool!"
+  }, 
+  {
+    "address": "0004ab69", 
+    "length": 53, 
+    "value": "Wrong function used for special attribute allocation"
+  }, 
+  {
+    "address": "0004ab9e", 
+    "length": 13, 
+    "value": "bt_gatt_pool"
+  }, 
+  {
+    "address": "0004abab", 
+    "length": 28, 
+    "value": "Memory can not be allocated"
+  }, 
+  {
+    "address": "0004abc7", 
+    "length": 49, 
+    "value": "There is no allocated memory for this connection"
+  }, 
+  {
+    "address": "0004abf8", 
+    "length": 31, 
+    "value": "No memory block for connection"
+  }, 
+  {
+    "address": "0004ac17", 
+    "length": 12, 
+    "value": "bt_conn_ctx"
+  }, 
+  {
+    "address": "0004ac23", 
+    "length": 15, 
+    "value": "bt_le_adv_prov"
+  }, 
+  {
+    "address": "0004ac32", 
+    "length": 22, 
+    "value": "Read Tx power err: %d"
+  }, 
+  {
+    "address": "0004ac48", 
+    "length": 26, 
+    "value": "The context was not found"
+  }, 
+  {
+    "address": "0004ac62", 
+    "length": 59, 
+    "value": "There is no free memory to allocate the connection context"
+  }, 
+  {
+    "address": "0004ac9d", 
+    "length": 65, 
+    "value": "The memory was not allocated for the context of this connection."
+  }, 
+  {
+    "address": "0004acde", 
+    "length": 49, 
+    "value": "Report map size exceeds max ATT attribute length"
+  }, 
+  {
+    "address": "0004ae17", 
+    "length": 47, 
+    "value": "r0/a1:  0x%08x  r1/a2:  0x%08x  r2/a3:  0x%08x"
+  }, 
+  {
+    "address": "0004ae46", 
+    "length": 47, 
+    "value": "r3/a4:  0x%08x r12/ip:  0x%08x r14/lr:  0x%08x"
+  }, 
+  {
+    "address": "0004ae75", 
+    "length": 15, 
+    "value": " xpsr:  0x%08x"
+  }, 
+  {
+    "address": "0004ae84", 
+    "length": 67, 
+    "value": "s[%2d]:  0x%08x  s[%2d]:  0x%08x  s[%2d]:  0x%08x  s[%2d]:  0x%08x"
+  }, 
+  {
+    "address": "0004aec7", 
+    "length": 15, 
+    "value": "fpscr:  0x%08x"
+  }, 
+  {
+    "address": "0004aed6", 
+    "length": 46, 
+    "value": "Faulting instruction address (r15/pc): 0x%08x"
+  }, 
+  {
+    "address": "0004af04", 
+    "length": 19, 
+    "value": "Unhandled IRQn: %d"
+  }, 
+  {
+    "address": "0004af17", 
+    "length": 22, 
+    "value": "***** BUS FAULT *****"
+  }, 
+  {
+    "address": "0004af2d", 
+    "length": 17, 
+    "value": "  Stacking error"
+  }, 
+  {
+    "address": "0004af3e", 
+    "length": 19, 
+    "value": "  Unstacking error"
+  }, 
+  {
+    "address": "0004af51", 
+    "length": 25, 
+    "value": "  Precise data bus error"
+  }, 
+  {
+    "address": "0004af6a", 
+    "length": 21, 
+    "value": "  BFAR Address: 0x%x"
+  }, 
+  {
+    "address": "0004af7f", 
+    "length": 27, 
+    "value": "  Imprecise data bus error"
+  }, 
+  {
+    "address": "0004af9a", 
+    "length": 24, 
+    "value": "  Instruction bus error"
+  }, 
+  {
+    "address": "0004afb2", 
+    "length": 47, 
+    "value": "  Floating-point lazy state preservation error"
+  }, 
+  {
+    "address": "0004afe1", 
+    "length": 24, 
+    "value": "***** USAGE FAULT *****"
+  }, 
+  {
+    "address": "0004aff9", 
+    "length": 19, 
+    "value": "  Division by zero"
+  }, 
+  {
+    "address": "0004b00c", 
+    "length": 26, 
+    "value": "  Unaligned memory access"
+  }, 
+  {
+    "address": "0004b026", 
+    "length": 30, 
+    "value": "  No coprocessor instructions"
+  }, 
+  {
+    "address": "0004b044", 
+    "length": 37, 
+    "value": "  Illegal load of EXC_RETURN into PC"
+  }, 
+  {
+    "address": "0004b069", 
+    "length": 26, 
+    "value": "  Illegal use of the EPSR"
+  }, 
+  {
+    "address": "0004b083", 
+    "length": 43, 
+    "value": "  Attempt to execute undefined instruction"
+  }, 
+  {
+    "address": "0004b0ae", 
+    "length": 22, 
+    "value": "***** MPU FAULT *****"
+  }, 
+  {
+    "address": "0004b0c4", 
+    "length": 51, 
+    "value": "  Stacking error (context area might be not valid)"
+  }, 
+  {
+    "address": "0004b0f7", 
+    "length": 24, 
+    "value": "  Data Access Violation"
+  }, 
+  {
+    "address": "0004b10f", 
+    "length": 22, 
+    "value": "  MMFAR Address: 0x%x"
+  }, 
+  {
+    "address": "0004b125", 
+    "length": 31, 
+    "value": "  Instruction Access Violation"
+  }, 
+  {
+    "address": "0004b144", 
+    "length": 21, 
+    "value": "Reserved Exception ("
+  }, 
+  {
+    "address": "0004b159", 
+    "length": 25, 
+    "value": "Spurious interrupt (IRQ "
+  }, 
+  {
+    "address": "0004b172", 
+    "length": 43, 
+    "value": "SPSEL in thread mode does not indicate PSP"
+  }, 
+  {
+    "address": "0004b19d", 
+    "length": 23, 
+    "value": "***** HARD FAULT *****"
+  }, 
+  {
+    "address": "0004b1b4", 
+    "length": 33, 
+    "value": "  Bus fault on vector table read"
+  }, 
+  {
+    "address": "0004b1d5", 
+    "length": 14, 
+    "value": "  Debug event"
+  }, 
+  {
+    "address": "0004b1e3", 
+    "length": 31, 
+    "value": "  Fault escalation (see below)"
+  }, 
+  {
+    "address": "0004b202", 
+    "length": 28, 
+    "value": "ARCH_EXCEPT with reason %x\\n"
+  }, 
+  {
+    "address": "0004b21e", 
+    "length": 36, 
+    "value": "***** Debug monitor exception *****"
+  }, 
+  {
+    "address": "0004b242", 
+    "length": 19, 
+    "value": "***** %s %d) *****"
+  }, 
+  {
+    "address": "0004b259", 
+    "length": 38, 
+    "value": "Failed to allocate new MPU region %u\\n"
+  }, 
+  {
+    "address": "0004b27f", 
+    "length": 35, 
+    "value": "Partition %u: sanity check failed."
+  }, 
+  {
+    "address": "0004b2a2", 
+    "length": 8, 
+    "value": "FLASH_0"
+  }, 
+  {
+    "address": "0004b2b1", 
+    "length": 8, 
+    "value": "net_buf"
+  }, 
+  {
+    "address": "0004b2b9", 
+    "length": 15, 
+    "value": "net_buf_simple"
+  }, 
+  {
+    "address": "0004b2c8", 
+    "length": 25, 
+    "value": "new_state cannot be NULL"
+  }, 
+  {
+    "address": "0004b2e1", 
+    "length": 28, 
+    "value": "Calling %s from exit action"
+  }, 
+  {
+    "address": "0004b2fd", 
+    "length": 14, 
+    "value": "smf_set_state"
+  }, 
+  {
+    "address": "0004b313", 
+    "length": 60, 
+    "value": "LSM6D is not ready. Skipping IMU moutning matrix adjusement"
+  }, 
+  {
+    "address": "0004b34f", 
+    "length": 53, 
+    "value": "LSM6D is not ready. Skipping ff time windows setting"
+  }, 
+  {
+    "address": "0004b384", 
+    "length": 33, 
+    "value": "Failed to adjust ff time windows"
+  }, 
+  {
+    "address": "0004b3a5", 
+    "length": 55, 
+    "value": "LSM6D is not ready. Skipping alpha-blending adjusement"
+  }, 
+  {
+    "address": "0004b3dc", 
+    "length": 36, 
+    "value": "Failed to adjust alpha_blend factor"
+  }, 
+  {
+    "address": "0004b400", 
+    "length": 37, 
+    "value": "settings/sensors/imu/mounting_matrix"
+  }, 
+  {
+    "address": "0004b425", 
+    "length": 39, 
+    "value": "Failed to set LSM6D's moutning matrix"
+  }, 
+  {
+    "address": "0004b454", 
+    "length": 40, 
+    "value": "Failed to increase chargin current (%d)"
+  }, 
+  {
+    "address": "0004b47c", 
+    "length": 36, 
+    "value": "Failed to update current limit (%d)"
+  }, 
+  {
+    "address": "0004b4a0", 
+    "length": 36, 
+    "value": "Failed to write initial config (%d)"
+  }, 
+  {
+    "address": "0004b4c4", 
+    "length": 36, 
+    "value": "Failed to reset chip registers (%d)"
+  }, 
+  {
+    "address": "0004b4e8", 
+    "length": 41, 
+    "value": "Failed to get detecthed charger type(%d)"
+  }, 
+  {
+    "address": "0004b511", 
+    "length": 62, 
+    "value": "Charger is connected, ignoring request to enter shipping mode"
+  }, 
+  {
+    "address": "0004b54f", 
+    "length": 35, 
+    "value": "Failed to enter shipping mode (%d)"
+  }, 
+  {
+    "address": "0004b572", 
+    "length": 24, 
+    "value": "Failure during shutdown"
+  }, 
+  {
+    "address": "0004b58a", 
+    "length": 8, 
+    "value": "charger"
+  }, 
+  {
+    "address": "0004b592", 
+    "length": 38, 
+    "value": "Device data not found for endpoint %u"
+  }, 
+  {
+    "address": "0004b5b8", 
+    "length": 33, 
+    "value": "Device data not found for cfg %p"
+  }, 
+  {
+    "address": "0004b5d9", 
+    "length": 13, 
+    "value": "Device error"
+  }, 
+  {
+    "address": "0004b5e6", 
+    "length": 22, 
+    "value": "Device reset detected"
+  }, 
+  {
+    "address": "0004b5fc", 
+    "length": 17, 
+    "value": "Device connected"
+  }, 
+  {
+    "address": "0004b60d", 
+    "length": 18, 
+    "value": "Device configured"
+  }, 
+  {
+    "address": "0004b61f", 
+    "length": 20, 
+    "value": "Device disconnected"
+  }, 
+  {
+    "address": "0004b633", 
+    "length": 17, 
+    "value": "Device suspended"
+  }, 
+  {
+    "address": "0004b644", 
+    "length": 15, 
+    "value": "Device resumed"
+  }, 
+  {
+    "address": "0004b653", 
+    "length": 13, 
+    "value": "from suspend"
+  }, 
+  {
+    "address": "0004b660", 
+    "length": 14, 
+    "value": "Unknown event"
+  }, 
+  {
+    "address": "0004b66e", 
+    "length": 39, 
+    "value": "Device data not found for interface %u"
+  }, 
+  {
+    "address": "0004b695", 
+    "length": 25, 
+    "value": "Unhandled request 0x%02x"
+  }, 
+  {
+    "address": "0004b6ae", 
+    "length": 25, 
+    "value": "Device is not configured"
+  }, 
+  {
+    "address": "0004b6e9", 
+    "length": 17, 
+    "value": "0123456789abcdef"
+  }, 
+  {
+    "address": "0004b701", 
+    "length": 33, 
+    "value": "Insufficient number of arguments"
+  }, 
+  {
+    "address": "0004b722", 
+    "length": 36, 
+    "value": "Ignoring identities stored in flash"
+  }, 
+  {
+    "address": "0004b746", 
+    "length": 37, 
+    "value": "Invalid length ID address in storage"
+  }, 
+  {
+    "address": "0004b76b", 
+    "length": 50, 
+    "value": "Failed to read device name from storage (err %zd)"
+  }, 
+  {
+    "address": "0004b79d", 
+    "length": 36, 
+    "value": "bt/%s/%02x%02x%02x%02x%02x%02x%u/%s"
+  }, 
+  {
+    "address": "0004b7c1", 
+    "length": 33, 
+    "value": "bt/%s/%02x%02x%02x%02x%02x%02x%u"
+  }, 
+  {
+    "address": "0004b7e2", 
+    "length": 37, 
+    "value": "settings_subsys_init failed (err %d)"
+  }, 
+  {
+    "address": "0004b80d", 
+    "length": 27, 
+    "value": "Failed to save ID (err %d)"
+  }, 
+  {
+    "address": "0004b828", 
+    "length": 22, 
+    "value": "Steam Deck Controller"
+  }, 
+  {
+    "address": "0004b83e", 
+    "length": 36, 
+    "value": "Unable to setup an identity address"
+  }, 
+  {
+    "address": "0004b862", 
+    "length": 12, 
+    "value": "bt_settings"
+  }, 
+  {
+    "address": "0004b88f", 
+    "length": 8, 
+    "value": "bt_data"
+  }, 
+  {
+    "address": "0004b897", 
+    "length": 40, 
+    "value": "Data buffer overflow (link type 0x%02x)"
+  }, 
+  {
+    "address": "0004b8bf", 
+    "length": 38, 
+    "value": "Unable to look up conn with handle %u"
+  }, 
+  {
+    "address": "0004b8e5", 
+    "length": 36, 
+    "value": "Unable to lookup conn for handle %u"
+  }, 
+  {
+    "address": "0004b909", 
+    "length": 34, 
+    "value": "Hardware error, hardware code: %d"
+  }, 
+  {
+    "address": "0004b92b", 
+    "length": 29, 
+    "value": "Could not submit rx_work: %d"
+  }, 
+  {
+    "address": "0004b948", 
+    "length": 28, 
+    "value": "No connection for handle %u"
+  }, 
+  {
+    "address": "0004b964", 
+    "length": 26, 
+    "value": "Unable to allocate buffer"
+  }, 
+  {
+    "address": "0004b97e", 
+    "length": 34, 
+    "value": "Unhandled event 0x%02x len %u: %s"
+  }, 
+  {
+    "address": "0004b9a0", 
+    "length": 33, 
+    "value": "No pending peripheral connection"
+  }, 
+  {
+    "address": "0004b9c1", 
+    "length": 28, 
+    "value": "Unexpected status 0x%02x %s"
+  }, 
+  {
+    "address": "0004b9dd", 
+    "length": 34, 
+    "value": "Too small (%u bytes) event 0x%02x"
+  }, 
+  {
+    "address": "0004b9ff", 
+    "length": 33, 
+    "value": "Invalid HCI ACL packet size (%u)"
+  }, 
+  {
+    "address": "0004ba20", 
+    "length": 36, 
+    "value": "ACL data length mismatch (%u != %u)"
+  }, 
+  {
+    "address": "0004ba44", 
+    "length": 34, 
+    "value": "Unable to find conn for handle %u"
+  }, 
+  {
+    "address": "0004ba66", 
+    "length": 28, 
+    "value": "Invalid HCI event size (%u)"
+  }, 
+  {
+    "address": "0004ba82", 
+    "length": 72, 
+    "value": "WEST_TOPDIR/build/external-code/zephyr/subsys/bluetooth/host/hci_core.c"
+  }, 
+  {
+    "address": "0004baca", 
+    "length": 46, 
+    "value": "bt_hci_evt_get_flags(hdr->evt) & (1UL << (1))"
+  }, 
+  {
+    "address": "0004baf8", 
+    "length": 29, 
+    "value": "ASSERTION FAIL [%s] @ %s:%d\\n"
+  }, 
+  {
+    "address": "0004bb15", 
+    "length": 20, 
+    "value": "Unknown buf type %u"
+  }, 
+  {
+    "address": "0004bb29", 
+    "length": 50, 
+    "value": "Unhandled vendor-specific event 0x%02x len %u: %s"
+  }, 
+  {
+    "address": "0004bb5b", 
+    "length": 40, 
+    "value": "No command sent for cmd complete 0x%04x"
+  }, 
+  {
+    "address": "0004bb83", 
+    "length": 51, 
+    "value": "OpCode 0x%04x completed instead of expected 0x%04x"
+  }, 
+  {
+    "address": "0004bbb6", 
+    "length": 42, 
+    "value": "evt num_handles (=%u) too large (%u > %u)"
+  }, 
+  {
+    "address": "0004bbe0", 
+    "length": 23, 
+    "value": "packets count mismatch"
+  }, 
+  {
+    "address": "0004bbf7", 
+    "length": 38, 
+    "value": "Failed to set required security level"
+  }, 
+  {
+    "address": "0004bc1d", 
+    "length": 47, 
+    "value": "No change to encryption state (encrypt 0x%02x)"
+  }, 
+  {
+    "address": "0004bc4c", 
+    "length": 8, 
+    "value": "unknown"
+  }, 
+  {
+    "address": "0004bc54", 
+    "length": 25, 
+    "value": "evt_flags & (1UL << (0))"
+  }, 
+  {
+    "address": "0004bc6d", 
+    "length": 20, 
+    "value": "Invalid buf type %u"
+  }, 
+  {
+    "address": "0004bc85", 
+    "length": 15, 
+    "value": "Identity%s: %s"
+  }, 
+  {
+    "address": "0004bc94", 
+    "length": 17, 
+    "value": "Identity[%d]: %s"
+  }, 
+  {
+    "address": "0004bca5", 
+    "length": 62, 
+    "value": "HCI: version %s (0x%02x) revision 0x%04x, manufacturer 0x%04x"
+  }, 
+  {
+    "address": "0004bce3", 
+    "length": 39, 
+    "value": "LMP: version %s (0x%02x) subver 0x%04x"
+  }, 
+  {
+    "address": "0004bd0a", 
+    "length": 45, 
+    "value": "No ID address. App must call settings_load()"
+  }, 
+  {
+    "address": "0004bd37", 
+    "length": 29, 
+    "value": "HCI driver close failed (%d)"
+  }, 
+  {
+    "address": "0004bd54", 
+    "length": 21, 
+    "value": "Unable to store name"
+  }, 
+  {
+    "address": "0004bd69", 
+    "length": 34, 
+    "value": "Unable to send to driver (err %d)"
+  }, 
+  {
+    "address": "0004bd8b", 
+    "length": 23, 
+    "value": "Out of command buffers"
+  }, 
+  {
+    "address": "0004bda2", 
+    "length": 27, 
+    "value": "Uncleared pending sent_cmd"
+  }, 
+  {
+    "address": "0004bdbd", 
+    "length": 8, 
+    "value": "success"
+  }, 
+  {
+    "address": "0004bdc5", 
+    "length": 32, 
+    "value": "\\tcommand opcode 0x%04x timeout\\n"
+  }, 
+  {
+    "address": "0004bde5", 
+    "length": 9, 
+    "value": "err == 0"
+  }, 
+  {
+    "address": "0004bdee", 
+    "length": 69, 
+    "value": "\\tController unresponsive, command opcode 0x%04x timeout with err %d\\n"
+  }, 
+  {
+    "address": "0004be33", 
+    "length": 31, 
+    "value": "opcode 0x%04x status 0x%02x %s"
+  }, 
+  {
+    "address": "0004be52", 
+    "length": 32, 
+    "value": "Failed to read DLE max data len"
+  }, 
+  {
+    "address": "0004be72", 
+    "length": 37, 
+    "value": "tx_octets exceeds the valid range %u"
+  }, 
+  {
+    "address": "0004be97", 
+    "length": 35, 
+    "value": "tx_time exceeds the valid range %u"
+  }, 
+  {
+    "address": "0004beba", 
+    "length": 36, 
+    "value": "Non-LE capable controller detected!"
+  }, 
+  {
+    "address": "0004bede", 
+    "length": 35, 
+    "value": "ACL BR/EDR buffers not initialized"
+  }, 
+  {
+    "address": "0004bf01", 
+    "length": 36, 
+    "value": "Vendor HCI extensions not available"
+  }, 
+  {
+    "address": "0004bf25", 
+    "length": 25, 
+    "value": "HW Platform: %s (0x%04x)"
+  }, 
+  {
+    "address": "0004bf3e", 
+    "length": 24, 
+    "value": "HW Variant: %s (0x%04x)"
+  }, 
+  {
+    "address": "0004bf56", 
+    "length": 45, 
+    "value": "Firmware: %s (0x%02x) Version %u.%u Build %u"
+  }, 
+  {
+    "address": "0004bf83", 
+    "length": 41, 
+    "value": "Failed to read supported vendor commands"
+  }, 
+  {
+    "address": "0004bfac", 
+    "length": 41, 
+    "value": "Failed to read supported vendor features"
+  }, 
+  {
+    "address": "0004bfd5", 
+    "length": 24, 
+    "value": "HCI driver is not ready"
+  }, 
+  {
+    "address": "0004bff6", 
+    "length": 28, 
+    "value": "HCI driver open failed (%d)"
+  }, 
+  {
+    "address": "0004c012", 
+    "length": 28, 
+    "value": "No pending conn for peer %s"
+  }, 
+  {
+    "address": "0004c02e", 
+    "length": 43, 
+    "value": "Failed to add device to filter accept list"
+  }, 
+  {
+    "address": "0004c059", 
+    "length": 35, 
+    "value": "Failed to clear filter accept list"
+  }, 
+  {
+    "address": "0004c07c", 
+    "length": 56, 
+    "value": "Unexpected HOST_NUM_COMPLETED_PACKETS, status 0x%02x %s"
+  }, 
+  {
+    "address": "0004c11e", 
+    "length": 30, 
+    "value": "Standard Bluetooth controller"
+  }, 
+  {
+    "address": "0004c13c", 
+    "length": 27, 
+    "value": "Vendor specific controller"
+  }, 
+  {
+    "address": "0004c157", 
+    "length": 16, 
+    "value": "Firmware loader"
+  }, 
+  {
+    "address": "0004c167", 
+    "length": 13, 
+    "value": "Rescue image"
+  }, 
+  {
+    "address": "0004c174", 
+    "length": 9, 
+    "value": "reserved"
+  }, 
+  {
+    "address": "0004c1a2", 
+    "length": 18, 
+    "value": "Intel Corporation"
+  }, 
+  {
+    "address": "0004c1b4", 
+    "length": 21, 
+    "value": "Nordic Semiconductor"
+  }, 
+  {
+    "address": "0004c1c9", 
+    "length": 19, 
+    "value": "NXP Semiconductors"
+  }, 
+  {
+    "address": "0004c1dc", 
+    "length": 12, 
+    "value": "bt_hci_core"
+  }, 
+  {
+    "address": "0004c1e8", 
+    "length": 15, 
+    "value": "cmd disallowed"
+  }, 
+  {
+    "address": "0004c1f7", 
+    "length": 37, 
+    "value": "Failed to disable address resolution"
+  }, 
+  {
+    "address": "0004c21c", 
+    "length": 49, 
+    "value": "Resolving list size exceeded. Switching to host."
+  }, 
+  {
+    "address": "0004c24d", 
+    "length": 32, 
+    "value": "Failed to clear resolution list"
+  }, 
+  {
+    "address": "0004c26d", 
+    "length": 32, 
+    "value": "Failed to add IRK to controller"
+  }, 
+  {
+    "address": "0004c28d", 
+    "length": 42, 
+    "value": "Set privacy mode command is not supported"
+  }, 
+  {
+    "address": "0004c2b7", 
+    "length": 27, 
+    "value": "Failed to set privacy mode"
+  }, 
+  {
+    "address": "0004c2d2", 
+    "length": 45, 
+    "value": "Disabling address resolution failed (err %d)"
+  }, 
+  {
+    "address": "0004c2ff", 
+    "length": 37, 
+    "value": "Failed to remove IRK from controller"
+  }, 
+  {
+    "address": "0004c324", 
+    "length": 46, 
+    "value": "Only random static identity address supported"
+  }, 
+  {
+    "address": "0004c352", 
+    "length": 46, 
+    "value": "Only static random identity address supported"
+  }, 
+  {
+    "address": "0004c380", 
+    "length": 25, 
+    "value": "Invalid input parameters"
+  }, 
+  {
+    "address": "0004c399", 
+    "length": 30, 
+    "value": "Failed to read public address"
+  }, 
+  {
+    "address": "0004c3b7", 
+    "length": 44, 
+    "value": "Read Static Addresses command not available"
+  }, 
+  {
+    "address": "0004c3e3", 
+    "length": 32, 
+    "value": "Failed to read static addresses"
+  }, 
+  {
+    "address": "0004c403", 
+    "length": 41, 
+    "value": "No static addresses stored in controller"
+  }, 
+  {
+    "address": "0004c42c", 
+    "length": 31, 
+    "value": "Can't set both IDENTITY & NRPA"
+  }, 
+  {
+    "address": "0004c451", 
+    "length": 25, 
+    "value": "Too big advertising data"
+  }, 
+  {
+    "address": "0004c46a", 
+    "length": 27, 
+    "value": "Failed to start advertiser"
+  }, 
+  {
+    "address": "0004c485", 
+    "length": 31, 
+    "value": "Failed to stop advertising: %d"
+  }, 
+  {
+    "address": "0004c4a4", 
+    "length": 54, 
+    "value": "Controller cannot resume connectable advertising (%d)"
+  }, 
+  {
+    "address": "0004c4e1", 
+    "length": 31, 
+    "value": "ECC HCI commands not available"
+  }, 
+  {
+    "address": "0004c500", 
+    "length": 28, 
+    "value": "Callback already registered"
+  }, 
+  {
+    "address": "0004c51c", 
+    "length": 42, 
+    "value": "Sending LE P256 Public Key command failed"
+  }, 
+  {
+    "address": "0004c546", 
+    "length": 34, 
+    "value": "Failed to generate DHKey (err %d)"
+  }, 
+  {
+    "address": "0004c5af", 
+    "length": 33, 
+    "value": "Failed read remote features (%d)"
+  }, 
+  {
+    "address": "0004c5d0", 
+    "length": 32, 
+    "value": "Failed read remote version (%d)"
+  }, 
+  {
+    "address": "0004c5f0", 
+    "length": 23, 
+    "value": "Failed LE Set PHY (%d)"
+  }, 
+  {
+    "address": "0004c607", 
+    "length": 28, 
+    "value": "Failed to set data len (%d)"
+  }, 
+  {
+    "address": "0004c623", 
+    "length": 29, 
+    "value": "Unexpected first L2CAP frame"
+  }, 
+  {
+    "address": "0004c640", 
+    "length": 30, 
+    "value": "Unexpected L2CAP continuation"
+  }, 
+  {
+    "address": "0004c65e", 
+    "length": 39, 
+    "value": "Not enough buffer space for L2CAP data"
+  }, 
+  {
+    "address": "0004c685", 
+    "length": 30, 
+    "value": "Unexpected ACL flags (0x%02x)"
+  }, 
+  {
+    "address": "0004c6a3", 
+    "length": 27, 
+    "value": "ACL len mismatch (%u > %u)"
+  }, 
+  {
+    "address": "0004c6be", 
+    "length": 10, 
+    "value": "(unknown)"
+  }, 
+  {
+    "address": "0004c6c8", 
+    "length": 17, 
+    "value": "no transition %s"
+  }, 
+  {
+    "address": "0004c6d9", 
+    "length": 23, 
+    "value": "Invalid (%u) old state"
+  }, 
+  {
+    "address": "0004c6f0", 
+    "length": 39, 
+    "value": "conn %p failed to establish. RF noise?"
+  }, 
+  {
+    "address": "0004c717", 
+    "length": 28, 
+    "value": "no valid (%u) state was set"
+  }, 
+  {
+    "address": "0004c733", 
+    "length": 23, 
+    "value": "incompatible handle %u"
+  }, 
+  {
+    "address": "0004c74a", 
+    "length": 41, 
+    "value": "Unable to allocate buffer within timeout"
+  }, 
+  {
+    "address": "0004c773", 
+    "length": 23, 
+    "value": "conn %p: not connected"
+  }, 
+  {
+    "address": "0004c78a", 
+    "length": 35, 
+    "value": "Fatal error (%d). Disconnecting %p"
+  }, 
+  {
+    "address": "0004c7ad", 
+    "length": 57, 
+    "value": "Found valid connection (%p) with address %s in %s state "
+  }, 
+  {
+    "address": "0004c7e6", 
+    "length": 37, 
+    "value": "Send LE param update failed (err %d)"
+  }, 
+  {
+    "address": "0004c80b", 
+    "length": 42, 
+    "value": "Send auto LE param update failed (err %d)"
+  }, 
+  {
+    "address": "0004c83c", 
+    "length": 20, 
+    "value": "disconnect-complete"
+  }, 
+  {
+    "address": "0004c850", 
+    "length": 23, 
+    "value": "scan-before-initiating"
+  }, 
+  {
+    "address": "0004c867", 
+    "length": 23, 
+    "value": "initiating-filter-list"
+  }, 
+  {
+    "address": "0004c87e", 
+    "length": 16, 
+    "value": "adv-connectable"
+  }, 
+  {
+    "address": "0004c88e", 
+    "length": 20, 
+    "value": "adv-dir-connectable"
+  }, 
+  {
+    "address": "0004c8a2", 
+    "length": 14, 
+    "value": "disconnecting"
+  }, 
+  {
+    "address": "0004c8b0", 
+    "length": 8, 
+    "value": "bt_conn"
+  }, 
+  {
+    "address": "0004c8b8", 
+    "length": 40, 
+    "value": "Unable to allocate buffer for op 0x%02x"
+  }, 
+  {
+    "address": "0004c8e0", 
+    "length": 39, 
+    "value": "No available L2CAP context for conn %p"
+  }, 
+  {
+    "address": "0004c907", 
+    "length": 32, 
+    "value": "Expecting up to %d refs, got %d"
+  }, 
+  {
+    "address": "0004c927", 
+    "length": 24, 
+    "value": "already have view on %p"
+  }, 
+  {
+    "address": "0004c93f", 
+    "length": 33, 
+    "value": "L2CAP length mismatch (%u != %u)"
+  }, 
+  {
+    "address": "0004c960", 
+    "length": 33, 
+    "value": "Invalid ident value in L2CAP PDU"
+  }, 
+  {
+    "address": "0004c981", 
+    "length": 28, 
+    "value": "Too small LE conn param rsp"
+  }, 
+  {
+    "address": "0004c99d", 
+    "length": 40, 
+    "value": "Rejecting unknown L2CAP PDU code 0x%02x"
+  }, 
+  {
+    "address": "0004c9c5", 
+    "length": 30, 
+    "value": "Too small L2CAP signaling PDU"
+  }, 
+  {
+    "address": "0004c9e3", 
+    "length": 29, 
+    "value": "Too small L2CAP PDU received"
+  }, 
+  {
+    "address": "0004ca00", 
+    "length": 44, 
+    "value": "Ignoring data for unknown channel ID 0x%04x"
+  }, 
+  {
+    "address": "0004ca2c", 
+    "length": 7, 
+    "value": "config"
+  }, 
+  {
+    "address": "0004ca3c", 
+    "length": 37, 
+    "value": "No available ATT context for conn %p"
+  }, 
+  {
+    "address": "0004ca61", 
+    "length": 37, 
+    "value": "No available ATT channel for conn %p"
+  }, 
+  {
+    "address": "0004ca86", 
+    "length": 37, 
+    "value": "ATT MTU exceeded, max %u, wanted %zu"
+  }, 
+  {
+    "address": "0004caab", 
+    "length": 31, 
+    "value": "Unable to create UUID: size %u"
+  }, 
+  {
+    "address": "0004caca", 
+    "length": 31, 
+    "value": "Unable to create UUID: size %d"
+  }, 
+  {
+    "address": "0004cae9", 
+    "length": 26, 
+    "value": "ATT channel not connected"
+  }, 
+  {
+    "address": "0004cb03", 
+    "length": 19, 
+    "value": "Error signing data"
+  }, 
+  {
+    "address": "0004cb16", 
+    "length": 35, 
+    "value": "Ran out of TX buffers or contexts."
+  }, 
+  {
+    "address": "0004cb39", 
+    "length": 31, 
+    "value": "Got err %d, not calling ATT cb"
+  }, 
+  {
+    "address": "0004cb58", 
+    "length": 27, 
+    "value": "Too small ATT PDU received"
+  }, 
+  {
+    "address": "0004cb73", 
+    "length": 26, 
+    "value": "Unhandled ATT code 0x%02x"
+  }, 
+  {
+    "address": "0004cb8d", 
+    "length": 31, 
+    "value": "Invalid len %u for code 0x%02x"
+  }, 
+  {
+    "address": "0004cbac", 
+    "length": 14, 
+    "value": "Not connected"
+  }, 
+  {
+    "address": "0004cbba", 
+    "length": 27, 
+    "value": "Unable to find ATT channel"
+  }, 
+  {
+    "address": "0004cbd5", 
+    "length": 27, 
+    "value": "No ATT channel for MTU %zu"
+  }, 
+  {
+    "address": "0004cbf0", 
+    "length": 23, 
+    "value": "No pending ATT request"
+  }, 
+  {
+    "address": "0004cc07", 
+    "length": 44, 
+    "value": "ATT Timeout for device %s. Disconnecting..."
+  }, 
+  {
+    "address": "0004cc33", 
+    "length": 30, 
+    "value": "Disconnecting failed (err %d)"
+  }, 
+  {
+    "address": "0004cc58", 
+    "length": 33, 
+    "value": "Failed to decode value (err %zd)"
+  }, 
+  {
+    "address": "0004cc79", 
+    "length": 38, 
+    "value": "Failed to save Database Hash (err %d)"
+  }, 
+  {
+    "address": "0004cc9f", 
+    "length": 28, 
+    "value": "failed to store SC (err %d)"
+  }, 
+  {
+    "address": "0004ccbb", 
+    "length": 31, 
+    "value": "unable to save SC: no cfg left"
+  }, 
+  {
+    "address": "0004ccda", 
+    "length": 19, 
+    "value": "CMAC update failed"
+  }, 
+  {
+    "address": "0004cced", 
+    "length": 84, 
+    "value": "Too many Client Characteristic Configuration. See CONFIG_BT_SETTINGS_CCC_STORE_MAX\\n"
+  }, 
+  {
+    "address": "0004cd41", 
+    "length": 12, 
+    "value": "Invalid key"
+  }, 
+  {
+    "address": "0004cd4d", 
+    "length": 29, 
+    "value": "failed to delete SC (err %d)"
+  }, 
+  {
+    "address": "0004cd6a", 
+    "length": 22, 
+    "value": "Failed to clear SC %d"
+  }, 
+  {
+    "address": "0004cd80", 
+    "length": 41, 
+    "value": "Failed to store Client Features (err %d)"
+  }, 
+  {
+    "address": "0004cda9", 
+    "length": 28, 
+    "value": "Unable to decode address %s"
+  }, 
+  {
+    "address": "0004cdc5", 
+    "length": 27, 
+    "value": "Invalid local identity %lu"
+  }, 
+  {
+    "address": "0004cde0", 
+    "length": 34, 
+    "value": "Unable to restore SC: no cfg left"
+  }, 
+  {
+    "address": "0004ce02", 
+    "length": 26, 
+    "value": "No space to store CCC cfg"
+  }, 
+  {
+    "address": "0004ce1c", 
+    "length": 44, 
+    "value": "No space to store Client Supported Features"
+  }, 
+  {
+    "address": "0004ce48", 
+    "length": 34, 
+    "value": "Unable to restore CF: no cfg left"
+  }, 
+  {
+    "address": "0004ce6a", 
+    "length": 84, 
+    "value": "Change-aware status not found in settings, defaulting peer status to change-unaware"
+  }, 
+  {
+    "address": "0004cebe", 
+    "length": 81, 
+    "value": "Read back bad change-aware value: 0x%x, defaulting peer status to change-unaware"
+  }, 
+  {
+    "address": "0004cf0f", 
+    "length": 18, 
+    "value": "CMAC setup failed"
+  }, 
+  {
+    "address": "0004cf21", 
+    "length": 19, 
+    "value": "CMAC finish failed"
+  }, 
+  {
+    "address": "0004cf34", 
+    "length": 66, 
+    "value": "Can't register service after init and before settings are loaded."
+  }, 
+  {
+    "address": "0004cf76", 
+    "length": 33, 
+    "value": "Unable to register handle 0x%04x"
+  }, 
+  {
+    "address": "0004cf9e", 
+    "length": 22, 
+    "value": "Link is not encrypted"
+  }, 
+  {
+    "address": "0004cfb4", 
+    "length": 43, 
+    "value": "Device is not subscribed to characteristic"
+  }, 
+  {
+    "address": "0004cfdf", 
+    "length": 39, 
+    "value": "No buffer available to send indication"
+  }, 
+  {
+    "address": "0004d006", 
+    "length": 20, 
+    "value": "CCC %p not writable"
+  }, 
+  {
+    "address": "0004d01a", 
+    "length": 29, 
+    "value": "SC restore indication failed"
+  }, 
+  {
+    "address": "0004d037", 
+    "length": 41, 
+    "value": "No buffer available to send notification"
+  }, 
+  {
+    "address": "0004d060", 
+    "length": 44, 
+    "value": "Failed to set security for bonded peer (%d)"
+  }, 
+  {
+    "address": "0004d08c", 
+    "length": 30, 
+    "value": "Failed to store CCCs (err %d)"
+  }, 
+  {
+    "address": "0004d0c6", 
+    "length": 27, 
+    "value": "Unable to find SMP channel"
+  }, 
+  {
+    "address": "0004d0e1", 
+    "length": 25, 
+    "value": "Public key not available"
+  }, 
+  {
+    "address": "0004d0fa", 
+    "length": 25, 
+    "value": "Failed to generate DHKey"
+  }, 
+  {
+    "address": "0004d113", 
+    "length": 25, 
+    "value": "Calculate confirm failed"
+  }, 
+  {
+    "address": "0004d12c", 
+    "length": 28, 
+    "value": "Unknown pairing method (%u)"
+  }, 
+  {
+    "address": "0004d148", 
+    "length": 21, 
+    "value": "Calculate LTK failed"
+  }, 
+  {
+    "address": "0004d15d", 
+    "length": 35, 
+    "value": "Calculate local DHKey check failed"
+  }, 
+  {
+    "address": "0004d180", 
+    "length": 36, 
+    "value": "Calculate remote DHKey check failed"
+  }, 
+  {
+    "address": "0004d1a4", 
+    "length": 27, 
+    "value": "Remote public key rejected"
+  }, 
+  {
+    "address": "0004d1bf", 
+    "length": 33, 
+    "value": "Remote is using Debug Public key"
+  }, 
+  {
+    "address": "0004d1e0", 
+    "length": 37, 
+    "value": "No available SMP context for conn %p"
+  }, 
+  {
+    "address": "0004d205", 
+    "length": 26, 
+    "value": "Unable to get keys for %s"
+  }, 
+  {
+    "address": "0004d21f", 
+    "length": 42, 
+    "value": "The in-progress pairing has been deleted!"
+  }, 
+  {
+    "address": "0004d249", 
+    "length": 88, 
+    "value": "SMP does not allow a pairing failure at this point. Known issue. Disconnecting instead."
+  }, 
+  {
+    "address": "0004d2a1", 
+    "length": 27, 
+    "value": "Too small SMP PDU received"
+  }, 
+  {
+    "address": "0004d2bc", 
+    "length": 49, 
+    "value": "SMP command (code 0x%02x) received after timeout"
+  }, 
+  {
+    "address": "0004d2ed", 
+    "length": 34, 
+    "value": "Received reserved SMP code 0x%02x"
+  }, 
+  {
+    "address": "0004d30f", 
+    "length": 26, 
+    "value": "Unhandled SMP code 0x%02x"
+  }, 
+  {
+    "address": "0004d329", 
+    "length": 27, 
+    "value": "Unexpected SMP code 0x%02x"
+  }, 
+  {
+    "address": "0004d344", 
+    "length": 20, 
+    "value": "Invalid identity %s"
+  }, 
+  {
+    "address": "0004d358", 
+    "length": 51, 
+    "value": "Refusing new pairing. The old bond has more trust."
+  }, 
+  {
+    "address": "0004d38b", 
+    "length": 34, 
+    "value": "pairing failed (peer reason 0x%x)"
+  }, 
+  {
+    "address": "0004d3ad", 
+    "length": 21, 
+    "value": "No keys space for %s"
+  }, 
+  {
+    "address": "0004d3c2", 
+    "length": 12, 
+    "value": "SMP Timeout"
+  }, 
+  {
+    "address": "0004d3ce", 
+    "length": 51, 
+    "value": "SC Pair Only Mode selected but LE SC not supported"
+  }, 
+  {
+    "address": "0004d441", 
+    "length": 31, 
+    "value": "Failed to read value (err %zd)"
+  }, 
+  {
+    "address": "0004d460", 
+    "length": 35, 
+    "value": "Unable to find deleted keys for %s"
+  }, 
+  {
+    "address": "0004d483", 
+    "length": 31, 
+    "value": "Failed to allocate keys for %s"
+  }, 
+  {
+    "address": "0004d4a2", 
+    "length": 30, 
+    "value": "Invalid key length %zd != %zu"
+  }, 
+  {
+    "address": "0004d4c0", 
+    "length": 29, 
+    "value": "Failed to save keys (err %d)"
+  }, 
+  {
+    "address": "0004d4fd", 
+    "length": 10, 
+    "value": "bt_crypto"
+  }, 
+  {
+    "address": "0004d507", 
+    "length": 21, 
+    "value": "k_msgq_get error: %d"
+  }, 
+  {
+    "address": "0004d527", 
+    "length": 30, 
+    "value": "USBD event allocation failed!"
+  }, 
+  {
+    "address": "0004d545", 
+    "length": 28, 
+    "value": "USBD event memory corrupted"
+  }, 
+  {
+    "address": "0004d561", 
+    "length": 27, 
+    "value": "Unknown USB power event %d"
+  }, 
+  {
+    "address": "0004d57c", 
+    "length": 38, 
+    "value": "not attached, EP 0x%02x event dropped"
+  }, 
+  {
+    "address": "0004d5a2", 
+    "length": 38, 
+    "value": "nRF USBD transfer error (OUT): 0x%02x"
+  }, 
+  {
+    "address": "0004d5c8", 
+    "length": 20, 
+    "value": "Failed to alloc evt"
+  }, 
+  {
+    "address": "0004d5dc", 
+    "length": 23, 
+    "value": "USBD event queue full!"
+  }, 
+  {
+    "address": "0004d5f3", 
+    "length": 24, 
+    "value": "Unknown USBD event: %hd"
+  }, 
+  {
+    "address": "0004d60b", 
+    "length": 44, 
+    "value": "Unexpected event (nrfx_usbd): %d, ep 0x%02x"
+  }, 
+  {
+    "address": "0004d637", 
+    "length": 32, 
+    "value": "_ep_status_get failed! Code: %d"
+  }, 
+  {
+    "address": "0004d657", 
+    "length": 31, 
+    "value": "invalid endpoint configuration"
+  }, 
+  {
+    "address": "0004d676", 
+    "length": 31, 
+    "value": "invalid endpoint index/address"
+  }, 
+  {
+    "address": "0004d695", 
+    "length": 22, 
+    "value": "invalid endpoint type"
+  }, 
+  {
+    "address": "0004d6ab", 
+    "length": 29, 
+    "value": "iso endpoint can only be iso"
+  }, 
+  {
+    "address": "0004d6c8", 
+    "length": 40, 
+    "value": "EP max packet size must be a power of 2"
+  }, 
+  {
+    "address": "0004d6f0", 
+    "length": 34, 
+    "value": "STALL unsupported on ISO endpoint"
+  }, 
+  {
+    "address": "0004d712", 
+    "length": 31, 
+    "value": "Endpoint 0x%02x is not enabled"
+  }, 
+  {
+    "address": "0004d731", 
+    "length": 25, 
+    "value": "nRF USBD write error: %d"
+  }, 
+  {
+    "address": "0004d757", 
+    "length": 16, 
+    "value": "nrf_usbd_common"
+  }, 
+  {
+    "address": "0004d78f", 
+    "length": 31, 
+    "value": "Selected ADC gain is not valid"
+  }, 
+  {
+    "address": "0004d7ae", 
+    "length": 36, 
+    "value": "Selected ADC reference is not valid"
+  }, 
+  {
+    "address": "0004d7d2", 
+    "length": 43, 
+    "value": "Selected ADC acquisition time is not valid"
+  }, 
+  {
+    "address": "0004d7fd", 
+    "length": 30, 
+    "value": "Invalid selection of channels"
+  }, 
+  {
+    "address": "0004d81b", 
+    "length": 26, 
+    "value": "Channel %u not configured"
+  }, 
+  {
+    "address": "0004d835", 
+    "length": 37, 
+    "value": "ADC resolution value %d is not valid"
+  }, 
+  {
+    "address": "0004d85a", 
+    "length": 50, 
+    "value": "Oversampling is supported for single channel only"
+  }, 
+  {
+    "address": "0004d88c", 
+    "length": 35, 
+    "value": "Oversampling value %d is not valid"
+  }, 
+  {
+    "address": "0004d8af", 
+    "length": 37, 
+    "value": "Provided buffer is too small (%u/%u)"
+  }, 
+  {
+    "address": "0004d8d4", 
+    "length": 13, 
+    "value": "adc@40007000"
+  }, 
+  {
+    "address": "0004d8f0", 
+    "length": 15, 
+    "value": "clock@40000000"
+  }, 
+  {
+    "address": "0004d90b", 
+    "length": 14, 
+    "value": "clock_control"
+  }, 
+  {
+    "address": "0004d919", 
+    "length": 15, 
+    "value": "timer@4001a000"
+  }, 
+  {
+    "address": "0004d928", 
+    "length": 16, 
+    "value": "counter_timer.1"
+  }, 
+  {
+    "address": "0004d938", 
+    "length": 15, 
+    "value": "timer@40009000"
+  }, 
+  {
+    "address": "0004d947", 
+    "length": 16, 
+    "value": "counter_timer.0"
+  }, 
+  {
+    "address": "0004d957", 
+    "length": 14, 
+    "value": "counter_timer"
+  }, 
+  {
+    "address": "0004d965", 
+    "length": 16, 
+    "value": "random@4000d000"
+  }, 
+  {
+    "address": "0004d975", 
+    "length": 15, 
+    "value": "entropy_bt_hci"
+  }, 
+  {
+    "address": "0004d984", 
+    "length": 29, 
+    "value": "invalid address: 0x%08lx:%zu"
+  }, 
+  {
+    "address": "0004d9a1", 
+    "length": 31, 
+    "value": "unaligned address: 0x%08lx:%zu"
+  }, 
+  {
+    "address": "0004d9c0", 
+    "length": 30, 
+    "value": "not word-aligned: 0x%08lx:%zu"
+  }, 
+  {
+    "address": "0004d9de", 
+    "length": 26, 
+    "value": "flash-controller@4001e000"
+  }, 
+  {
+    "address": "0004d9f8", 
+    "length": 10, 
+    "value": "flash_nrf"
+  }, 
+  {
+    "address": "0004da04", 
+    "length": 12, 
+    "value": "io@50000300"
+  }, 
+  {
+    "address": "0004da10", 
+    "length": 14, 
+    "value": "gpio@50000000"
+  }, 
+  {
+    "address": "0004da22", 
+    "length": 203, 
+    "value": "Need to use the internal driver buffer but its size is insufficient (%u + %u > %u). Adjust the zephyr,concat-buf-size or zephyr,flash-buf-max-size property (the one with greater value) in the \\\"%s\\\" node."
+  }, 
+  {
+    "address": "0004db15", 
+    "length": 18, 
+    "value": "unsupported speed"
+  }, 
+  {
+    "address": "0004db27", 
+    "length": 71, 
+    "value": "Trying to transfer more than the maximum size for this device: %d > %d"
+  }, 
+  {
+    "address": "0004db6e", 
+    "length": 32, 
+    "value": "Failed to initialize device: %s"
+  }, 
+  {
+    "address": "0004db8e", 
+    "length": 38, 
+    "value": "Failed to allocate next RX buffer: %d"
+  }, 
+  {
+    "address": "0004dbb4", 
+    "length": 23, 
+    "value": "No TX buffer available"
+  }, 
+  {
+    "address": "0004dbcb", 
+    "length": 37, 
+    "value": "Failed to start I2S transfer: 0x%08x"
+  }, 
+  {
+    "address": "0004dbf0", 
+    "length": 26, 
+    "value": "Cannot write in state: %d"
+  }, 
+  {
+    "address": "0004dc0a", 
+    "length": 49, 
+    "value": "This device can only write blocks up to %u bytes"
+  }, 
+  {
+    "address": "0004dc3b", 
+    "length": 31, 
+    "value": "Cannot reacquire queued buffer"
+  }, 
+  {
+    "address": "0004dc5a", 
+    "length": 34, 
+    "value": "Next buffers not supplied on time"
+  }, 
+  {
+    "address": "0004dc7c", 
+    "length": 20, 
+    "value": "No room in RX queue"
+  }, 
+  {
+    "address": "0004dc90", 
+    "length": 30, 
+    "value": "Cannot configure in state: %d"
+  }, 
+  {
+    "address": "0004dcae", 
+    "length": 48, 
+    "value": "This device can transfer only full 32-bit words"
+  }, 
+  {
+    "address": "0004dcde", 
+    "length": 26, 
+    "value": "Unsupported word size: %u"
+  }, 
+  {
+    "address": "0004dcf8", 
+    "length": 32, 
+    "value": "Unsupported data format: 0x%02x"
+  }, 
+  {
+    "address": "0004dd18", 
+    "length": 34, 
+    "value": "Unsupported stream format: 0x%02x"
+  }, 
+  {
+    "address": "0004dd3a", 
+    "length": 35, 
+    "value": "Unsupported number of channels: %u"
+  }, 
+  {
+    "address": "0004dd5d", 
+    "length": 35, 
+    "value": "Unsupported operation mode: 0x%02x"
+  }, 
+  {
+    "address": "0004dd80", 
+    "length": 43, 
+    "value": "I2S MCK frequency: %u, actual PCM rate: %u"
+  }, 
+  {
+    "address": "0004ddab", 
+    "length": 28, 
+    "value": "Unsupported options: 0x%02x"
+  }, 
+  {
+    "address": "0004ddc7", 
+    "length": 39, 
+    "value": "TX and RX configurations are different"
+  }, 
+  {
+    "address": "0004ddee", 
+    "length": 20, 
+    "value": "Invalid trigger: %d"
+  }, 
+  {
+    "address": "0004de02", 
+    "length": 52, 
+    "value": "Inappropriate trigger (%d/%d), active stream(s): %d"
+  }, 
+  {
+    "address": "0004de36", 
+    "length": 33, 
+    "value": "Failed to initialize I2S: 0x%08x"
+  }, 
+  {
+    "address": "0004de57", 
+    "length": 28, 
+    "value": "Failed to request clock: %d"
+  }, 
+  {
+    "address": "0004de89", 
+    "length": 43, 
+    "value": "%s: no LEDs found (DT child nodes missing)"
+  }, 
+  {
+    "address": "0004deb4", 
+    "length": 25, 
+    "value": "%s: pwm device not ready"
+  }, 
+  {
+    "address": "0004decd", 
+    "length": 10, 
+    "value": "ir-led-v2"
+  }, 
+  {
+    "address": "0004def2", 
+    "length": 21, 
+    "value": "Incompatible period."
+  }, 
+  {
+    "address": "0004df07", 
+    "length": 42, 
+    "value": "Prescaler for period_cycles %u not found."
+  }, 
+  {
+    "address": "0004df31", 
+    "length": 54, 
+    "value": "All channels are expected to have the same duty cycle"
+  }, 
+  {
+    "address": "0004df67", 
+    "length": 43, 
+    "value": "Failed configure period for PWM channel %d"
+  }, 
+  {
+    "address": "0004df92", 
+    "length": 21, 
+    "value": "Invalid channel: %u."
+  }, 
+  {
+    "address": "0004dfdb", 
+    "length": 46, 
+    "value": "Got unsupported FIFO data type %x, discarding"
+  }, 
+  {
+    "address": "0004e009", 
+    "length": 21, 
+    "value": "Initialize device %s"
+  }, 
+  {
+    "address": "0004e01e", 
+    "length": 13, 
+    "value": "chip id 0x%x"
+  }, 
+  {
+    "address": "0004e02b", 
+    "length": 37, 
+    "value": "failed to set accelerometer range %d"
+  }, 
+  {
+    "address": "0004e050", 
+    "length": 35, 
+    "value": "failed to set accelerometer odr %d"
+  }, 
+  {
+    "address": "0004e073", 
+    "length": 33, 
+    "value": "failed to set gyroscope range %d"
+  }, 
+  {
+    "address": "0004e094", 
+    "length": 31, 
+    "value": "failed to set gyroscope odr %d"
+  }, 
+  {
+    "address": "0004e0b3", 
+    "length": 29, 
+    "value": "failed to set FIFO watermark"
+  }, 
+  {
+    "address": "0004e0d0", 
+    "length": 26, 
+    "value": "Failed to set stop on WTM"
+  }, 
+  {
+    "address": "0004e0ea", 
+    "length": 32, 
+    "value": "failed to set sensor fusion ODR"
+  }, 
+  {
+    "address": "0004e10a", 
+    "length": 40, 
+    "value": "failed to enable sensor fusion batching"
+  }, 
+  {
+    "address": "0004e132", 
+    "length": 32, 
+    "value": "Failed to initialize interrupt."
+  }, 
+  {
+    "address": "0004e152", 
+    "length": 42, 
+    "value": "attr_set() not supported on this channel."
+  }, 
+  {
+    "address": "0004e195", 
+    "length": 25, 
+    "value": "pin_int1_route_get error"
+  }, 
+  {
+    "address": "0004e1ae", 
+    "length": 25, 
+    "value": "pin_int1_route_set error"
+  }, 
+  {
+    "address": "0004e1c7", 
+    "length": 47, 
+    "value": "Call to lsm6dsv16x_interrupt_enable_set failed"
+  }, 
+  {
+    "address": "0004e1f6", 
+    "length": 24, 
+    "value": "Failed to set FIFO mode"
+  }, 
+  {
+    "address": "0004e20e", 
+    "length": 26, 
+    "value": "pint_int1_route_get error"
+  }, 
+  {
+    "address": "0004e228", 
+    "length": 26, 
+    "value": "pint_int2_route_get error"
+  }, 
+  {
+    "address": "0004e242", 
+    "length": 29, 
+    "value": "trigger_set op not supported"
+  }, 
+  {
+    "address": "0004e25f", 
+    "length": 39, 
+    "value": "Cannot get pointer to drdy_gpio device"
+  }, 
+  {
+    "address": "0004e291", 
+    "length": 28, 
+    "value": "drdy_pulsed config error %d"
+  }, 
+  {
+    "address": "0004e2ad", 
+    "length": 35, 
+    "value": "failed to configure GPIO for PM on"
+  }, 
+  {
+    "address": "0004e2d0", 
+    "length": 33, 
+    "value": "failed to set GPIO for PM resume"
+  }, 
+  {
+    "address": "0004e2f1", 
+    "length": 34, 
+    "value": "failed to set GPIO for PM suspend"
+  }, 
+  {
+    "address": "0004e313", 
+    "length": 14, 
+    "value": "raw_to_mv: %d"
+  }, 
+  {
+    "address": "0004e321", 
+    "length": 21, 
+    "value": "adc_setup failed: %d"
+  }, 
+  {
+    "address": "0004e336", 
+    "length": 13, 
+    "value": "adc_read: %d"
+  }, 
+  {
+    "address": "0004e343", 
+    "length": 17, 
+    "value": "ADC is not ready"
+  }, 
+  {
+    "address": "0004e354", 
+    "length": 24, 
+    "value": "Power GPIO is not ready"
+  }, 
+  {
+    "address": "0004e36c", 
+    "length": 10, 
+    "value": "setup: %d"
+  }, 
+  {
+    "address": "0004e376", 
+    "length": 18, 
+    "value": "sequence init: %d"
+  }, 
+  {
+    "address": "0004e388", 
+    "length": 14, 
+    "value": "battery_meter"
+  }, 
+  {
+    "address": "0004e396", 
+    "length": 8, 
+    "value": "voltage"
+  }, 
+  {
+    "address": "0004e39e", 
+    "length": 31, 
+    "value": "Failed to allocate PPI Channel"
+  }, 
+  {
+    "address": "0004e3bd", 
+    "length": 14, 
+    "value": "uart@40002000"
+  }, 
+  {
+    "address": "0004e3cb", 
+    "length": 16, 
+    "value": "uart_nrfx_uarte"
+  }, 
+  {
+    "address": "0004e3db", 
+    "length": 18, 
+    "value": "watchdog@40010000"
+  }, 
+  {
+    "address": "0004e3f6", 
+    "length": 37, 
+    "value": "SoftDevice Controller ASSERT: %s, %d"
+  }, 
+  {
+    "address": "0004e41b", 
+    "length": 39, 
+    "value": "SoftDevice Controller build revision: "
+  }, 
+  {
+    "address": "0004e442", 
+    "length": 32, 
+    "value": "Entropy source device not ready"
+  }, 
+  {
+    "address": "0004e462", 
+    "length": 36, 
+    "value": "Failed to register rand source (%d)"
+  }, 
+  {
+    "address": "0004e486", 
+    "length": 34, 
+    "value": "Allocated memory too low: %u < %u"
+  }, 
+  {
+    "address": "0004e4a8", 
+    "length": 32, 
+    "value": "Event buffer too small. %u > %u"
+  }, 
+  {
+    "address": "0004e4c8", 
+    "length": 26, 
+    "value": "No event buffer available"
+  }, 
+  {
+    "address": "0004e4e2", 
+    "length": 25, 
+    "value": "No data buffer available"
+  }, 
+  {
+    "address": "0004e4fb", 
+    "length": 57, 
+    "value": "Unexpected msg_type: %u. This if-else needs a new branch"
+  }, 
+  {
+    "address": "0004e53f", 
+    "length": 18, 
+    "value": "bt_sdc_hci_driver"
+  }, 
+  {
+    "address": "0004e551", 
+    "length": 14, 
+    "value": "bt_sdc_crypto"
+  }, 
+  {
+    "address": "0004e55f", 
+    "length": 33, 
+    "value": "public key is not valid (err %d)"
+  }, 
+  {
+    "address": "0004e580", 
+    "length": 16, 
+    "value": "Unknown command"
+  }, 
+  {
+    "address": "0004e590", 
+    "length": 13, 
+    "value": "BT CTLR ECDH"
+  }, 
+  {
+    "address": "0004e5c9", 
+    "length": 41, 
+    "value": "Failed to initialize nrfx timer (err %d)"
+  }, 
+  {
+    "address": "0004e5f2", 
+    "length": 38, 
+    "value": "Failed to initialize ESB system timer"
+  }, 
+  {
+    "address": "0004e618", 
+    "length": 25, 
+    "value": "Failed to initialize PPI"
+  }, 
+  {
+    "address": "0004e631", 
+    "length": 34, 
+    "value": "gppi_group_alloc failed with: %d\\n"
+  }, 
+  {
+    "address": "0004e653", 
+    "length": 36, 
+    "value": "gppi_channel_alloc failed with: %d\\n"
+  }, 
+  {
+    "address": "0004e677", 
+    "length": 20, 
+    "value": "MPSL ASSERT: %s, %d"
+  }, 
+  {
+    "address": "0004e68b", 
+    "length": 10, 
+    "value": "MPSL Work"
+  }, 
+  {
+    "address": "0004e695", 
+    "length": 10, 
+    "value": "mpsl_init"
+  }, 
+  {
+    "address": "0004e69f", 
+    "length": 38, 
+    "value": "mpsl_timeslot_session_open failed: %d"
+  }, 
+  {
+    "address": "0004e6c5", 
+    "length": 16, 
+    "value": "flash_sync_mpsl"
+  }, 
+  {
+    "address": "0004e6e3", 
+    "length": 15, 
+    "value": "temp_nrf5_mpsl"
+  }, 
+  {
+    "address": "0004e713", 
+    "length": 16, 
+    "value": " **************"
+  }, 
+  {
+    "address": "0004e724", 
+    "length": 12, 
+    "value": "Terminal"
+  }, 
+  {
+    "address": "0004e733", 
+    "length": 11, 
+    "value": "TTR REGGES"
+  }, 
+  {
+    "address": "0004e73e", 
+    "length": 9, 
+    "value": "Starting"
+  }, 
+  {
+    "address": "0004e74c", 
+    "length": 31, 
+    "value": "Failed to delete user settings"
+  }, 
+  {
+    "address": "0004e76b", 
+    "length": 30, 
+    "value": "Failed to delete esb settings"
+  }, 
+  {
+    "address": "0004e78d", 
+    "length": 30, 
+    "value": "Failed to delete mte settings"
+  }, 
+  {
+    "address": "0004e7ab", 
+    "length": 6, 
+    "value": "debug"
+  }, 
+  {
+    "address": "0004e7b1", 
+    "length": 32, 
+    "value": "Failed to delete debug settings"
+  }, 
+  {
+    "address": "0004e7d1", 
+    "length": 29, 
+    "value": "Failed to delete bt settings"
+  }, 
+  {
+    "address": "0004e7f3", 
+    "length": 9, 
+    "value": "Ignoring"
+  }, 
+  {
+    "address": "0004e7fc", 
+    "length": 6, 
+    "value": "frest"
+  }, 
+  {
+    "address": "0004e802", 
+    "length": 35, 
+    "value": "Log Entry: %u %08x %s %u %08x %08x"
+  }, 
+  {
+    "address": "0004e825", 
+    "length": 22, 
+    "value": "New resetreason found"
+  }, 
+  {
+    "address": "0004e83b", 
+    "length": 22, 
+    "value": "Resetreason RAM empty"
+  }, 
+  {
+    "address": "0004e851", 
+    "length": 18, 
+    "value": "debug/resetreason"
+  }, 
+  {
+    "address": "0004e863", 
+    "length": 21, 
+    "value": "Nothing in reset log"
+  }, 
+  {
+    "address": "0004e878", 
+    "length": 14, 
+    "value": "NVM reset log"
+  }, 
+  {
+    "address": "0004e88e", 
+    "length": 25, 
+    "value": "Watchdog about to expire"
+  }, 
+  {
+    "address": "0004e8a7", 
+    "length": 20, 
+    "value": "Device is not ready"
+  }, 
+  {
+    "address": "0004e8bb", 
+    "length": 25, 
+    "value": "Error installing timeout"
+  }, 
+  {
+    "address": "0004e8d4", 
+    "length": 17, 
+    "value": "Error setting up"
+  }, 
+  {
+    "address": "0004e8e5", 
+    "length": 38, 
+    "value": "Failed to submit watchdog feeder work"
+  }, 
+  {
+    "address": "0004e90b", 
+    "length": 9, 
+    "value": "watchdog"
+  }, 
+  {
+    "address": "0004e91a", 
+    "length": 15, 
+    "value": "ibexesb_common"
+  }, 
+  {
+    "address": "0004e929", 
+    "length": 17, 
+    "value": "mte/charge_level"
+  }, 
+  {
+    "address": "0004e93a", 
+    "length": 16, 
+    "value": "cal/volt_offset"
+  }, 
+  {
+    "address": "0004e94a", 
+    "length": 15, 
+    "value": "Unknown script"
+  }, 
+  {
+    "address": "0004e959", 
+    "length": 52, 
+    "value": "Haptics script already active - ignoring new script"
+  }, 
+  {
+    "address": "0004e98d", 
+    "length": 29, 
+    "value": "Haptic script ID: %d gain %d"
+  }, 
+  {
+    "address": "0004e9aa", 
+    "length": 14, 
+    "value": "haptic_script"
+  }, 
+  {
+    "address": "00050c9f", 
+    "length": 7, 
+    "value": "enable"
+  }, 
+  {
+    "address": "00050ca6", 
+    "length": 8, 
+    "value": "disable"
+  }, 
+  {
+    "address": "00050cae", 
+    "length": 29, 
+    "value": "Cannot %s port %p interrupts"
+  }, 
+  {
+    "address": "00050ccb", 
+    "length": 49, 
+    "value": "Failed to read port %p, GPIO state is inaccurate"
+  }, 
+  {
+    "address": "00050cfc", 
+    "length": 22, 
+    "value": "Cannot configure '%s'"
+  }, 
+  {
+    "address": "00050d12", 
+    "length": 37, 
+    "value": "Cannot configure interrupts for '%s'"
+  }, 
+  {
+    "address": "00050d37", 
+    "length": 35, 
+    "value": "Cannot disable interrupts for '%s'"
+  }, 
+  {
+    "address": "00050d5a", 
+    "length": 34, 
+    "value": "Failed to allocate context memory"
+  }, 
+  {
+    "address": "00050d7c", 
+    "length": 20, 
+    "value": "Cannot add callback"
+  }, 
+  {
+    "address": "00050d90", 
+    "length": 8, 
+    "value": "buttons"
+  }, 
+  {
+    "address": "00050d9e", 
+    "length": 8, 
+    "value": "R_THUMB"
+  }, 
+  {
+    "address": "00050dab", 
+    "length": 13, 
+    "value": "R_UPPER_GRIP"
+  }, 
+  {
+    "address": "00050db8", 
+    "length": 13, 
+    "value": "R_LOWER_GRIP"
+  }, 
+  {
+    "address": "00050dc5", 
+    "length": 9, 
+    "value": "R_BUMPER"
+  }, 
+  {
+    "address": "00050dce", 
+    "length": 8, 
+    "value": "Dpad up"
+  }, 
+  {
+    "address": "00050dd6", 
+    "length": 10, 
+    "value": "Dpad down"
+  }, 
+  {
+    "address": "00050de0", 
+    "length": 10, 
+    "value": "Dpad left"
+  }, 
+  {
+    "address": "00050dea", 
+    "length": 11, 
+    "value": "Dpad right"
+  }, 
+  {
+    "address": "00050df5", 
+    "length": 6, 
+    "value": "Steam"
+  }, 
+  {
+    "address": "00050dfb", 
+    "length": 16, 
+    "value": "Left upper grip"
+  }, 
+  {
+    "address": "00050e0b", 
+    "length": 16, 
+    "value": "Left lower grip"
+  }, 
+  {
+    "address": "00050e1b", 
+    "length": 12, 
+    "value": "Left bumper"
+  }, 
+  {
+    "address": "00050e27", 
+    "length": 10, 
+    "value": "Left view"
+  }, 
+  {
+    "address": "00050e31", 
+    "length": 16, 
+    "value": "Left thumbstick"
+  }, 
+  {
+    "address": "00050e47", 
+    "length": 61, 
+    "value": "Potential corrupt settings partition. All pages are occupied"
+  }, 
+  {
+    "address": "00050e84", 
+    "length": 44, 
+    "value": "Erasing the whole settings block to recover"
+  }, 
+  {
+    "address": "00050eb0", 
+    "length": 54, 
+    "value": "Recovery faild. Device functionality will be degraded"
+  }, 
+  {
+    "address": "00050ee6", 
+    "length": 20, 
+    "value": "Recovery succeeded!"
+  }, 
+  {
+    "address": "00050efa", 
+    "length": 40, 
+    "value": "Failed to initialize settings subsystem"
+  }, 
+  {
+    "address": "00050f22", 
+    "length": 41, 
+    "value": "Failed to initialize settings subtree %s"
+  }, 
+  {
+    "address": "00050f4b", 
+    "length": 12, 
+    "value": "neptune_usb"
+  }, 
+  {
+    "address": "00050f57", 
+    "length": 11, 
+    "value": "hid_custom"
+  }, 
+  {
+    "address": "00050f62", 
+    "length": 34, 
+    "value": "%s: GET: ID_GET_ATTRIBUTES_VALUES"
+  }, 
+  {
+    "address": "00050f84", 
+    "length": 29, 
+    "value": "get_id_get_attributes_values"
+  }, 
+  {
+    "address": "00050fa4", 
+    "length": 42, 
+    "value": "%s: GET: ID_GET_STRING_ATTRIBUTE, TAG: %u"
+  }, 
+  {
+    "address": "00050fce", 
+    "length": 28, 
+    "value": "get_id_get_string_attribute"
+  }, 
+  {
+    "address": "00050fea", 
+    "length": 8, 
+    "value": "Init %d"
+  }, 
+  {
+    "address": "00050ff2", 
+    "length": 23, 
+    "value": "olympus-trackpad-right"
+  }, 
+  {
+    "address": "00051009", 
+    "length": 22, 
+    "value": "olympus-trackpad-left"
+  }, 
+  {
+    "address": "0005101f", 
+    "length": 17, 
+    "value": "olympus_trackpad"
+  }, 
+  {
+    "address": "00051311", 
+    "length": 6, 
+    "value": "3wwww"
+  }, 
+  {
+    "address": "0005142d", 
+    "length": 17, 
+    "value": "wwwwwwwwwwwwwwww"
+  }, 
+  {
+    "address": "00051456", 
+    "length": 18, 
+    "value": "wwwwwwwwwwwwwwww"
+  }, 
+  {
+    "address": "00051507", 
+    "length": 51, 
+    "value": "Timp: Vendor: %04x Prod: %04x Vers: %04x Rev: %08X"
+  }, 
+  {
+    "address": "0005153a", 
+    "length": 20, 
+    "value": "Timp: No descriptor"
+  }, 
+  {
+    "address": "0005154e", 
+    "length": 8, 
+    "value": "timpupd"
+  }, 
+  {
+    "address": "00051556", 
+    "length": 47, 
+    "value": "Failed to read status and fault registers (%d)"
+  }, 
+  {
+    "address": "00051585", 
+    "length": 34, 
+    "value": "Failed to allocate callback entry"
+  }, 
+  {
+    "address": "000515a7", 
+    "length": 31, 
+    "value": "Failed to reset chip registers"
+  }, 
+  {
+    "address": "000515c6", 
+    "length": 34, 
+    "value": "Cannot configure IRQ pin as input"
+  }, 
+  {
+    "address": "000515f6", 
+    "length": 10, 
+    "value": "igure IRQ"
+  }, 
+  {
+    "address": "00051696", 
+    "length": 25, 
+    "value": "failed to write vin (%d)"
+  }, 
+  {
+    "address": "000516af", 
+    "length": 31, 
+    "value": "failed to read fuel gauge (%d)"
+  }, 
+  {
+    "address": "000516ce", 
+    "length": 37, 
+    "value": "failed to process state machine (%d)"
+  }, 
+  {
+    "address": "000516f3", 
+    "length": 18, 
+    "value": "mp2733-fuel-gauge"
+  }, 
+  {
+    "address": "00051705", 
+    "length": 13, 
+    "value": "charge_curve"
+  }, 
+  {
+    "address": "00051716", 
+    "length": 18, 
+    "value": "mp2733_fuel_gauge"
+  }, 
+  {
+    "address": "00051736", 
+    "length": 14, 
+    "value": "gpio_greenpak"
+  }, 
+  {
+    "address": "00051744", 
+    "length": 16, 
+    "value": "puck-pilot-gpio"
+  }, 
+  {
+    "address": "00051754", 
+    "length": 10, 
+    "value": "gpio_puck"
+  }, 
+  {
+    "address": "0005175e", 
+    "length": 35, 
+    "value": "Failed to configure I2S stream %d\\n"
+  }, 
+  {
+    "address": "00051781", 
+    "length": 32, 
+    "value": "Failed to enable I2S device %d\\n"
+  }, 
+  {
+    "address": "000517a1", 
+    "length": 46, 
+    "value": "Failed to prepare TX to recover from underrun"
+  }, 
+  {
+    "address": "000517cf", 
+    "length": 44, 
+    "value": "Failed to write TX to recover from underrun"
+  }, 
+  {
+    "address": "000517fb", 
+    "length": 24, 
+    "value": "Could not drain I2S tx\\n"
+  }, 
+  {
+    "address": "00051813", 
+    "length": 48, 
+    "value": "Failed to recover from underrun during draining"
+  }, 
+  {
+    "address": "00051843", 
+    "length": 27, 
+    "value": "haptics-sequencer-touchpad"
+  }, 
+  {
+    "address": "0005185e", 
+    "length": 25, 
+    "value": "haptics-sequencer-gri-v3"
+  }, 
+  {
+    "address": "00051877", 
+    "length": 13, 
+    "value": "channel-left"
+  }, 
+  {
+    "address": "00051884", 
+    "length": 14, 
+    "value": "channel-right"
+  }, 
+  {
+    "address": "00051892", 
+    "length": 18, 
+    "value": "haptics_sequencer"
+  }, 
+  {
+    "address": "00051947", 
+    "length": 14, 
+    "value": "XXXXXXXXXXXXX"
+  }, 
+  {
+    "address": "00051955", 
+    "length": 38, 
+    "value": "Failed to configure PILOT_SENSE input"
+  }, 
+  {
+    "address": "0005197b", 
+    "length": 36, 
+    "value": "Failed to set uart callback, err %d"
+  }, 
+  {
+    "address": "0005199f", 
+    "length": 26, 
+    "value": "Message size invalid (%d)"
+  }, 
+  {
+    "address": "000519b9", 
+    "length": 26, 
+    "value": "Unexpected CRC16 value %x"
+  }, 
+  {
+    "address": "000519d3", 
+    "length": 15, 
+    "value": "puck-interface"
+  }, 
+  {
+    "address": "000519e2", 
+    "length": 14, 
+    "value": "Unknown error"
+  }, 
+  {
+    "address": "000519f0", 
+    "length": 40, 
+    "value": ">>> ZEPHYR FATAL ERROR %d: %s on CPU %d"
+  }, 
+  {
+    "address": "00051a18", 
+    "length": 33, 
+    "value": "Fault during interrupt handling\\n"
+  }, 
+  {
+    "address": "00051a39", 
+    "length": 24, 
+    "value": "Current thread: %p (%s)"
+  }, 
+  {
+    "address": "00051a51", 
+    "length": 14, 
+    "value": "CPU exception"
+  }, 
+  {
+    "address": "00051a5f", 
+    "length": 20, 
+    "value": "Unhandled interrupt"
+  }, 
+  {
+    "address": "00051a73", 
+    "length": 15, 
+    "value": "Stack overflow"
+  }, 
+  {
+    "address": "00051a82", 
+    "length": 12, 
+    "value": "Kernel oops"
+  }, 
+  {
+    "address": "00051a8e", 
+    "length": 13, 
+    "value": "Kernel panic"
+  }, 
+  {
+    "address": "00051a9b", 
+    "length": 28, 
+    "value": "%s is disabled, skipping it"
+  }, 
+  {
+    "address": "00051ade", 
+    "length": 50, 
+    "value": "dragoon/libs/scheduling/src/rem_hal_event_timer.c"
+  }, 
+  {
+    "address": "00051b10", 
+    "length": 8, 
+    "value": "Success"
+  }, 
+  {
+    "address": "00051b18", 
+    "length": 10, 
+    "value": "Not owner"
+  }, 
+  {
+    "address": "00051b22", 
+    "length": 26, 
+    "value": "No such file or directory"
+  }, 
+  {
+    "address": "00051b3c", 
+    "length": 16, 
+    "value": "No such process"
+  }, 
+  {
+    "address": "00051b4c", 
+    "length": 24, 
+    "value": "Interrupted system call"
+  }, 
+  {
+    "address": "00051b64", 
+    "length": 10, 
+    "value": "I/O error"
+  }, 
+  {
+    "address": "00051b6e", 
+    "length": 26, 
+    "value": "No such device or address"
+  }, 
+  {
+    "address": "00051b88", 
+    "length": 18, 
+    "value": "Arg list too long"
+  }, 
+  {
+    "address": "00051b9a", 
+    "length": 18, 
+    "value": "Exec format error"
+  }, 
+  {
+    "address": "00051bac", 
+    "length": 25, 
+    "value": "Socket already connected"
+  }, 
+  {
+    "address": "00051bc5", 
+    "length": 16, 
+    "value": "Bad file number"
+  }, 
+  {
+    "address": "00051bd5", 
+    "length": 12, 
+    "value": "No children"
+  }, 
+  {
+    "address": "00051be1", 
+    "length": 29, 
+    "value": "Destination address required"
+  }, 
+  {
+    "address": "00051bfe", 
+    "length": 18, 
+    "value": "No more processes"
+  }, 
+  {
+    "address": "00051c10", 
+    "length": 17, 
+    "value": "Not enough space"
+  }, 
+  {
+    "address": "00051c21", 
+    "length": 18, 
+    "value": "Permission denied"
+  }, 
+  {
+    "address": "00051c33", 
+    "length": 12, 
+    "value": "Bad address"
+  }, 
+  {
+    "address": "00051c3f", 
+    "length": 22, 
+    "value": "Block device required"
+  }, 
+  {
+    "address": "00051c55", 
+    "length": 24, 
+    "value": "Device or resource busy"
+  }, 
+  {
+    "address": "00051c6d", 
+    "length": 12, 
+    "value": "File exists"
+  }, 
+  {
+    "address": "00051c79", 
+    "length": 18, 
+    "value": "Cross-device link"
+  }, 
+  {
+    "address": "00051c8b", 
+    "length": 15, 
+    "value": "No such device"
+  }, 
+  {
+    "address": "00051c9a", 
+    "length": 16, 
+    "value": "Not a directory"
+  }, 
+  {
+    "address": "00051caa", 
+    "length": 13, 
+    "value": "Host is down"
+  }, 
+  {
+    "address": "00051cb7", 
+    "length": 31, 
+    "value": "Connection already in progress"
+  }, 
+  {
+    "address": "00051cd6", 
+    "length": 15, 
+    "value": "Is a directory"
+  }, 
+  {
+    "address": "00051ce5", 
+    "length": 17, 
+    "value": "Invalid argument"
+  }, 
+  {
+    "address": "00051cf6", 
+    "length": 36, 
+    "value": "Network interface is not configured"
+  }, 
+  {
+    "address": "00051d1a", 
+    "length": 30, 
+    "value": "Connection aborted by network"
+  }, 
+  {
+    "address": "00051d38", 
+    "length": 30, 
+    "value": "Too many open files in system"
+  }, 
+  {
+    "address": "00051d56", 
+    "length": 32, 
+    "value": "File descriptor value too large"
+  }, 
+  {
+    "address": "00051d76", 
+    "length": 23, 
+    "value": "Not a character device"
+  }, 
+  {
+    "address": "00051d8d", 
+    "length": 15, 
+    "value": "Text file busy"
+  }, 
+  {
+    "address": "00051d9c", 
+    "length": 15, 
+    "value": "File too large"
+  }, 
+  {
+    "address": "00051dab", 
+    "length": 20, 
+    "value": "Host is unreachable"
+  }, 
+  {
+    "address": "00051dbf", 
+    "length": 24, 
+    "value": "No space left on device"
+  }, 
+  {
+    "address": "00051dd7", 
+    "length": 14, 
+    "value": "Not supported"
+  }, 
+  {
+    "address": "00051de5", 
+    "length": 13, 
+    "value": "Illegal seek"
+  }, 
+  {
+    "address": "00051df2", 
+    "length": 22, 
+    "value": "Read-only file system"
+  }, 
+  {
+    "address": "00051e08", 
+    "length": 15, 
+    "value": "Too many links"
+  }, 
+  {
+    "address": "00051e17", 
+    "length": 12, 
+    "value": "Broken pipe"
+  }, 
+  {
+    "address": "00051e23", 
+    "length": 47, 
+    "value": "Mathematics argument out of domain of function"
+  }, 
+  {
+    "address": "00051e52", 
+    "length": 17, 
+    "value": "Result too large"
+  }, 
+  {
+    "address": "00051e63", 
+    "length": 27, 
+    "value": "No message of desired type"
+  }, 
+  {
+    "address": "00051e7e", 
+    "length": 19, 
+    "value": "Identifier removed"
+  }, 
+  {
+    "address": "00051e91", 
+    "length": 22, 
+    "value": "Illegal byte sequence"
+  }, 
+  {
+    "address": "00051ea7", 
+    "length": 9, 
+    "value": "Deadlock"
+  }, 
+  {
+    "address": "00051eb0", 
+    "length": 23, 
+    "value": "Network is unreachable"
+  }, 
+  {
+    "address": "00051ec7", 
+    "length": 8, 
+    "value": "No lock"
+  }, 
+  {
+    "address": "00051ecf", 
+    "length": 13, 
+    "value": "Not a stream"
+  }, 
+  {
+    "address": "00051edc", 
+    "length": 21, 
+    "value": "Stream ioctl timeout"
+  }, 
+  {
+    "address": "00051ef1", 
+    "length": 20, 
+    "value": "No stream resources"
+  }, 
+  {
+    "address": "00051f05", 
+    "length": 30, 
+    "value": "Machine is not on the network"
+  }, 
+  {
+    "address": "00051f23", 
+    "length": 11, 
+    "value": "No package"
+  }, 
+  {
+    "address": "00051f2e", 
+    "length": 19, 
+    "value": "Resource is remote"
+  }, 
+  {
+    "address": "00051f41", 
+    "length": 24, 
+    "value": "Virtual circuit is gone"
+  }, 
+  {
+    "address": "00051f59", 
+    "length": 16, 
+    "value": "Advertise error"
+  }, 
+  {
+    "address": "00051f69", 
+    "length": 14, 
+    "value": "Srmount error"
+  }, 
+  {
+    "address": "00051f77", 
+    "length": 20, 
+    "value": "Communication error"
+  }, 
+  {
+    "address": "00051f8b", 
+    "length": 15, 
+    "value": "Protocol error"
+  }, 
+  {
+    "address": "00051f9a", 
+    "length": 17, 
+    "value": "Unknown protocol"
+  }, 
+  {
+    "address": "00051fab", 
+    "length": 19, 
+    "value": "Multihop attempted"
+  }, 
+  {
+    "address": "00051fbe", 
+    "length": 12, 
+    "value": "Bad message"
+  }, 
+  {
+    "address": "00051fca", 
+    "length": 38, 
+    "value": "Cannot access a needed shared library"
+  }, 
+  {
+    "address": "00051ff0", 
+    "length": 37, 
+    "value": "Accessing a corrupted shared library"
+  }, 
+  {
+    "address": "00052015", 
+    "length": 32, 
+    "value": ".lib section in a.out corrupted"
+  }, 
+  {
+    "address": "00052035", 
+    "length": 62, 
+    "value": "Attempting to link in more shared libraries than system limit"
+  }, 
+  {
+    "address": "00052073", 
+    "length": 38, 
+    "value": "Cannot exec a shared library directly"
+  }, 
+  {
+    "address": "00052099", 
+    "length": 25, 
+    "value": "Function not implemented"
+  }, 
+  {
+    "address": "000520b2", 
+    "length": 20, 
+    "value": "Directory not empty"
+  }, 
+  {
+    "address": "000520c6", 
+    "length": 27, 
+    "value": "File or path name too long"
+  }, 
+  {
+    "address": "000520e1", 
+    "length": 24, 
+    "value": "Too many symbolic links"
+  }, 
+  {
+    "address": "000520f9", 
+    "length": 26, 
+    "value": "No buffer space available"
+  }, 
+  {
+    "address": "00052113", 
+    "length": 8, 
+    "value": "No data"
+  }, 
+  {
+    "address": "0005211b", 
+    "length": 48, 
+    "value": "Address family not supported by protocol family"
+  }, 
+  {
+    "address": "0005214b", 
+    "length": 31, 
+    "value": "Protocol wrong type for socket"
+  }, 
+  {
+    "address": "0005216a", 
+    "length": 31, 
+    "value": "Socket operation on non-socket"
+  }, 
+  {
+    "address": "00052189", 
+    "length": 23, 
+    "value": "Protocol not available"
+  }, 
+  {
+    "address": "000521a0", 
+    "length": 33, 
+    "value": "Can't send after socket shutdown"
+  }, 
+  {
+    "address": "000521c1", 
+    "length": 19, 
+    "value": "Connection refused"
+  }, 
+  {
+    "address": "000521d4", 
+    "length": 25, 
+    "value": "Connection reset by peer"
+  }, 
+  {
+    "address": "000521ed", 
+    "length": 23, 
+    "value": "Address already in use"
+  }, 
+  {
+    "address": "00052204", 
+    "length": 22, 
+    "value": "Address not available"
+  }, 
+  {
+    "address": "0005221a", 
+    "length": 33, 
+    "value": "Software caused connection abort"
+  }, 
+  {
+    "address": "0005223b", 
+    "length": 24, 
+    "value": "Socket is not connected"
+  }, 
+  {
+    "address": "00052253", 
+    "length": 26, 
+    "value": "Socket type not supported"
+  }, 
+  {
+    "address": "0005226d", 
+    "length": 28, 
+    "value": "Socket is already connected"
+  }, 
+  {
+    "address": "00052289", 
+    "length": 19, 
+    "value": "Operation canceled"
+  }, 
+  {
+    "address": "0005229c", 
+    "length": 22, 
+    "value": "State not recoverable"
+  }, 
+  {
+    "address": "000522b2", 
+    "length": 20, 
+    "value": "Previous owner died"
+  }, 
+  {
+    "address": "000522c6", 
+    "length": 19, 
+    "value": "Streams pipe error"
+  }, 
+  {
+    "address": "000522d9", 
+    "length": 34, 
+    "value": "Operation not supported on socket"
+  }, 
+  {
+    "address": "000522fb", 
+    "length": 38, 
+    "value": "Value too large for defined data type"
+  }, 
+  {
+    "address": "00052321", 
+    "length": 17, 
+    "value": "Message too long"
+  }, 
+  {
+    "address": "00052332", 
+    "length": 21, 
+    "value": "Connection timed out"
+  }, 
+  {
+    "address": "00054ca7", 
+    "length": 21, 
+    "value": "Valve Corporation"
+  }, 
+  {
+    "address": "000555c9", 
+    "length": 15, 
+    "value": "Valve Software"
+  }, 
+  {
+    "address": "000555e7", 
+    "length": 17, 
+    "value": "Steam Controller"
+  }, 
+  {
+    "address": "00055609", 
+    "length": 15, 
+    "value": "XXXXXXXXXXXXX"
+  }
+]
